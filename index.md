@@ -3,13 +3,10 @@ title: Project PANOPTES
 layout: default
 ---
 
-# Project PANOPTES
-
-[What is PANOPTES?](what.html)
-
-## Joining PANOPTES
+## [What is PANOPTES?](what.html)
 
 ## Hardware
 
 ## Software
 
+## [Participating](contact.html)

@@ -3,9 +3,9 @@ title: What is PANOPTES?
 layout: default
 ---
 
-# Scientific background
+PANOPTES (Panoptic Astronomical Networked OPtical observatory for Transiting Exoplanets Survey) is a citizen science project which aims to build low cost, reliable, robotic telescopes which can be used to detect transiting exoplanets.  The hardware is designed to be standardized, using as many commercial off the shelf components as possible so that a Panoptes "unit" can be reproduced quickly and easily by students or amateurs.  In this way, many units can be deployed at many different sites to provide continuous and redundant sky coverage.  Panoptes is designed from the ground up to be a citizen science project which will involve the public in all aspects of the science, from data acquisition to data reduction.
 
-## The transit technique
+## Scientific background: The transit technique
 
 The transit technique is the most accessible way to discover exoplanets: when the planet passes in front of its star, the star appears to dim, as some of its light is blocked by the planet (stars and exoplanets are too small to see image the transit, so only to the total flux is measured). The dimming can be large (about one percent for a Jupiter-like planet), so it can be measured using relatively inexpensive equipment that amateur astronomers and schools can afford. By measuring how much and how often the star dims, the planet size and distance from the star can be estimated.
 
@@ -17,7 +17,7 @@ Discovering exoplanets by the transit method is however still challenging becaus
 
 Most telescopes used by professional astronomers are very inefficient for discovering planets with the transit method, because their field of view is very small. Astronomers have built wide field telescopes to address this challenge, such as the Kepler space telescope. But even Kepler’s wide field camera only covers 0.28 percent of the sky. Several other projects are using smaller telescopes with wider field of view (for example HATnet, WASP), therefore covering more sky area at a reduced precision to identify a large number of giant planets. This later approach is the one we adopt, because low-cost hardware available to amateur astronomers and schools is very well suited for this project.
 
-# Project Goals
+## Project Goals
 
 Our goal is to establish a global network of robotic cameras, run by amateur astronomers and schools, to discover exoplanets with the transit technique. To do this, our group, composed of professional and amateur astronomers, addresses the following challenges:
 
@@ -39,11 +39,7 @@ Since our goal is to cover a large fraction of the sky, the systems use camera l
 
 We are establishing a baseline PANOPTES unit, aimed at being easy to assemble and operate, yet reliable and low-cost. We use low-cost DSLR camera + lenses. Experienced amateur astronomers will also further develop hardware, with higher performance PANOPTES units being built by some members.
 
-## How can you participate?
-
-Join our group, and participate in any way you wish, according to your area of expertise and/or taste. You can build a robotic camera yourself (and improve our design), explore new hardware solutions, write/improve software, come up with a new idea to use the robotic cameras, get other amateur astronomers to join, analyze existing images, etc …
-
-**To join PANOPTES, drop us an email at:** ```info@projectpanoptes.org```
+**To join PANOPTES, please [contact us](contact.html)**
 
 #Project status
 

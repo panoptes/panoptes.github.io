@@ -553,6 +553,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p, ul, ol, table, pre, dl {
   margin: 0 0 20px;
+  text-align: justify;
 }
 
 h1, h2, h3 {
@@ -768,7 +769,7 @@ dt {
 }
 #header nav li.fork {
   float: left;
-  margin-left: 0px;
+  margin-left: 10px;
 }
 #header nav li.downloads {
   float: right;
