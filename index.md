@@ -1,11 +1,11 @@
 ---
 title: Project PANOPTES
-layout: page
+layout: default
 ---
 
 # Project PANOPTES
 
-## What is PANOPTES?
+[What is PANOPTES?](what.html)
 
 ## Joining PANOPTES
 
