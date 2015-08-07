@@ -13,4 +13,10 @@ The electronics board contains several sensors including the accelerometer to se
 
 # The Mount and Tripod/Pier
 
+The PANOPTES baseline uses an iOptron iEQ30 Pro mount to which we add weatherproofing.  The mount can either sit on the standard tripod, or on an optional PANOPTES designed pier for more permanent installation.
+
+A PANOPTES unit does not require a traditional observatory enclosure (e.g a dome or roll off roof).  It is designed to withstand weather when it is in its park position.  This greatly simplifies the build and the software for the system.
+
 # The Control Box
+
+The control computer, power supplies, and supporting electronics all sit in a weatherproof enclosure next to the mount.  A PANOPTES unit is designed to be self contained, requiring only input external power and internet connectivity.

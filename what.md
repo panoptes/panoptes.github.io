@@ -19,14 +19,6 @@ Most telescopes used by professional astronomers are very inefficient for discov
 
 Our goal is to establish a global network of robotic cameras, run by amateur astronomers and schools, to discover exoplanets with the transit technique. To do this, our group, composed of professional and amateur astronomers, addresses the following challenges:
 
-## Hardware: How to build low-cost reliable small robotic cameras?
-
-We identify/test hardware for the project, compile hardware information and experience, write and maintain instructions to build small robotic telescopes using inexpensive hardware (such as commercial DSLR cameras)
-
-## Software
-
-We develop and provide software to run small robotic cameras, and analyze images
-
 ## Scientific coordination
 
 Efficient discovery of exoplanet transit requires the multiple robotic cameras to coordinate observations (monitoring a few fields as continuously as possible). Data analysis also needs to be coordinated, as recovery of exoplanet signals comes from putting together measurements taken over a long time span from different geographical locations. We coordinate observations between sites, coordinate data storage and analysis, as well as future development (for example, where to install new cameras ? which new fields should be monitored ?)
