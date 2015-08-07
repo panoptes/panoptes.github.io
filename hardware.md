@@ -1,5 +1,5 @@
 ---
-title: Project PANOPTES
+title: Hardware
 layout: default
 ---
 

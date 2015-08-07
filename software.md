@@ -1,5 +1,5 @@
 ---
-title: Project PANOPTES
+title: Software
 layout: default
 ---
 
