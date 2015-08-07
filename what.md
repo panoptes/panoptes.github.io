@@ -1,6 +1,6 @@
 ---
 title: What is PANOPTES?
-layout: page
+layout: default
 ---
 
 # Scientific background
