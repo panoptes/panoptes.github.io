@@ -1,11 +1,15 @@
 ---
-title: Contact PANOPTES
+title: Contact Us
 layout: default
 ---
 
 ## How can you participate?
 
 Join our group, and participate in any way you wish, according to your area of expertise and/or taste. You can build a robotic camera yourself (and improve our design), explore new hardware solutions, write/improve software, come up with a new idea to use the robotic cameras, get other citizen scientists to join, analyze existing images, etc.
+
+## PANOPTES Google Group
+
+We have a Google Group for PANOPTES where people can discuss participation and get updates on the project.  To join the Google Group, please email us at the address below.
 
 ## Email Us
 

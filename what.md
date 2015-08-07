@@ -1,9 +1,7 @@
 ---
-title: What is PANOPTES?
+title: PANOPTES Overview
 layout: default
 ---
-
-PANOPTES (Panoptic Astronomical Networked OPtical observatory for Transiting Exoplanets Survey) is a citizen science project which aims to build low cost, reliable, robotic telescopes which can be used to detect transiting exoplanets.  The hardware is designed to be standardized, using as many commercial off the shelf components as possible so that a Panoptes "unit" can be reproduced quickly and easily by students or amateurs.  In this way, many units can be deployed at many different sites to provide continuous and redundant sky coverage.  Panoptes is designed from the ground up to be a citizen science project which will involve the public in all aspects of the science, from data acquisition to data reduction.
 
 ## Scientific background: The transit technique
 
@@ -21,7 +19,7 @@ Most telescopes used by professional astronomers are very inefficient for discov
 
 Our goal is to establish a global network of robotic cameras, run by amateur astronomers and schools, to discover exoplanets with the transit technique. To do this, our group, composed of professional and amateur astronomers, addresses the following challenges:
 
-## Hardware: How to build low-cost reliable small robotic cameras ?
+## Hardware: How to build low-cost reliable small robotic cameras?
 
 We identify/test hardware for the project, compile hardware information and experience, write and maintain instructions to build small robotic telescopes using inexpensive hardware (such as commercial DSLR cameras)
 
@@ -33,18 +31,11 @@ We develop and provide software to run small robotic cameras, and analyze images
 
 Efficient discovery of exoplanet transit requires the multiple robotic cameras to coordinate observations (monitoring a few fields as continuously as possible). Data analysis also needs to be coordinated, as recovery of exoplanet signals comes from putting together measurements taken over a long time span from different geographical locations. We coordinate observations between sites, coordinate data storage and analysis, as well as future development (for example, where to install new cameras ? which new fields should be monitored ?)
 
-## What do we mean by “small camera”?
+## What do we mean by "small camera"?
 
 Since our goal is to cover a large fraction of the sky, the systems use camera lenses. The lenses can be mounted on a DSLR camera or a CCD, and can be stationary or tracking.
 
 We are establishing a baseline PANOPTES unit, aimed at being easy to assemble and operate, yet reliable and low-cost. We use low-cost DSLR camera + lenses. Experienced amateur astronomers will also further develop hardware, with higher performance PANOPTES units being built by some members.
 
 **To join PANOPTES, please [contact us](contact.html)**
-
-#Project status
-
-We have been operating a prototype DSLR-based system since late 2010, at the Mauna Loa observatory, to identify and solve the main technical challenges.
-
-We are currently finalizing the design of the "baseline unit" which will be open source hardware and software.
-
 
