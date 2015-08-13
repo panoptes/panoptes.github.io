@@ -3,6 +3,8 @@ title: Status
 layout: default
 ---
 
+<img src="images/PanoptesPrototype_v3.png" width="750px">
+
 # Project status
 
 We have been operating a prototype DSLR-based system at the Mauna Loa observatory since late 2010 to identify and solve the main technical challenges.  This prototype was upgraded to our new baseline design in January 2015.
