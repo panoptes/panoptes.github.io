@@ -14,31 +14,31 @@ layout: default
   </ol>
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+      <img class="first-slide" src="images/images/PanoptesPrototype_v2_cropped.png" alt="PANOPTES Baseline Unit">
       <div class="container">
         <div class="carousel-caption">
-          <h1>Example headline.</h1>
-          <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+          <h1>Project PANOPTES</h1>
+          <p>The philosophy behind the PANOPTES hardware and software design is to use as many commercial off the shelf (COTS) parts as possible as these are generally inexpensive and easily acquired. In addition, the PANOPTES design is kept as simple as possible as this makes the build process easier and means that the final product is more reliable.</p>
           <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
         </div>
       </div>
     </div>
     <div class="item">
-      <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+      <img class="second-slide" src="images/images/PanoptesPrototype_v2_cropped.png" alt="Team members on the summit of Mauna Loa with the baseline unit.">
       <div class="container">
         <div class="carousel-caption">
-          <h1>Another example headline.</h1>
-          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          <h1>Get Involved!</h1>
+          <p>Team members on the summit of Mauna Loa with the baseline unit.</p>
           <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
         </div>
       </div>
     </div>
     <div class="item">
-      <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+      <img class="third-slide" src="images/camera_box.jpg" alt="Camera Box Build">
       <div class="container">
         <div class="carousel-caption">
-          <h1>One more for good measure.</h1>
-          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          <h1>Exoplanets</h1>
+          <p>Project status. News1 Pictures! Data!</p>
           <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
         </div>
       </div>
@@ -54,10 +54,6 @@ layout: default
   </a>
 </div><!-- /.carousel -->
 
-
-<!-- Marketing messaging and featurettes
-================================================== -->
-<!-- Wrap the rest of the page in another container to center all the content. -->
 
 <div class="container marketing">
 
@@ -90,8 +86,8 @@ layout: default
 
   <div class="row featurette">
     <div class="col-md-7">
-      <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-      <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      <h2 class="featurette-heading">Project PANOPTES <span class="text-muted">Finding exoplanets with digiital cameras.</span></h2>
+      <p class="lead">PANOPTES (Panoptic Astronomical Networked OPtical observatory for Transiting Exoplanets Survey) is a citizen science project which aims to build low cost, robotic telescopes which can be used to detect transiting exoplanets.</p>
     </div>
     <div class="col-md-5">
       <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
@@ -102,8 +98,10 @@ layout: default
 
   <div class="row featurette">
     <div class="col-md-7 col-md-push-5">
-      <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-      <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      <h2 class="featurette-heading">Open source. Citizen science <span class="text-muted">Bringing the science to the user.</span></h2>
+      <p class="lead">
+      The philosophy behind the PANOPTES hardware and software design is to use as many commercial off the shelf (COTS) parts as possible as these are generally inexpensive and easily acquired.  In addition, the PANOPTES design is kept as simple as possible as this makes the build process easier and means that the final product is more reliable.
+      </p>
     </div>
     <div class="col-md-5 col-md-pull-7">
       <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
@@ -115,7 +113,11 @@ layout: default
   <div class="row featurette">
     <div class="col-md-7">
       <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-      <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      <p class="lead">
+      Due to the simplicity and low cost (an individual PANOPTES unit is targeted to cost about $5000 USD), a Panoptes "unit" can be reproduced quickly and easily by students or amateur scientists.  In this way, many units can be deployed at many different sites to provide continuous and redundant sky coverage.  PANOPTES is designed from the ground up to be a citizen science project which will involve the public in all aspects of the science, from data acquisition to data reduction.
+
+      PANOPTES is also a platform.  We encourage other groups to come up with  projects which use PANOPTES data or PANOPTES hardware to address other scientific questions.
+      </p>
     </div>
     <div class="col-md-5">
       <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
@@ -125,25 +127,3 @@ layout: default
   <hr class="featurette-divider">
 
   <!-- /END THE FEATURETTES -->
-
-  <img src="images/PanoptesPrototype_v2_cropped.png" width="750px" class="img-rounded">
-
-  PANOPTES (**P**anoptic **A**stronomical **N**etworked **OP**tical observatory for **T**ransiting **E**xoplanets **S**urvey) is a citizen science project which aims to build low cost, robotic telescopes which can be used to detect transiting exoplanets.  
-
-  The philosophy behind the PANOPTES hardware and software design is to use as many commercial off the shelf (COTS) parts as possible as these are generally inexpensive and easily acquired.  In addition, the PANOPTES design is kept as simple as possible as this makes the build process easier and means that the final product is more reliable.
-
-  Due to the simplicity and low cost (an individual PANOPTES unit is targeted to cost about $5000 USD), a Panoptes "unit" can be reproduced quickly and easily by students or amateur scientists.  In this way, many units can be deployed at many different sites to provide continuous and redundant sky coverage.  PANOPTES is designed from the ground up to be a citizen science project which will involve the public in all aspects of the science, from data acquisition to data reduction.
-
-  PANOPTES is also a platform.  We encourage other groups to come up with  projects which use PANOPTES data or PANOPTES hardware to address other scientific questions.
-
-  ## [Project Overview](what.html)
-
-  ## [Hardware](hardware.html)
-
-  ## [Software](software.html)
-
-  ## [Participation / Contact Us](contact.html)
-
-  ## [Status](status.html)
-
-  ## [The PANOPTES Team](team.html)
