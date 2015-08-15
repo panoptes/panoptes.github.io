@@ -17,9 +17,9 @@ The hardware for a PANOPTES baseline unit is divided in to three components:
 
 
 <div class="media">
-  <div class="media-left">
+  <div class="media-right">
     <a href="#">
-      <img class="media-object media-right" src="images/camera_box.jpg" alt="PANOPTES Camera Box">
+      <img class="media-object" src="images/camera_box.jpg" alt="PANOPTES Camera Box">
     </a>
   </div>
   <div class="media-body">
