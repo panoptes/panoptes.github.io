@@ -15,9 +15,8 @@ layout: landing
       <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
       <div class="container">
         <div class="carousel-caption">
-          <h1>Example headline.</h1>
-          <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-          <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+        <p>The philosophy behind the PANOPTES hardware and software design is to use as many commercial off the shelf (COTS) parts as possible as these are generally inexpensive and easily acquired. In addition, the PANOPTES design is kept as simple as possible as this makes the build process easier and means that the final product is more reliable.</p>
+        <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
         </div>
       </div>
     </div>
@@ -25,9 +24,9 @@ layout: landing
       <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
       <div class="container">
         <div class="carousel-caption">
-          <h1>Another example headline.</h1>
-          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-          <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+        <h1>Build a PANOPTES Unit!</h1>
+        <p>Team members on the summit of Mauna Loa with the baseline unit.</p>
+        <p><a class="btn btn-lg btn-primary" href="#" role="button">Get Involved</a></p>
         </div>
       </div>
     </div>
@@ -35,8 +34,8 @@ layout: landing
       <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
       <div class="container">
         <div class="carousel-caption">
-          <h1>One more for good measure.</h1>
-          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          <h1>Status</h1>
+          <p>Get the latest data, pictures, news, and more!</p>
           <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
         </div>
       </div>
