@@ -8,8 +8,10 @@ The hardware for a PANOPTES baseline unit is divided in to three components:
 # The Camera Box
 
 <a class="btn btn-default btn-sm" href="build_instructions/camera_box.html">
-    <i class="fa fa-square-o fa-stack-2x"></i>
-    <i class="fa fa-wrench fa-1x"></i>
+    <span class="fa-stack fa-lg">
+        <i class="fa fa-square-o fa-stack-2x"></i>
+        <i class="fa fa-wrench fa-1x"></i>
+    </span>
      Build the Camera Box!
  </a>
 
