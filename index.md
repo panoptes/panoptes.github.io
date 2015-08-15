@@ -1,6 +1,6 @@
 ---
 title: Project PANOPTES
-layout: default
+layout: landing
 ---
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
