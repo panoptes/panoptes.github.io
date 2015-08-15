@@ -13,7 +13,7 @@ layout: default
   </ol>
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img class="first-slide" src="images/PanoptesPrototype_v2_cropped.png" alt="PANOPTES Baseline Unit">
+      <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="PANOPTES Baseline Unit">
       <div class="container">
         <div class="carousel-caption">
           <h1>Project PANOPTES</h1>
@@ -23,7 +23,7 @@ layout: default
       </div>
     </div>
     <div class="item">
-      <img class="second-slide" src="images/PanoptesPrototype_v2_cropped.png" alt="Team members on the summit of Mauna Loa with the baseline unit.">
+      <img class="second-slide" alt="Team members on the summit of Mauna Loa with the baseline unit.">
       <div class="container">
         <div class="carousel-caption">
           <h1>Get Involved!</h1>
@@ -33,7 +33,7 @@ layout: default
       </div>
     </div>
     <div class="item">
-      <img class="third-slide" src="images/camera_box.jpg" alt="Camera Box Build">
+      <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Camera Box Build">
       <div class="container">
         <div class="carousel-caption">
           <h1>Exoplanets</h1>
@@ -85,7 +85,7 @@ layout: default
 
   <div class="row featurette">
     <div class="col-md-7">
-      <h2 class="featurette-heading">Project PANOPTES <span class="text-muted">Finding exoplanets with digiital cameras.</span></h2>
+      <h2 class="featurette-heading">Project PANOPTES. <span class="text-muted">Finding exoplanets with digiital cameras.</span></h2>
       <p class="lead">PANOPTES (Panoptic Astronomical Networked OPtical observatory for Transiting Exoplanets Survey) is a citizen science project which aims to build low cost, robotic telescopes which can be used to detect transiting exoplanets.</p>
     </div>
     <div class="col-md-5">
