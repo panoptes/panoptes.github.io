@@ -12,7 +12,7 @@ layout: landing
   </ol>
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+      <img class="first-slide" src="images/PanoptesPrototype_v2.png" alt="First slide">
       <div class="container">
         <div class="carousel-caption">
         <h1>Project PANOPTES</h1>
