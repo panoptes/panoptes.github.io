@@ -17,14 +17,14 @@ The hardware for a PANOPTES baseline unit is divided in to three components:
 
 
 <div class="media">
-  <div class="media-right">
-    <a href="#">
-      <img class="media-object" src="images/camera_box.jpg" alt="PANOPTES Camera Box" width="100px">
-    </a>
-  </div>
   <div class="media-body">
     <h4 class="media-heading">PANOPTES Camera Box</h4>
         The camera box encloses the two DSLR cameras and lenses along with an electronics (arduino) board and a USB hub.  One power and one signal (USB) cable come up through the mount to the camera box.  The USB hub then splits the USB signal out to the arduino and to both cameras.  The power goes to the electronics board which regulates it down to the appropriate voltage for the cameras.
+  </div>
+  <div class="media-right">
+    <a href="#">
+      <img class="media-object" src="images/camera_box.jpg" alt="PANOPTES Camera Box" width="180px">
+    </a>
   </div>
 </div>
 
