@@ -59,21 +59,21 @@ layout: landing
   <div class="row">
     <div class="col-lg-4">
       <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-      <h2>Heading</h2>
+      <h2>Project PANOPTES</h2>
       <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+      <p><a class="btn btn-default" href="#overview" role="button">View details &raquo;</a></p>
     </div><!-- /.col-lg-4 -->
     <div class="col-lg-4">
       <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-      <h2>Heading</h2>
+      <h2>Get Involved</h2>
       <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+      <p><a class="btn btn-default" href="#involved" role="button">View details &raquo;</a></p>
     </div><!-- /.col-lg-4 -->
     <div class="col-lg-4">
       <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-      <h2>Heading</h2>
+      <h2>Status</h2>
       <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+      <p><a class="btn btn-default" href="#status" role="button">View details &raquo;</a></p>
     </div><!-- /.col-lg-4 -->
   </div><!-- /.row -->
 
@@ -84,6 +84,7 @@ layout: landing
 
   <div class="row featurette">
     <div class="col-md-7">
+      <a href="#" id="overview"></a>
       <h2 class="featurette-heading">Project PANOPTES. <span class="text-muted">Finding exoplanets with digiital cameras.</span></h2>
       <p class="lead">PANOPTES (Panoptic Astronomical Networked OPtical observatory for Transiting Exoplanets Survey) is a citizen science project which aims to build low cost, robotic telescopes which can be used to detect transiting exoplanets.</p>
     </div>
@@ -96,6 +97,7 @@ layout: landing
 
   <div class="row featurette">
     <div class="col-md-7 col-md-push-5">
+      <a href="#" id="involved"></a>
       <h2 class="featurette-heading">Open source. Citizen science <span class="text-muted">Bringing the science to the user.</span></h2>
       <p class="lead">
       The philosophy behind the PANOPTES hardware and software design is to use as many commercial off the shelf (COTS) parts as possible as these are generally inexpensive and easily acquired.  In addition, the PANOPTES design is kept as simple as possible as this makes the build process easier and means that the final product is more reliable.
@@ -110,6 +112,7 @@ layout: landing
 
   <div class="row featurette">
     <div class="col-md-7">
+      <a href="#" id="status"></a>
       <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
       <p class="lead">
       Due to the simplicity and low cost (an individual PANOPTES unit is targeted to cost about $5000 USD), a Panoptes "unit" can be reproduced quickly and easily by students or amateur scientists.  In this way, many units can be deployed at many different sites to provide continuous and redundant sky coverage.  PANOPTES is designed from the ground up to be a citizen science project which will involve the public in all aspects of the science, from data acquisition to data reduction.
