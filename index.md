@@ -3,8 +3,7 @@ title: Project PANOPTES
 layout: default
 ---
 
-<!-- Carousel
-================================================== -->
+<!-- Carousel ================================================== -->
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -14,7 +13,7 @@ layout: default
   </ol>
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img class="first-slide" src="images/images/PanoptesPrototype_v2_cropped.png" alt="PANOPTES Baseline Unit">
+      <img class="first-slide" src="images/PanoptesPrototype_v2_cropped.png" alt="PANOPTES Baseline Unit">
       <div class="container">
         <div class="carousel-caption">
           <h1>Project PANOPTES</h1>
@@ -24,7 +23,7 @@ layout: default
       </div>
     </div>
     <div class="item">
-      <img class="second-slide" src="images/images/PanoptesPrototype_v2_cropped.png" alt="Team members on the summit of Mauna Loa with the baseline unit.">
+      <img class="second-slide" src="images/PanoptesPrototype_v2_cropped.png" alt="Team members on the summit of Mauna Loa with the baseline unit.">
       <div class="container">
         <div class="carousel-caption">
           <h1>Get Involved!</h1>
