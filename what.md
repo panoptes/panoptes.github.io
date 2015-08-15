@@ -1,5 +1,5 @@
 ---
-title: PANOPTES Overview
+title: What is PANOPTES?
 layout: default
 ---
 
@@ -15,13 +15,9 @@ Discovering exoplanets by the transit method is however still challenging becaus
 
 Most telescopes used by professional astronomers are very inefficient for discovering planets with the transit method, because their field of view is very small. Astronomers have built wide field telescopes to address this challenge, such as the Kepler space telescope. But even Kepler’s wide field camera only covers 0.28 percent of the sky. Several other projects are using smaller telescopes with wider field of view (for example HATnet, WASP), therefore covering more sky area at a reduced precision to identify a large number of giant planets. This later approach is the one we adopt, because low-cost hardware available to amateur astronomers and schools is very well suited for this project.
 
-## Project Goals
-
-Our goal is to establish a global network of robotic cameras, run by amateur astronomers and schools, to discover exoplanets with the transit technique. To do this, our group, composed of professional and amateur astronomers, addresses the following challenges:
-
 ## Scientific coordination
 
-Efficient discovery of exoplanet transit requires the multiple robotic cameras to coordinate observations (monitoring a few fields as continuously as possible). Data analysis also needs to be coordinated, as recovery of exoplanet signals comes from putting together measurements taken over a long time span from different geographical locations. We coordinate observations between sites, coordinate data storage and analysis, as well as future development (for example, where to install new cameras ? which new fields should be monitored ?)
+Efficient discovery of exoplanet transit requires the multiple robotic cameras to coordinate observations (monitoring a few fields as continuously as possible). Data analysis also needs to be coordinated, as recovery of exoplanet signals comes from putting together measurements taken over a long time span from different geographical locations. We coordinate observations between sites, coordinate data storage and analysis, as well as future development (for example, where to install new cameras? which new fields should be monitored?)
 
 ## What do we mean by "small camera"?
 
