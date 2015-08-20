@@ -19,6 +19,8 @@ PANOPTES is also a platform.  We encourage other groups to come up with  project
 
 ## [Software](software.html)
 
+## [Instructions](instructions.html)
+
 ## [Participation / Contact Us](contact.html)
 
 ## [Status](status.html)
