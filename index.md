@@ -15,14 +15,14 @@ PANOPTES is also a platform.  We encourage other groups to come up with  project
 
 ## [Project Overview](what.html)
 
-## [Hardware](hardware.html)
+## [Hardware Description](hardware.html)
 
-## [Software](software.html)
+## [Software Description](software.html)
 
-## [Instructions](instructions.html)
+## [Build Instructions](instructions.html)
 
 ## [Participation / Contact Us](contact.html)
 
-## [Status](status.html)
+## [News / Status](status.html)
 
 ## [The PANOPTES Team](team.html)

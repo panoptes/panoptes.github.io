@@ -1,11 +1,9 @@
 ---
-title: Status
+title: News/Status
 layout: default
 ---
 
-<img src="images/PanoptesPrototype_v3.png" width="750px">
-
-# Project status
+# PANOPTES Status
 
 We have been operating a prototype DSLR-based system at the Mauna Loa observatory since late 2010 to identify and solve the main technical challenges.  This prototype was upgraded to our new baseline design in January 2015.
 
@@ -17,3 +15,13 @@ If you are interested in building a PANOPTES unit, please [contact us](contact.h
 
 For more frequent updates on the project status, please consider joining the PANOPTES [Google Group](contact.html).
 
+# PANOPTES News
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+    {{ post.date | date: "%Y-%m-%d" }}:
+    <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
