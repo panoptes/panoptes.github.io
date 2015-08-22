@@ -244,8 +244,7 @@ mark {
 /*
  * Addresses margins set differently in IE6/7
  */
-p,
-pre {
+p {
   margin: 1em 0;
 }
 
@@ -253,8 +252,6 @@ pre {
  * Corrects font family set oddly in IE6, S4/5, Chrome
  * en.wikipedia.org/wiki/User:Davidgothberg/Test59
  */
-pre,
-code,
 kbd,
 samp {
   font-family: monospace, serif;
@@ -551,7 +548,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 
-p, ul.nav, ol, table, pre, dl {
+p, ul.nav, ol, table, dl {
   padding: 0px 0px 20px 0px;
   margin: 0 0 20px;
   text-align: justify;
@@ -622,44 +619,6 @@ blockquote {
   margin: 0;
   padding: 0 0 0 20px;
   font-style: italic;
-}
-
-code {
-  font-family: "Lucida Sans", Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
-  color: #efefef;
-  font-size: 13px;
-  margin: 0 4px;
-  padding: 4px 6px;
-  -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
-  -o-border-radius: 2px;
-  -ms-border-radius: 2px;
-  -khtml-border-radius: 2px;
-  border-radius: 2px;
-}
-
-pre {
-  padding: 8px 15px;
-  background: #191919;
-  -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
-  -o-border-radius: 2px;
-  -ms-border-radius: 2px;
-  -khtml-border-radius: 2px;
-  border-radius: 2px;
-  border: 1px solid #121212;
-  -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
-  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
-  -o-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
-  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
-  overflow: auto;
-  overflow-y: hidden;
-}
-pre code {
-  color: #efefef;
-  text-shadow: 0px 1px 0px #000;
-  margin: 0;
-  padding: 0;
 }
 
 table {
@@ -851,3 +810,7 @@ section #title .credits.right {
     display: none;
   }
 }
+
+/* Add to css/syntax.css */
+.highlight .lineno { color: #ccc; display:inline-block; padding: 0 5px; border-right:1px solid #ccc; }
+.highlight pre code { display: block; white-space: pre; overflow-x: auto; word-wrap: normal; }
