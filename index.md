@@ -1,6 +1,6 @@
 ---
 title: Project PANOPTES
-layout: default
+layout: homepage
 ---
 
 <!-- Jumbotron -->
