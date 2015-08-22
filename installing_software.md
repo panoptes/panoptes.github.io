@@ -10,13 +10,13 @@ This document will present an overview of how to get started coding within Proje
 ## Bootstrap
 Have you bootstrapped your system?
 
-{% highlight bash %}
+{% highlight bash linenos %}
 wget https://raw.githubusercontent.com/panoptes/Hardware/master/bootstrap.sh && bash bootstrap.sh
 {% endhighlight %}
 
 This will install all required software, download the repositories, and set up all the relevant environment variables that you need. In particular, it assumes you have something like the following in your `.bashrc`:
 
-{% highlight bash %}
+{% highlight bash linenos %}
 export PANDIR=/var/panoptes/
 export POCS=$PANDIR/POCS
 export PIAA=$PANDIR/PIAA
@@ -28,7 +28,7 @@ We will refer to these as `$POCS`, `$PANDIR`, etc. below.
 ## Log Files
 Log files are stored in `$POCS/logs/`.  To watch the main log file:
 
-{% highlight bash %}
+{% highlight bash linenos %}
 tail -f $POCS/logs/panoptes.log
 {% endhighlight %}
 
@@ -74,7 +74,7 @@ See the [testing guidelines](http://astropy.readthedocs.org/en/latest/developmen
 
 To run the entire test suite:
 
-{% highlight bash %}
+{% highlight bash linenos %}
 $ cd $POCS
 $ python setup.py test --coverage
 {% endhighlight %}
@@ -82,7 +82,7 @@ $ python setup.py test --coverage
 ## Interactive Shell
 While doing development, it is often easiest to use the object interactively. [IPython](http://ipython.org/) is an interactive python shell that offers some nifty features.
 
-{% highlight bash %}
+{% highlight bash linenos %}
 CD $POCS
 
 ipython
