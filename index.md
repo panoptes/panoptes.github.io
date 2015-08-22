@@ -11,7 +11,7 @@ layout: homepage
       PANOPTES (<strong>P</strong>anoptic <strong>A</strong>stronomical <strong>N</strong>etworked <strong>OP</strong>tical observatory for <strong>T</strong>ransiting <strong>E</strong>xoplanets <strong>S</strong>urvey) is a citizen science project which aims to build low cost, robotic telescopes which can be used to detect transiting exoplanets.
   </p>
   <div class="center-block">
-    <a class="btn btn-lg btn-success" href="#" role="button">Get started today!</a>
+    <a class="btn btn-lg btn-success" href="contact.html" role="button">Get started today!</a>
    </div>
 </div>
 
