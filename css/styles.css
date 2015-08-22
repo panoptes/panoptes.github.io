@@ -810,3 +810,37 @@ section #title .credits.right {
     display: none;
   }
 }
+
+code {
+  font-family: monospace;
+  color: #7e7e7e;
+  background-color: #191919;
+  font-size: 13px;
+  margin: 0 4px;
+  padding: 4px 6px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+}
+
+pre {
+  padding: 8px 15px;
+  color: #7e7e7e;
+  background: #191919;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+  border: 1px solid #121212;
+  -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
+  overflow: auto;
+  overflow-y: hidden;
+}
