@@ -1,5 +1,6 @@
 ---
 title: Instructions
+layout: default
 ---
 
 # Building a PANOPTES Unit
