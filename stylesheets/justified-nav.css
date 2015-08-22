@@ -86,3 +86,7 @@ body {
     padding-left: 0;
   }
 }
+
+.jumbotron{
+    background: url('images/PanoptesPrototype_v2_cropped.png') no-repeat center center;
+}
