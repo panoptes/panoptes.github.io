@@ -5,9 +5,8 @@ layout: default
 
 # Building a PANOPTES Unit
 
-## Required Skills
+{% include warning.html text="The baseline design is meant to be assembled by anyone with a basic knowledge of electronics, computers, and astronomy, and a taste for building things/tinkering. There is no need to machine parts, and only standard tools are required (you will need a drill, screwdrivers, voltmeter). All electronics are readily available, and only need to be mounted and wired together." %}
 
-The baseline design is meant to be assembled by anyone with a basic knowledge of electronics, computers, and astronomy, and a taste for building things/tinkering. There is no need to machine parts, and only standard tools are required (you will need a drill, screwdrivers, voltmeter). All electronics are readily available, and only need to be mounted and wired together.
 
 When assembling the electronics, use caution since you will be working with both AC and DC power.  Electrocution is a hazard!  If you have little or no prior experience assembling electronics, please work with someone who does.
 
