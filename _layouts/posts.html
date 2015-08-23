@@ -10,10 +10,9 @@
 
         {% include nav.html %}
 
-      <hr>
-
       <!-- Same layout as default but we put the date and title up here -->
-      <h2>{{ page.date | date: "%Y-%m-%d" }}: {{page.title }}</h2>
+      <h2>{{page.title }} <div class="pull-right"> {{ page.date | date: "%Y-%m-%d" }} </div></h2>
+      <hr>
       <div class="row">
           <div class="col-lg-1">&nbsp; </div>
           <div class="col-lg-10">

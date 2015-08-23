@@ -642,6 +642,10 @@ td {
 }
 
 hr {
+    border-top: 1px solid #434343;
+}
+
+hr.layout {
   border: 0;
   outline: none;
   height: 3px;

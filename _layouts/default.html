@@ -1,32 +1,32 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-      {% include html_head.html %}
-  </head>
 
-  <body>
+<head>
+    {% include html_head.html %}
+</head>
+
+<body>
 
     <div class="container">
 
         {% include nav.html %}
 
-      <hr>
-
-      <!-- This creates a centered column in the middle with some padding -->
-      <div class="row">
-          <div class="col-lg-1">&nbsp; </div>
-          <div class="col-lg-10">
-              {{ content }}
-          </div>
-          <div class="col-lg-1">&nbsp; </div>
-      </div>
+        <!-- This creates a centered column in the middle with some padding -->
+        <div class="row">
+            <div class="col-lg-1">&nbsp; </div>
+            <div class="col-lg-10">
+                {{ content }}
+            </div>
+            <div class="col-lg-1">&nbsp; </div>
+        </div>
 
 
-      {% include footer.html %}
+        {% include footer.html %}
 
-    </div> <!-- /container -->
+    </div>
+    <!-- /container -->
 
     {% include analytics.html %}
-  </body>
+</body>
+
 </html>
