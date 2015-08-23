@@ -13,9 +13,9 @@ layout: default
 	- [Tools](#tools)
 	- [Building a platform](#building-a-platform)
 	- [Cutting out exhaust and cable pass through's](#cutting-out-exhaust-and-cable-pass-throughs)
-	- [Installing cable feed through pipes:](#installing-cable-feed-through-pipes)
-	- [Cooling fan assembly:](#cooling-fan-assembly)
-	- [Exhaust pipe:](#exhaust-pipe)
+	- [Installing cable feed through pipes](#installing-cable-feed-through-pipes)
+	- [Cooling fan assembly](#cooling-fan-assembly)
+	- [Exhaust pipe](#exhaust-pipe)
 
 ## Introduction
 
@@ -77,7 +77,7 @@ This section outlines how to build the platform for the electronics to sit on.  
 * Use a deburring tool or round file to clean up the edges of the holes.
 * Clean out all debris in the box. Compressed air works well for this if you have it.
 
-## Installing cable feed through pipes:
+## Installing cable feed through pipes
 * Take the threaded end of the 1 3/4" PVC fitting. Place it on a sheet of silicon rubber and trace the outer diameter. Draw a second circle that is concentric with the first but 10 mm in radius bigger.
 * Use a box cutter (Stanley knife) and cut out along the two circles. You should have an annulus (donut) shaped rubber ring. Make a second one.
 * Insert the threaded end of the connector into one of the 1 3/4" clearance holes in the bottom of the box. You will notice it is tight and most likely needs to be screwed in by hand. Push it in as far as it will go.
@@ -91,7 +91,7 @@ This section outlines how to build the platform for the electronics to sit on.  
 * Carefully apply silicon around the edges of the hole in the pelican box where it meets the connector. The layer, must be smooth, make good contact with the pelican box, and there should be no holes.
 * Repeat the entire assembly process for the second pipe.
 
-## Cooling fan assembly:
+## Cooling fan assembly
 * Take the 3 1/4" PVC pipe connector. Drill two 3 mm holes which are spaced by 5 mm about 1/2-1" from the one end of the connector.
 * Drill 3 more sets spaced by 90 degrees on the outside of the connector. See image below for clarification.
 * Take a 6-8" length of tie wire, fold it in half and push it through one pair of holes from the inside outwards.
@@ -103,7 +103,7 @@ This section outlines how to build the platform for the electronics to sit on.  
 * Cut the twisted tie wire until it is only 6-8 mm long. Fold the left over wire to prevent scratches.
 * As a final step apply a layer of duct tape to seal the connection between the fan and the connector so that it is held stable and all ports are sealed.
 
-## Exhaust pipe:
+## Exhaust pipe
 * Cut a piece 2.5"-3" long of 3 1/4" PVC pipe.
 * Apply a bead of silicon around the outside of the pipe close to one end.
 * Push the silicon-layered end into a 90-degree elbow of 3 1/4" PVC piping.  Push and pull the pipe while twisting to get an even layering of the silicon in the joint.  Then push the pipe all the way in.

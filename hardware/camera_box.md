@@ -7,6 +7,17 @@ layout: default
 
  {% include warning.html text="We do not advise people under the age of 18 to undertake this build without a parent or guardian present. In addition, although the build has been simplified so that most people can attempt it, a basic understanding and skill with everyday tools is necessary. If you are not familiar with these tools, please seek appropriate training/advise. " %}
 
+<h3>Table of Contents</h3>
+- [Assembling the Camera Box](#assembling-the-camera-box)
+	- [Introduction](#introduction)
+	- [Tools](#tools)
+	- [Dovetail rail](#dovetail-rail)
+	- [Bottom mounting plate](#bottom-mounting-plate)
+	- [Top mounting plate](#top-mounting-plate)
+	- [Camera mounting plate](#camera-mounting-plate)
+	- [Camera enclosure box](#camera-enclosure-box)
+	- [Assembly](#assembly)
+
 ## Introduction
 
 The aim is to assemble the head unit of PANOPTES, which should look like this when complete.  A specific parts list as advised by the PANOPTES team can be found above including the tools needed for the build. These are the parts that have been determined to work well for the purposes of this project. However, modifications or swaps for other components are fine, but will not be supported by the PANOPTES team. Feedback on the parts/instructions is welcomed and encouraged.
@@ -84,7 +95,7 @@ The aim is to assemble the head unit of PANOPTES, which should look like this wh
 * Once the two lines are cut and the block of aluminum has been removed, use a large flat file to smooth the surfaces and edges.
 * Remove from vice and set aside.
 
-## Camera enclosure box:
+## Camera enclosure box
 * For this part refer to file Pan005.pdf.
 * Open the lid to the enclosure and mark the position of the 5 holes on the bottom surface.
 * By either placing it in a vice or having a colleague hold the box tightly, slowly drill out 8 mm diameter holes in the location of the 4 outer marks. Drill out a 13 mm hole for the central hole. If you use a vice, make sure to use rags to not damage the box.
@@ -98,7 +109,7 @@ The aim is to assemble the head unit of PANOPTES, which should look like this wh
 
 {% include note.html text="Once all steps above have been followed and completed, then it is very important to clean all machining fluids/greases and shards off all parts. Best results are achieved with a bath of warm soapy water. Let the parts soak for 10 minutes and then take them out and scrub them under a running tap. Dry them immediately to avoid oxidation/rust. To clean out the gunk and water in the holes, use ear buds." %}
 
-## Assembly:
+## Assembly
 * Place the Bottom mounting plate on top of the dovetail rail. Use two (2) M6 socket head screws to secure the rail to the bottom mounting plate from the bottom.
 * Place the top mounting plate inside the enclosure, and the enclosure on top of the bottom mounting plate. Use 4 M6 socket head screws to secure the top plate to the bottom plate. Do not over tighten.
 * Insert USB cables into the USB ports of the cameras. Its advised to use mini USB A – right angle mini USB B. Put the right angled end into the camera.
