@@ -2,8 +2,8 @@
 
     {% if include.align == 'left' %}
     <div class="media-left">
-        <a href="images/{{ include.src }}">
-            <img src="images/{{ include.src }}" alt="{{ include.caption }}" width="{{ include.width }}" class="media-object img-rounded {{ include.class }}" width="128px">
+        <a href="{{ site.url }}/images/{{ include.src }}">
+            <img src="{{ site.url }}/images/{{ include.src }}" alt="{{ include.caption }}" width="{{ include.width }}" class="media-object img-rounded {{ include.class }}" width="128px">
         </a>
     </div>
     {% endif %}
@@ -15,8 +15,8 @@
 
     {% if include.align == 'right' %}
     <div class="media-right">
-        <a href="images/{{ include.src }}">
-            <img src="images/{{ include.src }}" alt="{{ include.caption }}" width="{{ include.width }}" class="media-object  img-rounded {{ include.class }}" width="128px">
+        <a href="{{ site.url }}/images/{{ include.src }}">
+            <img src="{{ site.url }}/images/{{ include.src }}" alt="{{ include.caption }}" width="{{ include.width }}" class="media-object  img-rounded {{ include.class }}" width="128px">
         </a>
     </div>
     {% endif %}
