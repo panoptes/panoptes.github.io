@@ -21,14 +21,14 @@ layout: homepage
     <p>
         The philosophy behind the PANOPTES hardware and software design is to use as many commercial off the shelf (COTS) parts as possible as these are generally inexpensive and easily acquired.  In addition, the PANOPTES design is kept as simple as possible as this makes the build process easier and means that the final product is more reliable.
     </p>
-    <p><a class="btn btn-primary" href="status.html" role="button">View details &raquo;</a></p>
+    <p><a class="btn btn-primary" href="software.html" role="button">View details &raquo;</a></p>
   </div>
   <div class="col-lg-4">
     <h2>Hardware</h2>
     <p>
         Due to the simplicity and low cost (an individual PANOPTES unit is targeted to cost about $5000 USD), a Panoptes "unit" can be reproduced quickly and easily by students or amateur scientists.  In this way, many units can be deployed at many different sites to provide continuous and redundant sky coverage.  PANOPTES is designed from the ground up to be a citizen science project which will involve the public in all aspects of the science, from data acquisition to data reduction.
     </p>
-    <p><a class="btn btn-primary" href="instructions.html" role="button">Get Building &raquo;</a></p>
+    <p><a class="btn btn-primary" href="hardware.html" role="button">Get Building &raquo;</a></p>
  </div>
   <div class="col-lg-4">
     <h2>Community</h2>
