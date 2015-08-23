@@ -364,7 +364,24 @@ svg:not(:root) {
  */
 figure {
   margin: 0;
+  display: table;
+  padding: 5px;
 }
+figure img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+figcaption {
+    display: table-caption;
+    caption-side: bottom;
+    padding: 0 5px 5px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}​
 
 /* =============================================================================
    Forms
