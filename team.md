@@ -7,7 +7,7 @@ The core PANOPTES team who participated in the development of the prototype and 
 
 {% include thumbnail.html src="people/OlivierGuyon.png" align="left" heading="Olivier Guyon" caption="Olivier is an astronomer at the Subaru Telescope and the University of Arizona. Olivier started astronomy as an avid amateur astronomer at age 10, and enjoys building and using telescopes for amateur astronomy. His professional interest in exoplanets and his taste for amateur astronomy and astrophotography led him and other like-minded amateur/professional astronomers to start the PANOPTES project. Olivier's professional website describes his exoplanet instrumentation work: coronagraphy, adaptive optics." %}
 
-
+<br> 
 <a class="btn btn-primary" href="http://www.naoj.org/staff/guyon/" role="button">Olivier's Professional Website &raquo;</a>
 
 <hr>
@@ -28,8 +28,8 @@ The core PANOPTES team who participated in the development of the prototype and 
 
 {% include thumbnail.html src="people/MikeButterfield.jpg" align="left" heading="Mike Butterfield" caption="Mike is a graduate student at the College of Optical Sciences at the University of Arizona and an optical scientist at GEOST, Inc., in Tucson, AZ. He is the chief architect for the amateur astronomy space-debris and satellite tracking project, SpaceView. You can read more about Mike’s research, engineering, and general interests on his personal website." %}
 
-<a class="btn btn-primary" href="http://spaceviewnetwork.com" role="button">SpaceView Website &raquo;</a>
+<br>
 
-<a class="btn btn-primary" href="http://mikebutterfield.com" role="button">Mike's Personal Website &raquo;</a>
+<a class="btn btn-primary" href="http://spaceviewnetwork.com" role="button">SpaceView Website &raquo;</a> <a class="btn btn-primary" href="http://mikebutterfield.com" role="button">Mike's Personal Website &raquo;</a>
 
 <hr>
