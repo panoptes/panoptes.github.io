@@ -20,4 +20,4 @@ The instructions linked below are still in development and should be considered 
 * [Weatherproofing the Mount](weatherproofing.html)
 * [Assembling the Camera Box](camera_box.html)
 * [Electronics and Wiring](electronics.html)
-* [Installing the Software](installing_software.html)
+* [Installing the Software](software/install.html)
