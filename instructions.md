@@ -14,9 +14,9 @@ When assembling the electronics, use caution since you will be working with both
 
 The instructions linked below are still in development and should be considered to be at a beta level of readiness.  We will be updating these constantly as we build units and get feedback from the first generation of builders.  Please <a href="mailto:info@projectpanoptes.org">Contact Us</a> if you would like to build a unit and we will help you decide how to proceed.
 
+* [Assembling the Camera Box](hardware/camera_box.html)
 * [Assembling the Control Box](hardware/control_box.html)
+* [Electronics and Wiring](hardware/electronics.html)
 * [Assembling the Pier and Mount](hardware/pier.html)
 * [Weatherproofing the Mount](hardware/weatherproofing.html)
-* [Assembling the Camera Box](hardware/camera_box.html)
-* [Electronics and Wiring](hardware/electronics.html)
 * [Installing the Software](software/install.html)
