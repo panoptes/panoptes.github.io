@@ -7,13 +7,20 @@ layout: default
 
  {% include add_warning.html note="We do not advise people under the age of 18 to undertake this build without a parent or guardian present. In addition, although the build has been simplified so that most people can attempt it, a basic understanding and skill with everyday tools is necessary. If you are not familiar with these tools, please seek appropriate training/advise. " %}
 
-The aim is to assemble the enclosure for the control electronics of PANOPTES, which should look like this when complete. A specific parts list as advised by the PANOPTES team can be found above including the tools needed for the build. These are the parts that have been determined to work well for the purposes of this project. However, modifications or swaps for other components are fine, but will not be supported by the PANOPTES team. Feedback on the parts/instructions is welcomed and encouraged.
+<h3>Table of Contents</h3>
+* [Building a platform](#building-a-platform)
+* [Cutting out exhaust and cable pass through's](#cutting-out-exhaust-and-cable-pass-throughs)
+* [Installing cable feed through pipes:](#installing-cable-feed-through-pipes)
+* [Cooling fan assembly:](#cooling-fan-assembly)
+* [Exhaust pipe:](#exhaust-pipe)
 
-{% include figure.html src="PanoptesPrototype_v2_cropped.png" caption="PANOPTES Prototype Unit on the summit of Mauna Loa" %}
+## Introduction
+
+The aim is to assemble the enclosure for the control electronics of PANOPTES, which should look like this when complete. A specific parts list as advised by the PANOPTES team can be found above including the tools needed for the build. These are the parts that have been determined to work well for the purposes of this project. However, modifications or swaps for other components are fine, but will not be supported by the PANOPTES team. Feedback on the parts/instructions is welcomed and encouraged.
 
 The instructions below outline the procedure needed to outfit the box.
 
-### Building a platform
+## Building a platform
 This section outlines how to build the platform for the electronics to sit on.  This is useful so that air can circulate below the electronics to help temperature regulation and keeps the electronics off the bottom where they would be susceptible to damage given a leak.
 
 * Mark two sections of ~18" (458 mm) on the PVC rod.
@@ -31,7 +38,7 @@ This section outlines how to build the platform for the electronics to sit on.  
 * Use 4 button head, low profile screws to secure the perforated board to the plastic rods below. Place 1 screw in each corner of the perforated board ~130-140 mm from the walls in an open hole.  Be careful not to over tighten, as you will cross thread the PVC bar and the screw wont hold.
 
 
-### Cutting out exhaust and cable pass through's
+## Cutting out exhaust and cable pass through's
 * Stand the pelican box up vertical. On the top surface to the right of the handle you will need to mark a hole for the 3" * PVC pipe to pass into the box.
 * Mark a point approximately 55 mm (2 1/4") from the handle mounting point and 55 mm (2 1/4") from the lip for the box * lid.
 * Use a short section of 3 1/4" PVC pipe and trace a circle on the box centered on this point.
@@ -50,7 +57,7 @@ This section outlines how to build the platform for the electronics to sit on.  
 * Use a deburring tool or round file to clean up the edges of the holes.
 * Clean out all debris in the box. Compressed air works well for this if you have it.
 
-### Installing cable feed through pipes:
+## Installing cable feed through pipes:
 * Take the threaded end of the 1 3/4" PVC fitting. Place it on a sheet of silicon rubber and trace the outer diameter. Draw a second circle that is concentric with the first but 10 mm in radius bigger.
 * Use a box cutter (Stanley knife) and cut out along the two circles. You should have an annulus (donut) shaped rubber ring. Make a second one.
 * Insert the threaded end of the connector into one of the 1 3/4" clearance holes in the bottom of the box. You will notice it is tight and most likely needs to be screwed in by hand. Push it in as far as it will go.
@@ -64,7 +71,7 @@ This section outlines how to build the platform for the electronics to sit on.  
 * Carefully apply silicon around the edges of the hole in the pelican box where it meets the connector. The layer, must be smooth, make good contact with the pelican box, and there should be no holes.
 * Repeat the entire assembly process for the second pipe.
 
-### Cooling fan assembly:
+## Cooling fan assembly:
 * Take the 3 1/4" PVC pipe connector. Drill two 3 mm holes which are spaced by 5 mm about 1/2-1" from the one end of the connector.
 * Drill 3 more sets spaced by 90 degrees on the outside of the connector. See image below for clarification.
 * Take a 6-8" length of tie wire, fold it in half and push it through one pair of holes from the inside outwards.
@@ -76,7 +83,7 @@ This section outlines how to build the platform for the electronics to sit on.  
 * Cut the twisted tie wire until it is only 6-8 mm long. Fold the left over wire to prevent scratches.
 * As a final step apply a layer of duct tape to seal the connection between the fan and the connector so that it is held stable and all ports are sealed.
 
-### Exhaust pipe:
+## Exhaust pipe:
 * Cut a piece 2.5"-3" long of 3 1/4" PVC pipe.
 * Apply a bead of silicon around the outside of the pipe close to one end.
 * Push the silicon-layered end into a 90-degree elbow of 3 1/4" PVC piping.  Push and pull the pipe while twisting to get an even layering of the silicon in the joint.  Then push the pipe all the way in.
