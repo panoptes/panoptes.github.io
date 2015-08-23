@@ -13,6 +13,19 @@ The aim is to assemble the head unit of PANOPTES, which should look like this wh
 
 {% include figure.html src="camera_box/housing_1.jpg" caption="A blown up view of the PANOPTES head-unit is shown above on the left.  This shows the order in which to assemble the prepared parts. The instructions below need to be followed in conjunction to the technical drawings provided for each part." %}
 
+## Tools
+* Cordless drill
+* Set of drill bits
+* Hacksaw
+* Vice
+* M6 tap and tapping tool
+* Deburring tool
+* File, small round and larger rectangle
+* Ruler
+* Marker/scriber
+* Rags
+
+
 ## Dovetail rail
 * Start with the dove tail rail (EQD6) and the corresponding technical drawing (Pan001.pdf).  
 * Mount the dovetail rail upside down in the vice (use rags so that the rail does not get scratched).

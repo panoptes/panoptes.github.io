@@ -8,15 +8,35 @@ layout: default
  {% include warning.html text="We do not advise people under the age of 18 to undertake this build without a parent or guardian present. In addition, although the build has been simplified so that most people can attempt it, a basic understanding and skill with everyday tools is necessary. If you are not familiar with these tools, please seek appropriate training/advise. " %}
 
 <h3>Table of Contents</h3>
-* [Building a platform](#building-a-platform)
-* [Cutting out exhaust and cable pass through's](#cutting-out-exhaust-and-cable-pass-throughs)
-* [Installing cable feed through pipes:](#installing-cable-feed-through-pipes)
-* [Cooling fan assembly:](#cooling-fan-assembly)
-* [Exhaust pipe:](#exhaust-pipe)
+- [Assembling the Control Box](#assembling-the-control-box)
+	- [Introduction](#introduction)
+	- [Tools](#tools)
+	- [Building a platform](#building-a-platform)
+	- [Cutting out exhaust and cable pass through's](#cutting-out-exhaust-and-cable-pass-throughs)
+	- [Installing cable feed through pipes:](#installing-cable-feed-through-pipes)
+	- [Cooling fan assembly:](#cooling-fan-assembly)
+	- [Exhaust pipe:](#exhaust-pipe)
 
 ## Introduction
 
 The aim is to assemble the enclosure for the control electronics of PANOPTES, which should look like this when complete. A specific parts list as advised by the PANOPTES team can be found above including the tools needed for the build. These are the parts that have been determined to work well for the purposes of this project. However, modifications or swaps for other components are fine, but will not be supported by the PANOPTES team. Feedback on the parts/instructions is welcomed and encouraged.
+
+## Tools
+
+* Cordless drill
+* Set of drill bits
+* 3 1/4", 1 3/4" hole saw and hole saw drill bit
+* Hacksaw, preferably the version where the blade is in front of the tool.
+* Vice
+* Silicon dispensing gun
+* Box cutter (Stanley knife)
+* Deburring tool
+* File, small round and larger rectangle
+* Clamps
+* Ruler
+* Marker/scriber
+* Rags
+
 
 The instructions below outline the procedure needed to outfit the box.
 
