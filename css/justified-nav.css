@@ -13,6 +13,7 @@ body {
 .jumbotron {
   text-align: center;
   background-color: transparent;
+  padding-top: 0;
 }
 .jumbotron .btn {
   padding: 14px 24px;

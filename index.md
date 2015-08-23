@@ -3,8 +3,6 @@ title: Project PANOPTES
 layout: homepage
 ---
 
-<!-- Jumbotron -->
-
 <div class="jumbotron">
     {% include figure.html src="PanoptesPrototype_v2_cropped.png" width="750px" %}
       <p class="lead">
