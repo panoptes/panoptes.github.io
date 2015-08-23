@@ -4,7 +4,7 @@ layout: homepage
 ---
 
 <div class="jumbotron">
-    {% include figure.html src="units/prototype_v2.png" %}
+    {% include picture.html src="units/prototype_v2.png" %}
       <p class="lead">
           PANOPTES (<strong>P</strong>anoptic <strong>A</strong>stronomical <strong>N</strong>etworked <strong>OP</strong>tical observatory for <strong>T</strong>ransiting <strong>E</strong>xoplanets <strong>S</strong>urvey) is a citizen science project which aims to build low cost, robotic telescopes which can be used to detect transiting exoplanets.
       </p>

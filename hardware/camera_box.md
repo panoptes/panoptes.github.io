@@ -22,7 +22,7 @@ layout: default
 
 The aim is to assemble the head unit of PANOPTES, which should look like this when complete.  A specific parts list as advised by the PANOPTES team can be found above including the tools needed for the build. These are the parts that have been determined to work well for the purposes of this project. However, modifications or swaps for other components are fine, but will not be supported by the PANOPTES team. Feedback on the parts/instructions is welcomed and encouraged.
 
-{% include figure.html src="camera_box/housing_1.jpg" caption="A blown up view of the PANOPTES head-unit is shown above on the left.  This shows the order in which to assemble the prepared parts. The instructions below need to be followed in conjunction to the technical drawings provided for each part." %}
+{% include picture.html src="camera_box/housing_1.jpg" caption="A blown up view of the PANOPTES head-unit is shown above on the left.  This shows the order in which to assemble the prepared parts. The instructions below need to be followed in conjunction to the technical drawings provided for each part." %}
 
 ## Tools
 * Cordless drill
@@ -124,6 +124,6 @@ The aim is to assemble the head unit of PANOPTES, which should look like this wh
 
 Once complete the unit should look as shown in the images below.
 
-{% include figure.html src="camera_box/camera_box_02.jpg" caption="" %}
-{% include figure.html src="camera_box/camera_box_03.jpg" caption="" %}
-{% include figure.html src="camera_box/camera_box_05.jpg" caption="" %}
+{% include picture.html src="camera_box/camera_box_02.jpg" caption="" %}
+{% include picture.html src="camera_box/camera_box_03.jpg" caption="" %}
+{% include picture.html src="camera_box/camera_box_05.jpg" caption="" %}
