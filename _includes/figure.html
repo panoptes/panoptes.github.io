@@ -1,0 +1,13 @@
+<style media="screen">
+    img {
+        border: 1px solid black;
+    }
+</style>
+<figure>
+    <a href="images/{{ include.src }}">
+       <img src="images/{{ include.src }}" alt="{{ include.caption }}" width="{{ include.width }}">
+    </a>
+<figcaption>
+    {{ include.caption }}
+</figcaption>
+</figure>

@@ -6,13 +6,13 @@ layout: homepage
 <!-- Jumbotron -->
 
 <div class="jumbotron">
-  <img src="images/PanoptesPrototype_v2_cropped.png" width="750px" class="img-rounded">
-  <p class="lead">
-      PANOPTES (<strong>P</strong>anoptic <strong>A</strong>stronomical <strong>N</strong>etworked <strong>OP</strong>tical observatory for <strong>T</strong>ransiting <strong>E</strong>xoplanets <strong>S</strong>urvey) is a citizen science project which aims to build low cost, robotic telescopes which can be used to detect transiting exoplanets.
-  </p>
-  <div class="center-block">
-    <a class="btn btn-lg btn-success" href="contact.html" role="button">Get started today!</a>
-   </div>
+    {% include figure.html src="PanoptesPrototype_v2_cropped.png" width="750px" %}
+      <p class="lead">
+          PANOPTES (<strong>P</strong>anoptic <strong>A</strong>stronomical <strong>N</strong>etworked <strong>OP</strong>tical observatory for <strong>T</strong>ransiting <strong>E</strong>xoplanets <strong>S</strong>urvey) is a citizen science project which aims to build low cost, robotic telescopes which can be used to detect transiting exoplanets.
+      </p>
+      <div class="center-block">
+        <a class="btn btn-lg btn-success" href="contact.html" role="button">Get started today!</a>
+       </div>
 </div>
 
 <!-- Example row of columns -->
