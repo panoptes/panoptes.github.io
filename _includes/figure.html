@@ -1,11 +1,6 @@
-<style media="screen">
-    img {
-        border: 1px solid black;
-    }
-</style>
 <figure>
     <a href="images/{{ include.src }}">
-        <img src="images/{{ include.src }}" alt="{{ include.caption }}" width="{{ include.width }}" class="{{ include.class }}">
+        <img src="images/{{ include.src }}" alt="{{ include.caption }}" width="{{ include.width }}" class="img-rounded {{ include.class }}">
     </a>
     <figcaption>
         {{ include.caption }}
