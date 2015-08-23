@@ -1,5 +1,5 @@
 ---
-title: Control Box
+title: Building the Control Box
 layout: default
 ---
 
