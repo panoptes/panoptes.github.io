@@ -7,8 +7,9 @@ layout: default
 
 This document will present an overview of how to get started coding within Project PANOPTES, from setup to `git commit`.
 
-## Bootstrap
-Have you bootstrapped your system?
+# Bootstrap
+
+{% include add_note.html note="Have you bootstrapped your system? This is the ideal way to install all the software and takes care of all of the other steps below. Please try to bootstrap first and then follow along below if something goes wrong or you want more detail." %}
 
 {% highlight bash linenos %}
 wget https://raw.githubusercontent.com/panoptes/Hardware/master/bootstrap.sh && bash bootstrap.sh
