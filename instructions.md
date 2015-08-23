@@ -20,3 +20,8 @@ The instructions linked below are still in development and should be considered 
 * [Assembling the Pier and Mount](hardware/pier.html)
 * [Weatherproofing the Mount](hardware/weatherproofing.html)
 * [Installing the Software](software/install.html)
+
+In addition, check out the
+
+* [Complete Parts List](complete_parts_list.html)
+* [Tools Required](tools.html)
