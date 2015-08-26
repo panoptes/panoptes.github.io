@@ -870,3 +870,7 @@ pre {
   overflow: auto;
   overflow-y: hidden;
 }
+
+.jumbotron {
+    padding-bottom: 0;
+}
