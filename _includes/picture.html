@@ -1,8 +1,12 @@
-{% capture pic_id %}{{ include.src | replace: '/', '_'  | replace: '.', '_' | handleize }}{% endcapture %}
-<figure>
+<figure {% if include.src2 %}class="multiple"{% endif %}>
     <a href="{{ site.url }}/images/{{ include.src }}">
         <img src="{{ site.url }}/images/{{ include.src }}" alt="{{ include.caption }}" class="img-rounded {{ include.class }}">
     </a>
+    {% if include.src2 %}
+    <a href="{{ site.url }}/images/{{ include.src2 }}">
+        <img src="{{ site.url }}/images/{{ include.src2 }}" alt="{{ include.caption }}" class="img-rounded {{ include.class }}">
+    </a>
+    {% endif %}
     <figcaption>
         {{ include.caption }}
     </figcaption>

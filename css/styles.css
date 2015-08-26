@@ -378,11 +378,21 @@ figure img.large {
     width: 100%;
 }
 
+figure.multiple img {
+    float: left;
+}
+
+figure.multiple img:last-child {
+    float: left;
+    padding-left: 2px;
+}
+
+
 figcaption {
     display: table-caption;
     caption-side: bottom;
     padding: 0 5px 5px;
-    width: 50%;
+    /*width: 50%;*/
     margin-left: auto;
     margin-right: auto;
     text-align: justify;
