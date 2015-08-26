@@ -13,4 +13,4 @@ Do you want to keep your finger on the pulse and stay up to date with the latest
 
 ## Email Us
 
-<a href="mailto:info@projectpanoptes.org">info@projectpanoptes.org</a>
+<i class="fa fa-envelope-o fa-2x"></i> <a href="mailto:info@projectpanoptes.org">info@projectpanoptes.org</a>
