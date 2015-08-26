@@ -373,6 +373,11 @@ figure img {
     margin-right: auto;
     width: 50%;
 }
+
+figure img.large {
+    width: 100%;
+}
+
 figcaption {
     display: table-caption;
     caption-side: bottom;
