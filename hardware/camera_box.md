@@ -1,5 +1,5 @@
 ---
-title: Camera Box
+title: Camera Box Assembly Instructions
 layout: default
 ---
 
