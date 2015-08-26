@@ -9,7 +9,7 @@ This document will present an overview of how to get started coding within Proje
 
 # Bootstrap
 
-{% include note.html note="Have you bootstrapped your system? This is the ideal way to install all the software and create a consistent environment that your PANOPTES unit is expecting." %}
+{% include note.html text="Have you bootstrapped your system? This is the ideal way to install all the software and create a consistent environment that your PANOPTES unit is expecting." %}
 
 {% highlight bash linenos %}
 wget https://raw.githubusercontent.com/panoptes/Hardware/master/bootstrap.sh && bash bootstrap.sh

@@ -16,8 +16,8 @@ The instructions linked below are still in development and should be considered 
 
 * [Assembling the Camera Box](hardware/camera_box.html)
 * [Assembling the Control Box](hardware/control_box.html)
-* [Electronics and Wiring](hardware/electronics.html)
 * [Assembling the Pier and Mount](hardware/pier.html)
+* [Electronics and Wiring](hardware/electronics.html)
 * [Weatherproofing the Mount](hardware/weatherproofing.html)
 * [Installing the Software](software/install.html)
 
