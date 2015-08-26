@@ -33,4 +33,4 @@ Log files are stored in `$POCS/logs/`.  To watch the main log file:
 tail -f $POCS/logs/panoptes.log
 {% endhighlight %}
 
-_**TODO:** How to change running log levels_
+{% include todo.html text="How to change running log levels" %}
