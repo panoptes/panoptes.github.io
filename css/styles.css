@@ -580,7 +580,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 
-p, ul.nav, ol, table, dl {
+p, ul.nav, ol.nav, table, dl {
   padding: 0px 0px 10px 0px;
   margin: 0 0 20px;
   text-align: justify;
