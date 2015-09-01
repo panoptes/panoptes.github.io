@@ -5,6 +5,10 @@ layout: default
 
 # Building a PANOPTES Unit
 
+{% include warning.html text="The build instructions for PANOPTES are currently being updated. Please email the PANOPTES team if you are ready to begin building a unit." %}
+
+<a href="mailto:info@projectpanoptes.org">Contact Us</a>
+
 {% include note.html text="The baseline design is meant to be assembled by anyone with a basic knowledge of electronics, computers, and astronomy, and a taste for building things/tinkering. There is no need to machine parts, and only standard tools are required (you will need a drill, screwdrivers, voltmeter). All electronics are readily available, and only need to be mounted and wired together. <br> <br> Please note, however, that some components do require the use of basic hand tools and electrical wiring. Always use caution when dealing directly with a PANOPTES unit." %}
 
 
