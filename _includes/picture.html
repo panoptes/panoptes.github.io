@@ -1,4 +1,4 @@
-<figure {% if include.src2 %}class="multiple"{% endif %}>
+<figure class="{% if include.src2 %}multiple{% endif %}">
     <a href="{{ site.url }}/images/{{ include.src }}">
         <img src="{{ site.url }}/images/{{ include.src }}" alt="{{ include.caption }}" class="img-rounded {{ include.class }}">
     </a>
@@ -7,7 +7,9 @@
         <img src="{{ site.url }}/images/{{ include.src2 }}" alt="{{ include.caption }}" class="img-rounded {{ include.class }}">
     </a>
     {% endif %}
-    <figcaption>
-        {{ include.caption }}
+    {% if include.caption > "" %}
+    <figcaption class="img-rounded {% if include.src2 %}multiple{% endif %}">
+            {{ include.caption }}
     </figcaption>
+    {% endif %}
 </figure>
