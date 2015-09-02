@@ -35,7 +35,7 @@
             PANOPTES is also a platform. We encourage other groups to come up with projects which use PANOPTES data or PANOPTES hardware to address other scientific questions.
         </p>
         <ul>
-          {% for post in site.posts %}
+          {% for post in site.posts limit:3 %}
             <li>
             {{ post.date | date_to_string }}:
             <a href="{{ post.url }}">{{ post.title }}</a>
