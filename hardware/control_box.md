@@ -21,6 +21,8 @@ layout: default
 
 The aim is to assemble the enclosure for the control electronics of PANOPTES, which should look like this when complete. A specific parts list as advised by the PANOPTES team can be found above including the tools needed for the build. These are the parts that have been determined to work well for the purposes of this project. However, modifications or swaps for other components are fine, but will not be supported by the PANOPTES team. Feedback on the parts/instructions is welcomed and encouraged.
 
+{% include picture.html src="computer_box/IMG_6921.jpg" caption="This shows all the parts that are required in order to build the computer control box. The instructions below need to be followed in conjunction to the technical drawings provided for each part." %}
+
 ## Tools
 
 * Cordless drill
@@ -50,6 +52,9 @@ This section outlines how to build the platform for the electronics to sit on.  
 * Clean any debris from inside the box.
 * Apply a bead of silicon sealant parallel to the two lines but offset towards the center of the box by 1/2" (12.5 mm). The silicon should terminate about 1.5" from the ends of the box.
 * Ensure that the two cut bars are clean, and press them on the silicon bead. Slowly squeeze them and move them around so that the silicon forms a nice thin layer below the bar and is in contact everywhere. When the silicon has been squeezed sufficiently, align the edge of the bar with the marked line in the box, such that the bar is on the inside of this line (with respect to the box). Make sure it is equally spaced from both ends of the box in the perpendicular direction. Use your finger to smear out the excess silicon and seal the gaps between the bar and the box all the way around so that the silicon layer under the bar is sealed.
+
+{% include picture.html src="computer_box/IMG_6922.jpg" src2="computer_box/IMG_6933.jpg" caption="Left: Image showing one PVC pipe already glued in place and the other strip of silicon ready to be placed. Bead of silicon is 3.5&quot; from the wall. Right: Perforated board is centered on the rails and secured. Button head screws used to secure perforate plate." %}
+
 * Allow the silicon 1 hr to harden.
 * In the mean time, mark a line 19" from the end of the perforated plastic board (in the long direction of the board).
 * Clamp the perforated board to a bench such that the marked line overhangs by an inch or so. Use a hacksaw, which has the blade sticking out of the body, to carefully cut along the line.
@@ -65,6 +70,9 @@ This section outlines how to build the platform for the electronics to sit on.  
 * Ensure that the edges of the circle are at least 10 mm from any of the features on the box.
 * Mount a 3 mm drill bit in the cordless drill. Drill a hole on the center marker.
 * Mount the 3 1/4" hole saw on the cordless drill.
+
+{% include picture.html src="computer_box/IMG_6934.jpg" src2="computer_box/IMG_6936.jpg" caption="Left: Mark the box with a circle where you plan to use the hole saw. Always double-check your measurements before drilling. Right: Hand drill with 3 1/4&quot; hole saw attached." %}
+
 * Ask a friend to hold down the box or use your feet to embrace it so it cant move. Note if someone does hold the box, * make sure hands are kept a long way away from the site of drilling.
 * Proceed to drill the 3 1/4" hole out. Note, you need the drill to have speed when it makes contact with the plastic so you may have to ease off the pressure and reapply as necessary. The plastic is soft so the drill should go through with ease.
 * Once the hole has been drilled, use a deburring tool or a round file to neaten up the edges.
@@ -75,6 +83,9 @@ This section outlines how to build the platform for the electronics to sit on.  
 * Mount the 1 7/8" hole saw in the cordless drill.
 * Secure the box once again as described above and proceed to drill out the two holes.
 * Use a deburring tool or round file to clean up the edges of the holes.
+
+{% include picture.html src="computer_box/IMG_6937.jpg" src2="computer_box/IMG_6939.jpg" caption="The computer control box with the exhaust and cable feed holes drilled out." %}
+
 * Clean out all debris in the box. Compressed air works well for this if you have it.
 
 ## Installing cable feed through pipes
