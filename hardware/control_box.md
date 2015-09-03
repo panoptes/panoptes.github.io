@@ -111,17 +111,29 @@ This section outlines how to build the platform for the electronics to sit on.  
 * Carefully apply silicon around the edges of the hole in the pelican box where it meets the connector. The layer, must be smooth, make good contact with the pelican box, and there should be no holes.
 * Repeat the entire assembly process for the second pipe.
 
+{% include picture.html src="computer_box/IMG_6940.jpg"  src2="computer_box/IMG_6941.jpg" %}
+
+{% include picture.html src="computer_box/IMG_6942.jpg"  src2="computer_box/IMG_6943.jpg" %}
+
 ## Cooling fan assembly
 * Take the 3 1/4" PVC pipe connector. Drill two 3 mm holes which are spaced by 5 mm about 1/2-1" from the one end of the connector.
 * Drill 3 more sets spaced by 90 degrees on the outside of the connector. See image below for clarification.
+
+{% include picture.html src="computer_box/IMG_6924.jpg"  src2="computer_box/IMG_6925.jpg" %}
+
 * Take a 6-8" length of tie wire, fold it in half and push it through one pair of holes from the inside outwards.
 * Place the 80 mm ball bearing cooling fan on the end nearest the tie wire. Make sure the arrow indicating the direction of flow is pointing away from the connector end.
+
+{% include picture.html src="computer_box/003.jpg" caption="Arrows indicating direction of air flow. Air should be pulling into the exhaust pipe, so arrow will point away from PVC pipe." %}
+
 * Thread the tie wire through one of the holes in the fan frame in the corner.
 * Twist the wires until the fan is supported. Do not tighten completely yet.
 * Repeat this process for the other three corners.
 * Once all four corners are holding the fan, then slowly tighten each corner in turn until the fan is firmly held.
 * Cut the twisted tie wire until it is only 6-8 mm long. Fold the left over wire to prevent scratches.
 * As a final step apply a layer of duct tape to seal the connection between the fan and the connector so that it is held stable and all ports are sealed.
+
+{% include picture.html src="computer_box/IMG_6927.jpg"  src2="computer_box/IMG_6929.jpg" %}
 
 ## Exhaust pipe
 * Cut a piece 2.5"-3" long of 3 1/4" PVC pipe.
@@ -132,3 +144,5 @@ This section outlines how to build the platform for the electronics to sit on.  
 * Now that the two pieces are connected, rotate them and place several more screws around the outside of the connector.
 * Once complete, rotate the elbow until it points down once again.
 * Carefully place an even layer of silicon sealant around the hole and the PVC pipe to prevent water entering the box.
+
+{% include picture.html src="computer_box/IMG_6946.jpg"  src2="computer_box/IMG_6948.jpg" %}
