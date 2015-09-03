@@ -66,25 +66,34 @@ This section outlines how to build the platform for the electronics to sit on.  
 ## Cutting out exhaust and cable pass through's
 * Stand the pelican box up vertical. On the top surface to the right of the handle you will need to mark a hole for the 3" * PVC pipe to pass into the box.
 * Mark a point approximately 55 mm (2 1/4") from the handle mounting point and 55 mm (2 1/4") from the lip for the box * lid.
+
+{% include picture.html src="computer_box/001.jpg" %}
+
 * Use a short section of 3 1/4" PVC pipe and trace a circle on the box centered on this point.
 * Ensure that the edges of the circle are at least 10 mm from any of the features on the box.
-* Mount a 3 mm drill bit in the cordless drill. Drill a hole on the center marker.
-* Mount the 3 1/4" hole saw on the cordless drill.
 
 {% include picture.html src="computer_box/IMG_6934.jpg" src2="computer_box/IMG_6936.jpg" caption="Left: Mark the box with a circle where you plan to use the hole saw. Always double-check your measurements before drilling. Right: Hand drill with 3 1/4&quot; hole saw attached." %}
 
+* Mount a 3 mm drill bit in the cordless drill. Drill a hole on the center marker.
+* Mount the 3 1/4" hole saw on the cordless drill.
 * Ask a friend to hold down the box or use your feet to embrace it so it cant move. Note if someone does hold the box, * make sure hands are kept a long way away from the site of drilling.
 * Proceed to drill the 3 1/4" hole out. Note, you need the drill to have speed when it makes contact with the plastic so you may have to ease off the pressure and reapply as necessary. The plastic is soft so the drill should go through with ease.
 * Once the hole has been drilled, use a deburring tool or a round file to neaten up the edges.
+
+{% include picture.html src="computer_box/IMG_6937.jpg" caption="The computer control box with the exhaust hole drilled out. The rough edges pictured here should be smoothed with a deburring tool." %}
+
 * Next flip the box upside down (so the wheels are pointing upwards).
-* Mark two holes such that they are ~45 mm (1 3/4") from the top lip for the lid and 53 and 127 mm (2 1/8" & 5") from the right side of the box (note this assumes the wheels are closest to you and the lid is furthest from you).  
+* Mark two holes such that they are ~45 mm (1 3/4") from the top lip for the lid and 55 and 125 mm (2 1/8" & 5") from the right side of the box (note this assumes the wheels are closest to you and the lid is furthest from you).  
+
+{% include picture.html src="computer_box/002.jpg" caption="Holes marked at 55 mm and 125 mm from box edge. Note that the image shows the ruler at 400-55 = 345 mm and 400-125 = 275 mm." %}
+
 * Use a short piece (2" long) of 1 3/4" pipe to draw a circle centered on each mark. Confirm that the circles have about 15 mm between them and that there is at least 10 mm from the lip for the lid. If not adjust hole position so that this condition is met.
 * Use a 3 mm drill bit and drill a hole on the two center marks.
 * Mount the 1 7/8" hole saw in the cordless drill.
 * Secure the box once again as described above and proceed to drill out the two holes.
 * Use a deburring tool or round file to clean up the edges of the holes.
 
-{% include picture.html src="computer_box/IMG_6937.jpg" src2="computer_box/IMG_6939.jpg" caption="The computer control box with the exhaust and cable feed holes drilled out." %}
+{% include picture.html src="computer_box/IMG_6939.jpg" caption="The computer control box with the exhaust and cable feed holes drilled out." %}
 
 * Clean out all debris in the box. Compressed air works well for this if you have it.
 
