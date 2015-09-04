@@ -57,6 +57,9 @@ This section outlines how to build the platform for the electronics to sit on.  
 
 * Allow the silicon to harden for one (1) hour.
 * In the mean time, mark a line 19" from the end of the perforated plastic board (in the long direction of the board).
+
+{% include picture.html src="computer_box/perf_01.jpg" caption="Perforated board marked with a line at 19&quot;" %}
+
 * Clamp the perforated board to a bench such that the marked line overhangs by an inch or so. Use a hacksaw, which has the blade sticking out of the body, to carefully cut along the line.
 * Use a file to neaten up the end face and remove any sharp edges.
 * Once the silicon has hardened place the perforated board on the two bars in the base of the pelican box. Adjust its position so that the perforated board is approximately in the middle in both directions.
