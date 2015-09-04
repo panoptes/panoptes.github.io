@@ -36,13 +36,27 @@ The aim is to assemble the head unit of PANOPTES, which should look like this wh
 * Marker/scriber
 * Rags
 
+## Technical drawings
+
+* [Dovetail]({{ site.url }}/tech_drawings/Dovetail.PDF)
+* [Camera Mounting Plate]({{ site.url }}/tech_drawings/CameraMountingPlate.PDF)
+* [Camera Enclosure Mounting Plate 01]({{ site.url }}/tech_drawings/CameraEnclosureMountingPlate_01.PDF)
+* [Camera Enclosure Mounting Plate 02]({{ site.url }}/tech_drawings/CameraEnclosureMountingPlate_02.PDF)
+* [Camera Enclosure 01]({{ site.url }}/tech_drawings/CameraEnclosure_01.PDF)
+* [Camera Enclosure 02]({{ site.url }}/tech_drawings/CameraEnclosure_02.PDF)
+
 
 ## Dovetail rail
-* Start with the dove tail rail (EQD6) and the corresponding technical drawing (Pan001.pdf).  
+* Start with the dove tail rail (EQD6) and the corresponding technical drawing.
+
 * Mount the dovetail rail upside down in the vice (use rags so that the rail does not get scratched).
-* Put a 7 mm drill bit in the cordless drill. Carefully drill out the central hole. Note, you need to place a strong force on the drill, hold it tightly and be careful as it may get stuck. If you have access to a drill press use it. * Slowly step up the drill bit size until the central hole is 13 mm in diameter.
-* From Pan001, it can be seen that there are two counter bored holes at 35.5 and 185.5 mm from the end of the rail.
-* Counter bored means the hole hides the head of a typical socket head screw. First drill through the rail with a 7.0 mm drill bit. Then use an 11.0 mm drill bit to create the counter bore. Drill it down to 6 mm below the surface of the rail.
+* Put a 7 mm drill bit in the cordless drill. Carefully drill out the central hole. Note, you need to place a strong force on the drill, hold it tightly and be careful as it may get stuck. If you have access to a drill press use it.
+* Slowly step up the drill bit size until the central hole is 15 mm in diameter.
+* From the dovetail technical drawing, it can be seen that there are two counter bored holes at 35.5 mm and 185.5 mm from the end of the rail.
+
+{% include note.html text="Counter bored means the hole hides the head of a typical socket head screw." %}
+
+* First drill through the rail with a 7.0 mm drill bit. Then use an 11.0 mm drill bit to create the counter bore. Drill it down to 6 mm below the surface of the rail.
 * Use a deburring tool or a file to remove sharp edges.
 * Remove from vice and set aside.
 
