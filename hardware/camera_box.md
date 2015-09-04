@@ -58,15 +58,15 @@ The aim is to assemble the head unit of PANOPTES, which should look like this wh
 
 * From the dovetail technical drawing, it can be seen that there are two counter bored holes at 35.5 mm and 185.5 mm from the end of the rail.
 
-{% include note.html text="Counter bored means the hole hides the head of a typical socket head screw." %}
+{% include note.html text="Counter-bored means the hole hides the head of a typical socket head screw." %}
 
-* First drill through the rail with a 7.0 mm drill bit. Then use an 11.0 mm drill bit to create the counter bore. Drill it down to 6 mm below the surface of the rail.
+* First drill through the rail with a 7.0 mm drill bit. Then use an 11.0 mm drill bit to create the counter-bore. Drill it down to 6 mm below the surface of the rail.
 * Use a deburring tool or a file to remove sharp edges.
 * Remove from vice and set aside.
 
 ## Bottom mounting plate
 
-{% include picture.html src="camera_box/003.jpg" caption="Image shows all three mounting plates that will be created according to the instructions below. From bottom to top: bottom mounting plate, top mounting plate, camera mounting plate." %}
+{% include picture.html src="camera_box/003.jpg" caption="Image showing all three mounting plates that will be created according to the instructions below. From bottom to top: bottom mounting plate, top mounting plate, camera mounting plate." %}
 
 * For this part refer to the [Camera Enclosure Mounting Plate 01]({{ site.url }}/tech_drawings/CameraEnclosureMountingPlate_01.PDF).
 * Take one of the 12” long aluminum plates, mark a line 200 mm (7.87”) from one end of the plate.
@@ -74,12 +74,12 @@ The aim is to assemble the head unit of PANOPTES, which should look like this wh
 * Use a hacksaw to cut off the short end. If you have a bandsaw use it.
 * Once cut, use a large flat file to flatten the end and clean up the edges.
 * Remove the plate from the vice.
-* Mark all 7 hole positions as per Pan003.pdf. Make sure the marks are clearly seen and accurate to 0.5 mm.
+* Mark all seven (7) hole positions as per the technical drawing. Make sure the marks are clearly seen and accurate to 0.5 mm.
 * Place the plate back in the vice with marked side facing up.
-* To drill out the central hole, start with a 6 mm drill bit and drill through the plate. Then step up the drill bit size to 10 and finally 13 mm. Debur the edges of the hole with a deburring tool or small round file.
-* For the other 6 holes, use a 5.5 mm drill bit to drill through the plates.
-* Use a M6 tap and tap the 5.5 mm diameter holes. Go slow, apply pressure, keep the tap perpendicular to the plates and use some lubrication if you have some.
-* Check that the holes are ok by gently screwing in an M6 bolt into each.
+* To drill out the central hole, start with a 6 mm drill bit and drill through the plate. Then step up the drill bit size to 10 mm and finally 15 mm. Deburr the edges of the hole with a deburring tool or small round file.
+* For the other six (6) holes, use a 5.5 mm drill bit to drill through the plates.
+* Use an M6 tap and tap the 5.5 mm diameter holes. Go slow, apply pressure, keep the tap perpendicular to the plates and use some lubrication if you have some.
+* Check that the holes are ok by gently screwing an M6 bolt into each.
 * Remove plate from vice and set aside.
 
 ## Top mounting plate
@@ -89,11 +89,11 @@ The aim is to assemble the head unit of PANOPTES, which should look like this wh
 * Use a hacksaw to cut of the short end. If you have a bandsaw use it.
 * Once cut, use a large flat file to flatten the end and clean up the edges.
 * Remove the plate from the vice.
-* Mark all 7 hole positions as per Pan004.pdf. Make sure the marks are clearly seen and accurate to 0.5 mm.
+* Mark all seven (7) hole positions as per the technical drawing. Make sure the marks are clearly seen and accurate to 0.5 mm.
 * Place the plate back in the vice with marked side facing up.
-* To drill out the central hole, start with a 6 mm drill bit and drill through the plate. Then step up the drill bit size to 10 and finally 13 mm. Debur the edges of the hole with a deburring tool or small round file.
-* The 4 outside holes are counter bored for M6 socket head screws. Start by drilling out a 7 mm hole all the way through. Once this is complete, widen the hole to an 11 mm diameter down to a depth of 6 mm.
-* The remaining 3 holes are all M6 tapped holes. Drill out a 5.5 mm hole for each. Then tap with an M6 tap as above.
+* To drill out the central hole, start with a 6 mm drill bit and drill through the plate. Then step up the drill bit size to 10 mm and finally 15 mm. Deburr the edges of the hole with a deburring tool or small round file.
+* The four (4) outside holes are counter-bored for M6 socket head screws. Start by drilling out a 7 mm hole all the way through. Once this is complete, widen the hole to an 11 mm diameter down to a depth of 6 mm.
+* The remaining three (3) holes are all M6 tapped holes. Drill out a 5.5 mm hole for each. Then tap with an M6 tap as above.
 * Check that the holes are ok by gently screwing in an M6 bolt into each.
 
 ## Camera mounting plate
@@ -103,11 +103,11 @@ The aim is to assemble the head unit of PANOPTES, which should look like this wh
 * Use a hacksaw to cut of the short end. If you have a bandsaw use it.
 * Once cut, use a large flat file to flatten the end and clean up the edges.
 * Remove the plate from the vice.
-* Mark the position of the 3 counter bored holes on the top surface (These are the lower 3 holes in the top view) and a central hole.
+* Mark the position of the three (3) counter-bored holes on the top surface (These are the lower three (3) holes in the top view) and a central hole.
 * Place the plate back in the vice with marked side facing up.
-* To drill out the central hole, start with a 6 mm drill bit and drill through the plate. Then step up the drill bit size to 10 and finally 13 mm. Debur the edges of the hole with a deburring tool or small round file.
-* The 3 counter bored holes are for M6 socket head screws. Start by drilling out a 7 mm hole all the way through. Once this is complete, widen the hole to an 11 mm diameter down to a depth of 6 mm.
-* Remove the plate from the vice and turn over. Mark the position of the 2 counter bored holes that go on the bottom side (lower two holes in the bottom view image). Make sure to use the same reference surface when measuring the plate on the bottom side, its easy to make a mistake the plate is flipped.
+* To drill out the central hole, start with a 6 mm drill bit and drill through the plate. Then step up the drill bit size to 10 mm and finally 15 mm. Deburr the edges of the hole with a deburring tool or small round file.
+* The three (3) counter bored holes are for M6 socket head screws. Start by drilling out a 7 mm hole all the way through. Once this is complete, widen the hole to an 11 mm diameter down to a depth of 6 mm.
+* Remove the plate from the vice and turn over. Mark the position of the two (2) counter-bored holes that go on the bottom side (lower two holes in the bottom view image). Make sure to use the same reference surface when measuring the plate on the bottom side, its easy to make a mistake the plate is flipped.
 * Place the plate back in the vice with marked side facing up.
 * Start by drilling out a 7 mm hole all the way through. Once this is complete, widen the hole to an 11 mm diameter down to a depth of 6 mm.
 * Remove the plate form the vice. Turn the plate up so that the top surface is up once again. Mark two straight lines perpendicular to the top edge of the plate that are tangential with the central hole (as per the top view of the drawing).
@@ -118,9 +118,14 @@ The aim is to assemble the head unit of PANOPTES, which should look like this wh
 
 ## Camera enclosure box
 * For this part refer to the [Camera Enclosure Box]({{ site.url }}/tech_drawings/CameraEnclosure_01.PDF).
-* Open the lid to the enclosure and mark the position of the 5 holes on the bottom surface.
-* By either placing it in a vice or having a colleague hold the box tightly, slowly drill out 8 mm diameter holes in the location of the 4 outer marks. Drill out a 13 mm hole for the central hole. If you use a vice, make sure to use rags to not damage the box.
-* Next mark the position of the 2 large holes on the front surface of the box. To get the best results, push the left edge of the box (as per the bottom figure in Pan005.pdf) against a flat vertical surface. Mark the holes in the horizontal direction by using the vertical surface as a reference.
+* Open the lid to the enclosure and mark the position of the five (5) holes on the bottom surface.
+* By either placing it in a vice or having a colleague hold the box tightly, slowly drill out 8 mm diameter holes in the location of the four (4) outer marks.
+* Start with a 5 mm pilot hole and slowly step up drill bit size until you have drilled out a 15 mm hole for the central hole by . If you use a vice, make sure to use rags to not damage the box.
+
+{% include picture.html src="camera_box/011.jpg" src2="camera_box/012.jpg" caption="" %}
+{% include picture.html src="camera_box/005.jpg" src2="camera_box/006.jpg" caption="A sequence of images showing the drilling out of the center 15 mm hole by stepping up the drill bit size from 5 mm." %}
+
+* Next mark the position of the two (2) large holes on the front surface of the box. To get the best results, push the left edge of the box (as per the bottom figure in the technical drawing) against a flat vertical surface. Mark the holes in the horizontal direction by using the vertical surface as a reference.
 * Drill out two pilot holes with a 5 mm drill bit.
 * Once again either mount the box in a vice or get a friend to hold it very tightly before you drill out the two large holes. Note the plastic is quiet soft and the drill goes through easily.
 * Put the hole saw and associated drill bit into your cordless drill. While the box is being held, proceed to drill out the two large holes in the front panel. Best results are achieved when the drill is kept perpendicular to the surface and pressure is put on the drill while it is cutting. Hole saws can be very aggressive so be careful. The plastic box is relatively soft and the hole saw goes through with minimal effort.
@@ -131,8 +136,11 @@ The aim is to assemble the head unit of PANOPTES, which should look like this wh
 {% include note.html text="Once all steps above have been followed and completed, then it is very important to clean all machining fluids/greases and shards off all parts. Best results are achieved with a bath of warm soapy water. Let the parts soak for 10 minutes and then take them out and scrub them under a running tap. Dry them immediately to avoid oxidation/rust. To clean out the gunk and water in the holes, use ear buds." %}
 
 ## Assembly
-* Place the Bottom mounting plate on top of the dovetail rail. Use two (2) M6 socket head screws to secure the rail to the bottom mounting plate from the bottom.
-* Place the top mounting plate inside the enclosure, and the enclosure on top of the bottom mounting plate. Use 4 M6 socket head screws to secure the top plate to the bottom plate. Do not over tighten.
+
+{% include picture.html src="camera_box/housing_3.jpg" caption="Assemble the parts according to the picture and the instructions below." %}
+
+* Place the bottom mounting plate on top of the dovetail rail. Use two (2) M6 socket head screws to secure the rail to the bottom mounting plate from the bottom.
+* Place the top mounting plate inside the enclosure. Use 4 M6 socket head screws to secure the top plate to the bottom plate. Do not over tighten.
 * Insert USB cables into the USB ports of the cameras. Its advised to use mini USB A – right angle mini USB B. Put the right angled end into the camera.
 * Insert SD card into camera
 * Plug AC power adapters into both cameras.
@@ -145,6 +153,5 @@ The aim is to assemble the head unit of PANOPTES, which should look like this wh
 
 Once complete the unit should look as shown in the images below.
 
-{% include picture.html src="camera_box/camera_box_02.jpg" caption="" %}
-{% include picture.html src="camera_box/camera_box_03.jpg" caption="" %}
+{% include picture.html src="camera_box/camera_box_02.jpg" src2="camera_box/camera_box_02.jpg" caption="" %}
 {% include picture.html src="camera_box/camera_box_05.jpg" caption="" %}
