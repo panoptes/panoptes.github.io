@@ -54,7 +54,6 @@ The aim is to assemble the head unit of PANOPTES, which should look like this wh
 
 {% include picture.html src="camera_box/002.jpg" src2="camera_box/001.jpg" caption="Left: Dovetail railing before drilling. Right: Dovetail rail after being attached to the camera box. Notice the 15 mm central hole." %}
 
-
 {% include question.html text="Do we still do the steps below?" %}
 
 * From the dovetail technical drawing, it can be seen that there are two counter bored holes at 35.5 mm and 185.5 mm from the end of the rail.
@@ -66,6 +65,9 @@ The aim is to assemble the head unit of PANOPTES, which should look like this wh
 * Remove from vice and set aside.
 
 ## Bottom mounting plate
+
+{% include picture.html src="camera_box/003.jpg" caption="Image shows all three mounting plates that will be created according to the instructions below. From bottom to top: bottom mounting plate, top mounting plate, camera mounting plate." %}
+
 * For this part refer to the [Camera Enclosure Mounting Plate 01]({{ site.url }}/tech_drawings/CameraEnclosureMountingPlate_01.PDF).
 * Take one of the 12” long aluminum plates, mark a line 200 mm (7.87”) from one end of the plate.
 * Mount it in the vice with the line facing up. Make sure the line is positioned outside the vice but within a few centimeters (an inch) of the edge of the vice.
