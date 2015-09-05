@@ -46,29 +46,31 @@ The aim is to assemble the pier for PANOPTES, which should look like this when c
 
 ## Building the pier
 
+{% include warning.html text="Always wear safety glasses, remove all rings and bracelets, and keep hands away from the drill bit while operating." %}
+
 {% include picture.html src="pier/pier_01.jpg" caption="Hardware required for building the pier. See below for more details." %}
 
 * Mark plates as instructed in the technical drawings.
 * Mark holes using a hole punch and a hammer. This will help guide the drill bits.
-* Drill pilot holes after securing the plate with clamps (wear safety glasses, remove all rings and bracelets, and keep hands away from the drill bit while on). Pilot holes should be machined with 3-5 mm diameter drill bits. Make sure the bits are tightly secured in the drill press or a vice of using a drill. When drilling, it is advisable to use a lubricant.
-* Next, widen the holes to their final diameters by using the appropriate sized drill bits (for tapped holes, use a bit 0.7 to 0.8 mm smaller bit than the thread requires, for example if an M8 hole is required drill a 7.2 or 7.3 hole is needed).
-* Clean the plates using water and a cleaning product such as simple green.
+* Drill pilot holes after securing the plate with clamps. Pilot holes should be machined with 3-5 mm diameter drill bits. Make sure the bits are tightly secured in the drill press or a vice of using a drill. When drilling, it is advisable to use a lubricant.
+* Next, widen the holes to their final diameters by using the appropriate sized drill bits (
+
+{% include note.html text="For tapped holes, use a bit 0.7 to 0.8 mm smaller than the thread requires, for example if an M8 hole is required then a 7.2 mm or 7.3 mm hole is needed." %}
+
+* Clean the plates using water and a cleaning product such as Simple Green.
 * Use compressed air to clean out the holes (turn the plate away from you while doing so, so that debris does not strike you in the eye). A long thin object could be used to push the debris out instead.
 * Position the two aluminum extrusions (160x80 mm in size) next to each other standing on the ends as shown in the figure below.
 
-{% include picture.html src="pier/pier_17.jpg" %}
+{% include picture.html src="pier/pier_17.jpg" caption="Aluminum extensions arranged next to each other so that plates can properly be mounted." %}
 
-* Place the plate labeled "bottom plate" (the bigger one) on top of the two extrusions and line up the holes.
-
-{% include picture.html src="pier/pier_19.jpg" %}
-
+* Place the plate labeled "bottom plate" on top of the two extrusions and line up the holes.
 * Use 30 mm long M8 screws to secure the plate to one of the extrusions at a time.
 
-{% include picture.html src="pier/pier_18.jpg" %}
+{% include picture.html src="pier/pier_19.jpg" caption="The bottom plate has been placed on top of the aluminum extensions and holes have been lined up but no bolts have yet been placed." %}
 
 * Screw in the bolts until tension is felt, then loosen about half a turn (use washers in between the bolts and the metal plate).
 
-{% include picture.html src="pier/pier_21.jpg" %}
+{% include picture.html src="pier/pier_21.jpg" src2="pier/pier_18.jpg" caption="Left: Close-up of M8 bolts that have been put into place but not yet tightened.  Right: Half of the 30mm long M8 screws have been put into place." %}
 
 * Turn the pier so that the bottom plate is on the ground and the extrusions are standing vertically.
 * Place the "top plate" (smaller) on the two extrusions and line up the holes making sure that the side with more holes is on top.
