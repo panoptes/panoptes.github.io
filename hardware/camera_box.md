@@ -9,6 +9,8 @@ layout: default
 
  {% include warning.html text="We do not advise people under the age of 18 to undertake this build without a parent or guardian present. In addition, although the build has been simplified so that most people can attempt it, a basic understanding and skill with everyday tools is necessary. If you are not familiar with these tools, please seek appropriate training/advise. " %}
 
+{% include unit_note.html %}
+
 <h3>Table of Contents</h3>
 - [Assembling the Camera Box](#assembling-the-camera-box)
 	- [Introduction](#introduction)
@@ -52,7 +54,7 @@ The aim is to assemble the head unit of PANOPTES, which should look like this wh
 * Put a 7 mm drill bit in the cordless drill. Carefully drill out the central hole. Note, you need to place a strong force on the drill, hold it tightly and be careful as it may get stuck. If you have access to a drill press use it.
 * Slowly step up the drill bit size until the central hole is 15 mm in diameter.
 
-{% include picture.html src="camera_box/002.jpg" src2="camera_box/001.jpg" caption="Left: Dovetail railing before drilling. Right: Dovetail rail after being attached to the camera box. Notice the 15 mm central hole." %}
+{% include picture.html src="camera_box/002.jpg" src2="camera_box/001.jpg" caption="Left: Dovetail railing before drilling. Right: Dovetail rail after being attached to the camera box. Notice the drilled out 15 mm central hole." %}
 
 {% include question.html text="Do we still do the steps below?" %}
 

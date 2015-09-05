@@ -9,6 +9,8 @@ layout: default
 
  {% include warning.html text="We do not advise people under the age of 18 to undertake this build without a parent or guardian present. In addition, although the build has been simplified so that most people can attempt it, a basic understanding and skill with everyday tools is necessary. If you are not familiar with these tools, please seek appropriate training/advise. " %}
 
+ {% include unit_note.html %}
+
  <h3>Table of Contents</h3>
 - [Assembling the Pier](#assembling-the-pier)
     - [Introduction](#introduction)
