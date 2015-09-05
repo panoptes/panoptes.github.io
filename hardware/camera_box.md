@@ -71,7 +71,7 @@ The aim is to assemble the head unit of PANOPTES, which should look like this wh
 {% include picture.html src="camera_box/003.jpg" caption="Image showing all three mounting plates that will be created according to the instructions below. From bottom to top: bottom mounting plate, top mounting plate, camera mounting plate." %}
 
 * For this part refer to the technical drawing for the bottom mounting plate, [PAN003]({{ site.url }}/tech_drawings/PAN003.PDF).
-* Take one of the 12” long aluminum plates, mark a line 200 mm (7.87”) from one end of the plate.
+* Take one (1) of the 12” long aluminum plates, mark a line 200 mm (7.87”) from one end of the plate.
 * Mount it in the vice with the line facing up. Make sure the line is positioned outside the vice but within a few centimeters (an inch) of the edge of the vice.
 * Use a hacksaw to cut off the short end. If you have a bandsaw use it.
 * Once cut, use a large flat file to flatten the end and clean up the edges.
