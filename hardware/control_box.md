@@ -162,3 +162,9 @@ This section outlines how to build the platform for the electronics to sit on.  
 * Carefully place an even layer of silicon sealant around the hole and the PVC pipe to prevent water entering the box.
 
 {% include picture.html src="computer_box/IMG_6946.jpg"  src2="computer_box/IMG_6948.jpg" %}
+
+## Next Steps
+
+Getting the electronics in place is the next step. To the <a href="{{ site.url }}/electronics/computer_box.html">Computer Box Electronics</a>!.
+
+Want to shelter that box from the storm? See <a href="{{ site.url }}/hardware/weatherproofing.html">Weatherproofing</a>!.
