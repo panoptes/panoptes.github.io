@@ -39,13 +39,11 @@ The aim is to assemble the head unit of PANOPTES, which should look like this wh
 * Rags
 
 ## Technical drawings
-
 * [PAN001 - Dovetail]({{ site.url }}/tech_drawings/PAN001.PDF)
 * [PAN002 - Camera Mounting Plate]({{ site.url }}/tech_drawings/PAN002.PDF)
 * [PAN003 - Bottom Mounting Plate]({{ site.url }}/tech_drawings/PAN003.PDF)
 * [PAN004 - Top Mounting Plate]({{ site.url }}/tech_drawings/PAN004.PDF)
 * [PAN005 - Camera Enclosure]({{ site.url }}/tech_drawings/PAN005.PDF)
-
 
 ## Dovetail rail
 * For this part please refer to the technical drawing for the dovetail, [PAN001]({{ site.url }}/tech_drawings/PAN001.PDF).

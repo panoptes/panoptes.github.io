@@ -7,6 +7,10 @@ layout: default
 
  {% include warning.html text="We do not advise people under the age of 18 to undertake this build without a parent or guardian present. In addition, although the build has been simplified so that most people can attempt it, a basic understanding and skill with everyday tools is necessary. If you are not familiar with these tools, please seek appropriate training/advise. " %}
 
+## Introduction
+
+The aim is to assemble the pier for PANOPTES, which should look like this when complete.  A specific parts list as advised by the PANOPTES team can be found above including the tools needed for the build. These are the parts that have been determined to work well for the purposes of this project. However, modifications or swaps for other components are fine, but will not be supported by the PANOPTES team. Feedback on the parts/instructions is welcomed and encouraged.
+
 ## Tools
 * Ruler (metric)
 * Fine tip writing utensil
@@ -21,11 +25,19 @@ layout: default
 * 8, 20 mm long M8 screws
 * 8, 30mm long M8 screws
 
+## Technical drawings
+* [PAN006c - Top Plate (iEQ30 & iEQ45)]({{ site.url }}/tech_drawings/PAN006c.PDF)
+* [PAN007 - Bottom Plate]({{ site.url }}/tech_drawings/PAN007.PDF)
+
+The following two technical drawings are provided as a reference for building a top plate for the different mounts. The drawing above, PAN006c, can accommodate both mounts and is the recommended design for the top plate.
+
+* [PAN006b - Top Plate (iEQ30)]({{ site.url }}/tech_drawings/PAN006b.PDF)
+* [PAN006a - Top Plate (iEQ45)]({{ site.url }}/tech_drawings/PAN006a.PDF)
+
+
+## Building the pier
+
 {% include picture.html src="pier/pier_01.jpg" caption="Hardware required for building the pier. See below for more details." %}
-
-## Introduction
-
-The aim is to assemble the pier for PANOPTES, which should look like this when complete.  A specific parts list as advised by the PANOPTES team can be found above including the tools needed for the build. These are the parts that have been determined to work well for the purposes of this project. However, modifications or swaps for other components are fine, but will not be supported by the PANOPTES team. Feedback on the parts/instructions is welcomed and encouraged.
 
 * Mark plates as instructed in the technical drawings.
 * Mark holes using a hole punch and a hammer. This will help guide the drill bits.
