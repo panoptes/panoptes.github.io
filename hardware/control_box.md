@@ -70,7 +70,7 @@ This section outlines how to build the platform for the electronics to sit on.  
 * Clamp the perforated board to a bench such that the marked line overhangs by an inch or so. Use a hacksaw, which has the blade sticking out of the body, to carefully cut along the line.
 * Use a file to neaten up the end face and remove any sharp edges.
 * Once the silicon has hardened place the perforated board on the two bars in the base of the pelican box. Adjust its position so that the perforated board is approximately in the middle in both directions.
-* Use four (4) button head, low profile screws to secure the perforated board to the plastic rods below. Place one (1) screw in each corner of the perforated board about 130 - 140 mm from the walls in an open hole.  Be careful not to over tighten, as you will cross thread the PVC bar and the screw wont hold.
+* Use four (4) button head, low profile screws to secure the perforated board to the plastic rods below. Place one (1) screw in each corner of the perforated board about 130-140 mm from the walls in an open hole.  Be careful not to over tighten, as you will cross thread the PVC bar and the screw wont hold.
 
 
 ## Cutting out exhaust and cable pass through holes
@@ -132,12 +132,12 @@ This section outlines how to build the platform for the electronics to sit on.  
 {% include picture.html src="computer_box/IMG_6942.jpg"  src2="computer_box/IMG_6943.jpg" %}
 
 ## Cooling fan assembly
-* Take the 3 1/4" PVC pipe connector. Drill two 3 mm holes which are spaced by 5 mm and about 13 - 25 mm from one end of the connector.
+* Take the 3 1/4" PVC pipe connector. Drill two 3 mm holes which are spaced by 5 mm and about 13-25 mm from one end of the connector.
 * Drill three (3) more sets spaced by 90 degrees on the outside of the connector. See image below for clarification.
 
 {% include picture.html src="computer_box/IMG_6924.jpg"  src2="computer_box/IMG_6925.jpg" %}
 
-* Take a 150 - 200 mm length of tie wire, fold it in half and push it through one pair of holes from the inside outwards.
+* Take a 150-200 mm length of tie wire, fold it in half and push it through one pair of holes from the inside outwards.
 * Place the 80 mm ball bearing cooling fan on the end nearest the tie wire. Make sure the arrow indicating the direction of flow is pointing away from the connector end.
 
 {% include picture.html src="computer_box/003.jpg" caption="Arrows indicating direction of air flow. Air should be pulling into the exhaust pipe, so arrow will point away from PVC pipe." %}
@@ -152,7 +152,7 @@ This section outlines how to build the platform for the electronics to sit on.  
 {% include picture.html src="computer_box/IMG_6927.jpg"  src2="computer_box/IMG_6929.jpg" %}
 
 ## Exhaust pipe
-* Cut a 63 - 76 mm length of 3 1/4" PVC pipe.
+* Cut a 63-76 mm length of 3 1/4" PVC pipe.
 * Apply a bead of silicon around the outside of the pipe close to one end.
 * Push the silicon-layered end into a 90-degree elbow of 3 1/4" PVC piping.  Push and pull the pipe while twisting to get an even layering of the silicon in the joint.  Then push the pipe all the way in.
 * Push the pipe through the hole in the side of the pelican box. From the inside push the opposite end of the connector, which is attached to the fan on to the pipe.

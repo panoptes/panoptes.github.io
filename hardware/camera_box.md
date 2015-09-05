@@ -150,7 +150,7 @@ The aim is to assemble the head unit of PANOPTES, which should look like this wh
 
 {% include note.html text="All commercial cameras use imperial units for the base attachment, so the below screws are listed in inches rather than the standard millimeter." %}
 
-* Screw cameras to camera mounting plate by using 1/4” -20 socket head screws from beneath the plate. They should be 3/8” - 3/4” long.
+* Screw cameras to camera mounting plate by using 1/4” -20 socket head screws from beneath the plate. They should be 3/8”-3/4” long.
 * Screw the camera mounting plate to the top mounting plate with three (3) M6 socket head screws.
 * Place lenses on cameras.
 * Place dust shields on the lenses.
