@@ -628,12 +628,6 @@ a:hover {
   color: #ffeb9b;
 }
 
-a.nodecoration {
-  color: #337ab7;
-  font-weight: 400;
-  text-decoration: none;
-}
-
 a small {
   font-size: 11px;
   color: #666;
