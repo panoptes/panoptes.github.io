@@ -38,7 +38,7 @@ The aim is to assemble the pier for PANOPTES, which should look like this when c
 * [PAN006c - Top Plate (iEQ30 & iEQ45)]({{ site.url }}/tech_drawings/PAN006c.PDF)
 * [PAN007 - Bottom Plate]({{ site.url }}/tech_drawings/PAN007.PDF)
 
-The following two technical drawings are provided as a reference for building a top plate for the different mounts. The drawing above, PAN006c, can accommodate both mounts and is the recommended design for the top plate.
+{% include note.html text="The following two technical drawings are provided as a reference for building a top plate for the different mounts. The drawing above, PAN006c, can accommodate both mounts and is the recommended design for the top plate." %}
 
 * [PAN006b - Top Plate (iEQ30)]({{ site.url }}/tech_drawings/PAN006b.PDF)
 * [PAN006a - Top Plate (iEQ45)]({{ site.url }}/tech_drawings/PAN006a.PDF)
