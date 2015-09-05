@@ -13,7 +13,7 @@ layout: default
 - [Assembling the Camera Box](#assembling-the-camera-box)
 	- [Introduction](#introduction)
 	- [Tools](#tools)
-	- [Technical Drawings](#technical-drawings)- 
+	- [Technical Drawings](#technical-drawings)
 	- [Dovetail rail](#dovetail-rail)
 	- [Bottom mounting plate](#bottom-mounting-plate)
 	- [Top mounting plate](#top-mounting-plate)
