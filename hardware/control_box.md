@@ -32,7 +32,9 @@ The aim is to assemble the enclosure for the control electronics of PANOPTES, wh
 
 * Cordless drill
 * Set of drill bits
-* 3 1/4", 1 3/4" hole saw and hole saw drill bit
+* Hole saw drill bit
+* 3 1/4" hole saw
+* 1 3/4" hole saw
 * Hacksaw, preferably the version where the blade is in front of the tool.
 * Vice
 * Silicon dispensing gun
