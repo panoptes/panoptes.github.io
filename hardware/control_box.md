@@ -52,35 +52,35 @@ The instructions below outline the procedure needed to outfit the box.
 ## Building a platform
 This section outlines how to build the platform for the electronics to sit on.  This is useful so that air can circulate below the electronics to help temperature regulation and keeps the electronics off the bottom where they could be susceptible to damage given a leak.
 
-* Mark two sections of ~18" (458 mm) on the PVC rod.
+* Mark two sections of 458 mm on the PVC rod.
 * Mount the rod in a vice such that the line for the cut is about an inch outside the vice. Use a hacksaw and cut the bar. Repeat for the other line.
 * Use a file (or a belt sander if you have access to one) to neaten the cut end face and remove any sharp edges.
-* Mark two (2) lines in the bottom of the pelican box which are 3" (75 mm) from the two long sides.
+* Mark two (2) lines in the bottom of the pelican box which are 75 mm from the two long sides.
 * Clean any debris from inside the box.
-* Apply a bead of silicon sealant parallel to the two lines but offset towards the center of the box by 1/2" (12.5 mm). The silicon should terminate about 1.5" from the ends of the box.
+* Apply a bead of silicon sealant parallel to the two lines but offset towards the center of the box by 12.5 mm. The silicon should terminate about 38 mm from the ends of the box.
 * Ensure that the two cut bars are clean before pressing them on the silicon bead. Slowly squeeze them and move them around so that the silicon forms a nice thin layer below the bar and is in contact everywhere. When the silicon has been squeezed sufficiently, align the edge of the bar with the marked line in the box, such that the bar is on the inside of this line (with respect to the box). Make sure it is equally spaced from both ends of the box in the perpendicular direction. Use your finger to smear out the excess silicon and seal the gaps between the bar and the box all the way around so that the silicon layer under the bar is sealed.
 
-{% include picture.html src="computer_box/IMG_6922.jpg" src2="computer_box/IMG_6933.jpg" caption="Left: Image showing one PVC rod already glued in place and the other strip of silicon ready to be placed. Bead of silicon is 3.5&quot; from the wall. Right: Perforated board is centered on the rails and secured. Button head screws used to secure perforate plate. (See below for perforated board instructions)" %}
+{% include picture.html src="computer_box/IMG_6922.jpg" src2="computer_box/IMG_6933.jpg" caption="Left: Image showing one PVC rod already glued in place and the other strip of silicon ready to be placed. Bead of silicon is 90 mm from the wall. Right: Perforated board is centered on the rails and secured. Button head screws used to secure perforate plate. (See below for perforated board instructions)" %}
 
 * Allow the silicon to harden for one (1) hour.
-* In the mean time, mark a line 19" from the end of the perforated plastic board (in the long direction of the board).
+* In the mean time, mark a line 485 mm from the end of the perforated plastic board (in the long direction of the board).
 
-{% include picture.html src="computer_box/perf_01.jpg" caption="Perforated board marked with a line at 19&quot;" %}
+{% include picture.html src="computer_box/perf_01.jpg" caption="Perforated board marked with a line at 485 mm." %}
 
 * Clamp the perforated board to a bench such that the marked line overhangs by an inch or so. Use a hacksaw, which has the blade sticking out of the body, to carefully cut along the line.
 * Use a file to neaten up the end face and remove any sharp edges.
 * Once the silicon has hardened place the perforated board on the two bars in the base of the pelican box. Adjust its position so that the perforated board is approximately in the middle in both directions.
-* Use four (4) button head, low profile screws to secure the perforated board to the plastic rods below. Place one (1) screw in each corner of the perforated board about 5 1/2" (~130-140 mm) from the walls in an open hole.  Be careful not to over tighten, as you will cross thread the PVC bar and the screw wont hold.
+* Use four (4) button head, low profile screws to secure the perforated board to the plastic rods below. Place one (1) screw in each corner of the perforated board about 130 - 140 mm from the walls in an open hole.  Be careful not to over tighten, as you will cross thread the PVC bar and the screw wont hold.
 
 
 ## Cutting out exhaust and cable pass through holes
 * Stand the pelican box up vertical. On the top surface and to the right of the handle you will need to mark a hole for the 3" PVC pipe to pass into the box.
-* Mark a point approximately 2 1/4" (55 mm) from the handle mounting point and 2 1/4" (55 mm) from the lip for the box lid.
+* Mark a point approximately 55 mm from the handle mounting point and 55 mm from the lip for the box lid.
 
 {% include picture.html src="computer_box/IMG_6934.jpg" caption="Mark the box with a circle where you plan to use the hole saw. Always double-check your measurements before drilling." %}
 
 * Use a short section of 3 1/4" PVC pipe and trace a circle on the box centered on this point.
-* Ensure that the edges of the circle are at least 0.4" (10 mm) from any of the features on the box.
+* Ensure that the edges of the circle are at least 10 mm from any of the features on the box.
 
 {% include picture.html src="computer_box/001.jpg" src2="computer_box/IMG_6936.jpg" caption="Left: A pilot hole marked 55 mm from both the box lip and the handle. Right: Hand drill with 3 1/4&quot; hole saw attached." %}
 * Mount a 3 mm drill bit in the cordless drill. Drill a hole on the center marker to serve as a pilot hole.
@@ -97,11 +97,11 @@ This section outlines how to build the platform for the electronics to sit on.  
 {% include picture.html src="computer_box/IMG_6937.jpg" caption="Computer control box with the exhaust hole drilled out. The rough edges pictured here should be smoothed with a deburring tool." %}
 
 * Next flip the box upside down (so the wheels are pointing upwards).
-* Mark two holes such that they are 1 3/4" (~45 mm) from the top lip for the lid and 2 1/8" & 5" (55 and 125 mm) from the right side of the box (note this assumes the wheels are closest to you and the lid is furthest from you).
+* Mark two holes such that they are ~45 mm from the top lip for the lid and 55 and 125 mm from the right side of the box (note this assumes the wheels are closest to you and the lid is furthest from you).
 
 {% include picture.html src="computer_box/002.jpg" caption="Holes marked at 55 mm and 125 mm from box edge. Note that the image shows the ruler at 400-55 = 345 mm and 400-125 = 275 mm." %}
 
-* Use a 2" long piece of 1 3/4" PVC pipe to draw a circle centered on each mark. Confirm that the circles have about 15 mm between them and that there is at least 10 mm from the lip for the lid. If not adjust hole position so that this condition is met.
+* Use a 50 mm long piece of 1 3/4" PVC pipe to draw a circle centered on each mark. Confirm that the circles have about 15 mm between them and that there is at least 10 mm from the lip for the lid. If not adjust hole position so that this condition is met.
 * Use a 3 mm drill bit and drill a hole on the two center marks.
 * Mount the 1 7/8" hole saw in the cordless drill.
 * Secure the box once again as described above and proceed to drill out the two holes.
@@ -118,11 +118,11 @@ This section outlines how to build the platform for the electronics to sit on.  
 {% include todo.html text="More pictures here." %}
 
 * On the inside, place a rubber o-ring over the protruding threaded end. Screw on the female end of the connector and hand tighten until the rubber is pressed nicely against the inside wall of the box. This will help secure the connector and act as a seal.
-* Cut a 2" long piece of 1 3/4" PVC pipe.  
+* Cut a 50 mm long piece of 1 3/4" PVC pipe.  
 * Place some silicon sealant on the outside near one end.
 * Push the silicon-coated end into the outside port of the connector.  Twist while pushing it in and out several times until the silicon coats the entire surface and then push the pipe in all the way.  Wipe any excess silicon off the inside and outside of the pipe.
 * Place a bead of silicon on the outside of the other end of the pipe.
-* Push a 1 3/4" length 90 degree elbow fitting onto the end and work it until the silicon is evenly distributed.
+* Push a 1 3/4" width 90 degree elbow fitting onto the end and work it until the silicon is evenly distributed.
 * Wipe up any excess and place a final bead of silicon on the outside of the joint between the connector and the elbow.
 * Carefully apply silicon around the edges of the hole in the pelican box where it meets the connector. The layer must be smooth and have good contact with the pelican box and there should be no holes or air bubbles in the silicon.
 * Repeat the entire assembly process for the second pipe.
@@ -132,12 +132,12 @@ This section outlines how to build the platform for the electronics to sit on.  
 {% include picture.html src="computer_box/IMG_6942.jpg"  src2="computer_box/IMG_6943.jpg" %}
 
 ## Cooling fan assembly
-* Take the 3 1/4" PVC pipe connector. Drill two 3 mm holes which are spaced by 5 mm and about 1/2" - 1" from one end of the connector.
+* Take the 3 1/4" PVC pipe connector. Drill two 3 mm holes which are spaced by 5 mm and about 13 - 25 mm from one end of the connector.
 * Drill three (3) more sets spaced by 90 degrees on the outside of the connector. See image below for clarification.
 
 {% include picture.html src="computer_box/IMG_6924.jpg"  src2="computer_box/IMG_6925.jpg" %}
 
-* Take a 6-8" length of tie wire, fold it in half and push it through one pair of holes from the inside outwards.
+* Take a 150 - 200 mm length of tie wire, fold it in half and push it through one pair of holes from the inside outwards.
 * Place the 80 mm ball bearing cooling fan on the end nearest the tie wire. Make sure the arrow indicating the direction of flow is pointing away from the connector end.
 
 {% include picture.html src="computer_box/003.jpg" caption="Arrows indicating direction of air flow. Air should be pulling into the exhaust pipe, so arrow will point away from PVC pipe." %}
@@ -152,7 +152,7 @@ This section outlines how to build the platform for the electronics to sit on.  
 {% include picture.html src="computer_box/IMG_6927.jpg"  src2="computer_box/IMG_6929.jpg" %}
 
 ## Exhaust pipe
-* Cut a piece 2.5"-3" long of 3 1/4" PVC pipe.
+* Cut a 63 - 76 mm length of 3 1/4" PVC pipe.
 * Apply a bead of silicon around the outside of the pipe close to one end.
 * Push the silicon-layered end into a 90-degree elbow of 3 1/4" PVC piping.  Push and pull the pipe while twisting to get an even layering of the silicon in the joint.  Then push the pipe all the way in.
 * Push the pipe through the hole in the side of the pelican box. From the inside push the opposite end of the connector, which is attached to the fan on to the pipe.
