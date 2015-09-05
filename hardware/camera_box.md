@@ -40,16 +40,15 @@ The aim is to assemble the head unit of PANOPTES, which should look like this wh
 
 ## Technical drawings
 
-* [Dovetail]({{ site.url }}/tech_drawings/Dovetail.PDF)
-* [Camera Mounting Plate]({{ site.url }}/tech_drawings/CameraMountingPlate.PDF)
-* [Camera Enclosure Mounting Plate 01]({{ site.url }}/tech_drawings/CameraEnclosureMountingPlate_01.PDF)
-* [Camera Enclosure Mounting Plate 02]({{ site.url }}/tech_drawings/CameraEnclosureMountingPlate_02.PDF)
-* [Camera Enclosure 01]({{ site.url }}/tech_drawings/CameraEnclosure_01.PDF)
-* [Camera Enclosure 02]({{ site.url }}/tech_drawings/CameraEnclosure_02.PDF)
+* [PAN001 - Dovetail]({{ site.url }}/tech_drawings/PAN001.PDF)
+* [PAN002 - Camera Mounting Plate]({{ site.url }}/tech_drawings/PAN002.PDF)
+* [PAN003 - Bottom Mounting Plate]({{ site.url }}/tech_drawings/PAN003.PDF)
+* [PAN004 - Top Mounting Plate]({{ site.url }}/tech_drawings/PAN004.PDF)
+* [PAN005 - Camera Enclosure]({{ site.url }}/tech_drawings/PAN005.PDF)
 
 
 ## Dovetail rail
-* For this part please refer to the technical drawing for the [Dovetail]({{ site.url }}/tech_drawings/Dovetail.PDF).
+* For this part please refer to the technical drawing for the dovetail, [PAN001]({{ site.url }}/tech_drawings/PAN001.PDF).
 * Mount the dovetail rail (EQD6) upside down in the vice (use rags so that the rail does not get scratched).
 * Put a 7 mm drill bit in the cordless drill. Carefully drill out the central hole. Note, you need to place a strong force on the drill, hold it tightly and be careful as it may get stuck. If you have access to a drill press use it.
 * Slowly step up the drill bit size until the central hole is 15 mm in diameter.
@@ -70,7 +69,7 @@ The aim is to assemble the head unit of PANOPTES, which should look like this wh
 
 {% include picture.html src="camera_box/003.jpg" caption="Image showing all three mounting plates that will be created according to the instructions below. From bottom to top: bottom mounting plate, top mounting plate, camera mounting plate." %}
 
-* For this part refer to the [Camera Enclosure Mounting Plate 01]({{ site.url }}/tech_drawings/CameraEnclosureMountingPlate_01.PDF).
+* For this part refer to the technical drawing for the bottom mounting plate, [PAN003]({{ site.url }}/tech_drawings/PAN003.PDF).
 * Take one of the 12” long aluminum plates, mark a line 200 mm (7.87”) from one end of the plate.
 * Mount it in the vice with the line facing up. Make sure the line is positioned outside the vice but within a few centimeters (an inch) of the edge of the vice.
 * Use a hacksaw to cut off the short end. If you have a bandsaw use it.
@@ -85,7 +84,7 @@ The aim is to assemble the head unit of PANOPTES, which should look like this wh
 * Remove plate from vice and set aside.
 
 ## Top mounting plate
-* For this part refer to the [Camera Enclosure Mounting Plate 02]({{ site.url }}/tech_drawings/CameraEnclosureMountingPlate_02.PDF).
+* For this part refer to the technical drawing for the top mounting plate, [PAN004]({{ site.url }}/tech_drawings/PAN004.PDF).
 * Take another 12” long aluminum plate, mark a line 200 mm (7.87”) from one end of the plate.
 * Mount it in the vice with the line facing up. Make sure the line is positioned outside the vice but within a few centimeters (an inch) of the edge of the vice.
 * Use a hacksaw to cut of the short end. If you have a bandsaw use it.
@@ -99,7 +98,7 @@ The aim is to assemble the head unit of PANOPTES, which should look like this wh
 * Check that the holes are ok by gently screwing in an M6 bolt into each.
 
 ## Camera mounting plate
-* For this part refer to the [Camera Mounting Plate]({{ site.url }}/tech_drawings/CameraMountingPlate.PDF).
+* For this part refer to the technical drawing for the camera mounting plate, [PAN002]({{ site.url }}/tech_drawings/PAN002.PDF).
 * Take another 12” long aluminum plate, mark a line 200 mm (7.87”) from one end of the plate.
 * Mount it in the vice with the line facing up. Make sure the line is positioned outside the vice but within a few centimeters (an inch) of the edge of the vice.
 * Use a hacksaw to cut of the short end. If you have a bandsaw use it.
@@ -119,7 +118,7 @@ The aim is to assemble the head unit of PANOPTES, which should look like this wh
 * Remove from vice and set aside.
 
 ## Camera enclosure box
-* For this part refer to the [Camera Enclosure Box]({{ site.url }}/tech_drawings/CameraEnclosure_01.PDF).
+* For this part refer to the technical drawing for the camera enclosure, [PAN005]({{ site.url }}/tech_drawings/PAN005.PDF).
 * Open the lid to the enclosure and mark the position of the five (5) holes on the bottom surface.
 * By either placing it in a vice or having a colleague hold the box tightly, slowly drill out 8 mm diameter holes in the location of the four (4) outer marks.
 * Start with a 5 mm pilot hole and slowly step up drill bit size until you have drilled out a 15 mm hole for the central hole by . If you use a vice, make sure to use rags to not damage the box.
