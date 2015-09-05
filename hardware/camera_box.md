@@ -155,9 +155,15 @@ The aim is to assemble the head unit of PANOPTES, which should look like this wh
 * Place lenses on cameras.
 * Place dust shields on the lenses.
 
-{% include todo.html text="What about other USB stuff? Hubs, controllers and so on? What about waterproofing?" %}
-
 Once complete the unit should look as shown in the images below.
+
+{% include todo.html text="Turn this into a mini-gallery?" %}
 
 {% include picture.html src="camera_box/camera_box_02.jpg" src2="camera_box/camera_box_02.jpg" caption="" %}
 {% include picture.html src="camera_box/camera_box_05.jpg" caption="" %}
+
+## Next Steps
+
+Ready to assemble the electronics for the head unit? See the <a href="{{ site.url }}/electronics/camera_box.html">Camera Box Electronics</a> instrunctions next!.
+
+Or how about weatherproofing? See the <a href="{{ site.url }}/hardware/weatherproofing.html">Weatherproofing</a> page!.
