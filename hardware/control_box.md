@@ -13,6 +13,7 @@ layout: default
 - [Assembling the Control Box](#assembling-the-control-box)
 	- [Introduction](#introduction)
 	- [Tools](#tools)
+	- [Technical Drawings](#technical-drawings)- 
 	- [Building a platform](#building-a-platform)
 	- [Cutting out exhaust and cable pass through's](#cutting-out-exhaust-and-cable-pass-throughs)
 	- [Installing cable feed through pipes](#installing-cable-feed-through-pipes)
