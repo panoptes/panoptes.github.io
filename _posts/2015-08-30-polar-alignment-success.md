@@ -21,3 +21,11 @@ When we first built the pier up on MLO we were using an iOptron iEQ45 Pro. This 
 Once the sun went down and the stars came out we set about doing the polar alignment. The trick here is simple: start with the mount completely horizontal and facing what you think to the center of the celestial pole, then expose your camera while you rotate the mount around the RA-axis. You can see the images we took below. The whole process took about 45 minutes and we were within 0.5 &deg;, good enought for us to begin taking data and testing the unit.
 
 {% include picture.html src="events/2015-08-29/align.png" caption="A sequence of images taken during polar alignment. The idea is that the center of the arc should be exactly north. Any mis-alignment will cause the arc to be distorted in shape or offset from the north. We performed this on a full moon night so the images get progressively lighter as it gets later." %}
+
+### The Timelapse
+
+Nem captured the night on his GoPro.
+
+<div class="embed-responsive embed-responsive-16by9">
+    <iframe width="640" height="480" class="embed-responsive-item"  src="https://www.youtube.com/embed/7aajerdwOy8?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
