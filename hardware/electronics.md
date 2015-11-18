@@ -179,31 +179,31 @@ Furthermore because some of the components don’t have a 2.54 pitch, bricolage 
 
 #### SSR
 
-{% include picture.html src="power_board/image19.png" src2="power_board/image21.png" caption="" %}
-{% include picture.html src="power_board/image22.png" caption="" %}
+{% include picture.html src="power_board/image19.jpg" src2="power_board/image21.jpg" caption="" %}
+{% include picture.html src="power_board/image22.jpg" caption="" %}
 
 #### AWG 30-32
 
-{% include picture.html src="power_board/image23.png" src2="power_board/image24.png" caption="" %}
-{% include picture.html src="power_board/image25.png" caption="" %}
+{% include picture.html src="power_board/image23.jpg" src2="power_board/image24.jpg" caption="" %}
+{% include picture.html src="power_board/image25.jpg" caption="" %}
 
 #### ACS712
 
-{% include picture.html src="power_board/image26.png" src2="power_board/image27.png" caption="" %}
-{% include picture.html src="power_board/image28.png" src2="power_board/image00.png" caption="" %}
-{% include picture.html src="power_board/image01.png" src2="power_board/image02.png" caption="" %}
+{% include picture.html src="power_board/image26.jpg" src2="power_board/image27.jpg" caption="" %}
+{% include picture.html src="power_board/image28.jpg" src2="power_board/image00.jpg" caption="" %}
+{% include picture.html src="power_board/image01.jpg" src2="power_board/image02.jpg" caption="" %}
 
 #### 12V_MOUNT CHANNEL (Current Sensing + Power Cycling + Protection)
 
-{% include picture.html src="power_board/image03.png" src2="power_board/image04.png" caption="" %}
+{% include picture.html src="power_board/image03.jpg" src2="power_board/image04.jpg" caption="" %}
 
 #### CONNECTOR 2 POINT WIRE
 
-{% include picture.html src="power_board/image05.png" src2="power_board/image06.png" caption="" %}
+{% include picture.html src="power_board/image05.jpg" src2="power_board/image06.jpg" caption="" %}
 
 Solder the cable so the isolation comes out at the cut part (no heat shrink needed) and insert the soldered part inside the connector
 
-{% include picture.html src="power_board/image07.png" caption="The completed power board" %}
+{% include picture.html src="power_board/image07.jpg" caption="The completed power board" %}
 
 ## FURTHER IMPROVEMENTS
 
