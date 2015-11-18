@@ -32,9 +32,13 @@ The power board is responsible for a number of features of the PANOPTES unit rel
 
 ### PANOPTES Electronic Box Hardware Synoptic
 
+{% include picture.html src="power_board/image08.png" caption="Schematics for the power board" %}
+
 ### Schematics
 
 #### Current sensing of the Main Current
+
+{% include picture.html src="power_board/image09.png" caption="Current sensing of the Main Current" %}
 
 1. Receives 12V from power supply (12V_IN) on the jack 3.5mm connector
 2. Male Header 2 points 2.54mm pitch in series to:
@@ -45,11 +49,15 @@ The power board is responsible for a number of features of the PANOPTES unit rel
 
 #### +5V from the electronic board to power the current sensors
 
+{% include picture.html src="power_board/image11.png" caption="+5V from the electronic board to power the current sensors" %}
+
 1. Receives 5V from the Electronic Board on the jack 3.5mm connector for all the ACS712
 2. In the next version a standalone 5V regulator should be implemented on this board to avoid current loops.
 3. Some decoupling capacitors might be necessary
 
 #### Power cycling, protection and filtering of the 12V NUC
+
+{% include picture.html src="power_board/image12.png" caption="Power cycling, protection and filtering of the 12V NUC" %}
 
 1. Receives 12V_MAIN (see section Current sensing of the Main Current)
 2. Male Header 2 points 2.54mm pitch receives the command signal from the Electronic Board to power ON/OFF the 12V_NUC
@@ -65,6 +73,8 @@ The power board is responsible for a number of features of the PANOPTES unit rel
 8. Not implemented: the RC network to filter/damp
 
 #### Power cycling, current sensing, protection and filtering of the 12V MOUNT
+
+{% include picture.html src="power_board/image13.png" caption="Power cycling, current sensing, protection and filtering of the 12V MOUNT" %}
 
 1. Receives 12V_MAIN (see section Current sensing of the Main Current)
 2. Male Header 2 points 2.54mm pitch receives the command signal from the Electronic Board to power ON/OFF the 12V_MOUNT
@@ -82,6 +92,8 @@ The power board is responsible for a number of features of the PANOPTES unit rel
 
 #### Power cycling, current sensing, protection and filtering of the 12V FAN
 
+{% include picture.html src="power_board/image14.png" caption="Power cycling, current sensing, protection and filtering of the 12V FAN" %}
+
 1. Receives 12V_MAIN (see section Current sensing of the Main Current)
 2. Male Header 2 points 2.54mm pitch receives the command signal from the Electronic Board to power ON/OFF the 12V_FAN
 3. The command signal drives a NPN transistor to minimize the load on the Arduino:
@@ -98,6 +110,8 @@ The power board is responsible for a number of features of the PANOPTES unit rel
 
 #### Protection and filtering of the Electronic Board Current
 
+{% include picture.html src="power_board/image15.png" caption="Power cycling, current sensing, protection and filtering of the 12V FAN" %}
+
 1. Receives 12V_MAIN (see section Current sensing of the Main Current)
 2. Male Header 2 points 2.54mm pitch in series to:
     a. Open the circuit (test, no current/no voltage)
@@ -108,6 +122,8 @@ The power board is responsible for a number of features of the PANOPTES unit rel
 6. Not implemented: the RC network to filter/damp
 
 #### Power cycling, current sensing, protection and filtering of the 12V CAMERAS
+
+{% include picture.html src="power_board/image14.png" caption="Power cycling, current sensing, protection and filtering of the 12V CAMERAS" %}
 
 1. Receives 12V_MAIN (see section Current sensing of the Main Current)
 2. Male Header 2 points 2.54mm pitch receives the command signal from the Electronic Board to power ON/OFF the 12V_CAMERAS
@@ -125,6 +141,8 @@ The power board is responsible for a number of features of the PANOPTES unit rel
 
 #### Power cycling, protection and filtering of the 12V WEATHER
 
+{% include picture.html src="power_board/image17.png" caption="Power cycling, protection and filtering of the 12V WEATHER" %}
+
 1. Receives 12V_MAIN (see section Current sensing of the Main Current)
 2. Male Header 2 points 2.54mm pitch receives the command signal from the Electronic Board to power ON/OFF the 12V_WEATHER
 3. The command signal drives a NPN transistor to minimize the load on the Arduino:
@@ -140,6 +158,8 @@ The power board is responsible for a number of features of the PANOPTES unit rel
 
 #### Sensing of the Main Current on the commercial line (110V_AC) not implemented on the current version of the board
 
+{% include picture.html src="power_board/image16.png" caption="Sensing of the Main Current on the commercial line (110V_AC) not implemented on the current version of the board" %}
+
 1. This circuit replaces the +5V voltage sourced initially used to detect the presence of 110VAC
 2. The CR8400 magnetic sensor is placed around one conductor of the 100V commercial voltage input
 3. 2 point connector 2.54mm pitch receives the output voltage of the CR8400
@@ -150,24 +170,42 @@ The power board is responsible for a number of features of the PANOPTES unit rel
 8. COUT=+5V if the sensed voltage is higher than the reference one (110VAC is present) and 0V on the contrary
 9. A LED indicates that 110VAC is sensed
 
+{% include picture.html src="power_board/image20.png" src2="power_board/image18.png" caption="" %}
+
 ### POPULATING THE POWER BOARD
 
 The prototype board used to implement the first version of the Power Board was too small to be able to integrate all the desired functionalities because wrong references had been purchased. That is the reason why the cabling is a somehow messy.
 Furthermore because some of the components don’t have a 2.54 pitch, bricolage is needed.
 
-SSR
+#### SSR
 
-AWG 30-32
+{% include picture.html src="power_board/image19.png" src2="power_board/image21.png" caption="" %}
+{% include picture.html src="power_board/image22.png" caption="" %}
 
-ACS712
+#### AWG 30-32
 
-12V_MOUNT CHANNEL (Current Sensing + Power Cycling + Protection)
+{% include picture.html src="power_board/image23.png" src2="power_board/image24.png" caption="" %}
+{% include picture.html src="power_board/image25.png" caption="" %}
 
-CONNECTOR 2 POINT WIRE
+#### ACS712
+
+{% include picture.html src="power_board/image26.png" src2="power_board/image27.png" caption="" %}
+{% include picture.html src="power_board/image28.png" src2="power_board/image00.png" caption="" %}
+{% include picture.html src="power_board/image01.png" src2="power_board/image02.png" caption="" %}
+
+#### 12V_MOUNT CHANNEL (Current Sensing + Power Cycling + Protection)
+
+{% include picture.html src="power_board/image03.png" src2="power_board/image04.png" caption="" %}
+
+#### CONNECTOR 2 POINT WIRE
+
+{% include picture.html src="power_board/image05.png" src2="power_board/image06.png" caption="" %}
 
 Solder the cable so the isolation comes out at the cut part (no heat shrink needed) and insert the soldered part inside the connector
 
-FURTHER IMPROVEMENTS
+{% include picture.html src="power_board/image07.png" caption="The completed power board" %}
+
+## FURTHER IMPROVEMENTS
 
 1. Use multicontact connectors (SUB-D 9 points) for the command (12V ON/OFF), sensed signals (Output of the ACS712 current sensors)
 2. 5V voltage regulator on the Power Board
@@ -177,4 +215,3 @@ FURTHER IMPROVEMENTS
 
 
 ## Next Steps
-
