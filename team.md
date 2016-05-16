@@ -33,3 +33,10 @@ The core PANOPTES team who participated in the development of the prototype and 
 <a class="btn btn-primary" href="http://spaceviewnetwork.com" role="button">SpaceView Website &raquo;</a> <a class="btn btn-primary" href="http://mikebutterfield.com" role="button">Mike's Personal Website &raquo;</a>
 
 <hr>
+
+{% include thumbnail.html src="people/Jen.jpg" align="right" heading="Jen Tong" caption="Jen is a Developer Advocate on Cloud at Google. On PANOPTES she keeps the servers running, and the data processing. If she's away from her laptop, she's probably skating around a roller derby track, or hanging from aerial silk." %}
+
+<br>
+
+<a class="btn btn-primary" href="http://twitter.com/MimmingCodes" role="button">Twitter &raquo;</a> <a class="btn btn-primary" href="https://mimming.com" role="button">Jen's Personal Website &raquo;</a>
+
