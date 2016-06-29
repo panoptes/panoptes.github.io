@@ -6,7 +6,7 @@ layout: default
 # PANOPTES FAQ
 
 ### What is Project PANOPTES?
-PANOPTES (Panoptic Astronomical Networked OPtical observatory for Transiting Exoplanets Survey) is a citizen science project which aims to build a world wide network of low cost, robotic telescopes which are used to detect transiting exoplanets.
+PANOPTES (**P**anoptic **A**stronomical **N**etworked **OP**tical observatory for **T**ransiting **E**xoplanets **S**urvey) is a citizen science project which aims to build a world wide network of low cost, robotic telescopes which are used to detect transiting exoplanets.
 
 ### Why are there two cameras? Can it see in 3D?
 PANOPTES does not see in 3D.  While the two cameras are reminiscent of our two eyes which give us depth perception, PANOPTES has two cameras in order to gather more data.  By mounting two cameras, we double the amount of data that a single PANOPTES unit can collect while only increasing the cost by a small fraction.  We will be looking at designing versions of PANOPTES units which can hold four or even more cameras in the future.
