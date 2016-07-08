@@ -18,7 +18,7 @@ We expect the first released version of the electronics design to require the bu
 
 While the baseline instructions and electronics design are being completed, we are now seeking out individuals and groups who have a solid technical background to build the first generation of units.  Builders in this phase will be testing our instructions (which may still be a work in progress) and our designs (multiple build may reveal unforeseen issues with the design), so they should be comfortable working with us in this beta tester role.  
 
-These first generation builders will help us refine our design and our instructions and will hopefully be the first members of a growing PANOPTES online community and can help us recruit and mentor future generations of builders.  If you are interested in being a PANOPTES beta tester, please (contact us)[contact.html].
+These first generation builders will help us refine our design and our instructions and will hopefully be the first members of a growing PANOPTES online community and can help us recruit and mentor future generations of builders.  If you are interested in being a PANOPTES beta tester, please [contact us]({{ site.url }}/contact.html).
 
 ## Software
 
