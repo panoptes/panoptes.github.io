@@ -22,6 +22,6 @@ These first generation builders will help us refine our design and our instructi
 
 ## Software
 
-Currently, a lot of work is also going in to the observatory control system [POCS](https://github.com/panoptes/POCS) and too much is changing within that code to fully describe here.  If you are interested in the details of the code development, please follow [POCS on github](https://github.com/panoptes/POCS) or directly email [info@projectpanoptes.org](info@projectpanoptes.org) for more information.
+Currently, a lot of work is also going in to the observatory control system [POCS](https://github.com/panoptes/POCS) and too much is changing within that code to fully describe here.  If you are interested in the details of the code development, please follow [POCS on github](https://github.com/panoptes/POCS) or directly email [info@projectpanoptes.org](mailto:info@projectpanoptes.org) for more information.
 
 In addition, we are beginning a project to take the image analysis algorithm developed by Olivier Guyon during our initial prototype phase and wrap a fully automated pipeline around it which can analyze the many tens of thousands of stars we expect to observe each night.  This pipeline will integrate with our cloud software (also in the early design phase) which will combine the data from many units to build up the sensitivity needed to detect exoplanet transits.
