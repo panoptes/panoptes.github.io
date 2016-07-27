@@ -21,5 +21,5 @@ The instructions linked below are still in development and should be considered 
 
 In addition, check out the
 
-* [Complete Parts List](complete_parts_list.html)
+* [Complete Parts List](https://docs.google.com/spreadsheets/d/1siKZqgbcrOrEVX0yuAO7TjjAdi5pyGCoeqVq1GEsDUo/edit?usp=sharing)
 * [Tools Required](tools.html)
