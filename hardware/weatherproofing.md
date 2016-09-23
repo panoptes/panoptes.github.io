@@ -12,13 +12,14 @@ layout: default
 - [Assembling the Camera Box](#assembling-the-camera-box)
 	- [Introduction](#introduction)
 	- [Tools](#tools)
-	- [Technical Drawings](#technical-drawings)
-	- [Dovetail rail](#dovetail-rail)
-	- [Bottom mounting plate](#bottom-mounting-plate)
-	- [Top mounting plate](#top-mounting-plate)
-	- [Camera mounting plate](#camera-mounting-plate)
-	- [Camera enclosure box](#camera-enclosure-box)
-	- [Assembly](#assembly)
+	- [Declination Axis Tube](#declination-axis-tube)
+	- [RA Axis Tube](#right-ascension-axis-tube)
+	- [Counterweight Tube](#counterweight-tube)
+	- [Counterweight Rod Shield](#counterweight-rod-shield)
+	- [Mount Electronics Shield](#mount-electronics-shield)
+	- [RA Bearing Shield](#right-ascension-bearing-shield)
+	- [Declination Bearing Shield](#declination-bearing-shield)
+	- [Cable Port Shield](#cable-port-shield)
 
 ## Introduction
 
