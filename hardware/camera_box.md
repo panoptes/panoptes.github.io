@@ -65,7 +65,7 @@ The aim is to assemble the head unit of PANOPTES, which should look like this wh
 
 ## Bottom mounting plate
 
-{% include picture.html src="camera_box/003.jpg" caption="Image showing all three mounting plates that will be created according to the instructions below. From bottom to top: bottom mounting plate, top mounting plate, camera mounting plate." %}
+{% include picture.html src="camera_box/003a.jpg" src2="camera_box/003.jpg" caption="Left: Lay out and measure hole locations before drilling. Right: Image showing all three mounting plates that will be created according to the instructions below. From bottom to top: bottom mounting plate, top mounting plate, camera mounting plate." %}
 
 * For this part refer to the technical drawing for the bottom mounting plate, [PAN003]({{ site.url }}/tech_drawings/PAN003.PDF).
 * Take one (1) of the 12” long aluminum plates, mark a line 200 mm from one end of the plate.
