@@ -151,12 +151,22 @@ The aim is to assemble the head unit of PANOPTES, which should look like this wh
 * Place lenses on cameras.
 * Place dust shields on the lenses.
 
+## Bugs and leaf litter protection
+
+* In order to prevent bugs or leaf litter getting into the box, it is important to fill the small gap around the lenses and the case. This will be done by installing a meshing in the case which surrounds the lenses. Please see the image below for a guide of what you will be building. 
+* Remove the Rokinon lenses from the cameras. 
+* Take a sheet of either aluminum screen or fly screen material and cut a sheet to a size of 265 x 100 mm (so that it is ~20 mm smaller than the front face of the head unit box i.e. the front face is the one you drilled the two large holes in). 
+* Place the sheet of meshing inside the box up against the front face and center it on that side of the box. Mark the position of the center each lens hole on the sheet. Also, mark the edge of the holes on the sheet.
+* Remove the sheet and cut out a small circle 10-15 mm in diameter centered on the central mark you made. 
+* From the central hole, cut straight lines outwards towards the outer circle you marked. Make sure that the cuts stop about 10 mm from the outer circle mark. Make about 10-12 cuts which are evenly spaced. 
+* Insert the mesh into the box. Use duct tape or some other strong type of tape to stick the meshing to the inside of the front face of the box (face with the two large holes).
+* Push the lenses into the enclosure from the outside through the two pre-cut holes in the mesh and attach them to the cameras. Verify that the mesh is not too tight around the lenses but there are no gaps for insects or debris to enter the box. 
+
+
 Once complete the unit should look as shown in the images below.
 
-{% include todo.html text="Turn this into a mini-gallery?" %}
-
-{% include picture.html src="camera_box/camera_box_02.jpg" src2="camera_box/camera_box_02.jpg" caption="" %}
-{% include picture.html src="camera_box/camera_box_05.jpg" caption="" %}
+{% include picture.html src="camera_box/camera_box_02.jpg" src2="camera_box/camera_box_03.jpg" caption="Inside the camera box. Note the wire meshing in the image on the right." %}
+{% include picture.html src="camera_box/camera_box_04.jpg" src2="camera_box/camera_box_05.jpg" caption="" %}
 
 ## Next Steps
 
