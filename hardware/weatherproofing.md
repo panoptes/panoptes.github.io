@@ -9,7 +9,7 @@ layout: default
 # Weatherproofing the Mount
 
 <h3>Table of Contents</h3>
-- [Assembling the Camera Box](#assembling-the-camera-box)
+- [Weatherproofing the Mount](#weatherproofing-the-mount)
 	- [Introduction](#introduction)
 	- [Tools](#tools)
 	- [Declination Axis Tube](#declination-axis-tube)
