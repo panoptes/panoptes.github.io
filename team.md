@@ -40,3 +40,6 @@ The core PANOPTES team who participated in the development of the prototype and 
 
 <a class="btn btn-primary" href="http://twitter.com/MimmingCodes" role="button">Twitter &raquo;</a> <a class="btn btn-primary" href="https://mimming.com" role="button">Jen's Personal Website &raquo;</a>
 
+<hr>
+
+{% include thumbnail.html src="people/KathyGuyon.jpg" align="left" heading="Kathy Guyon" caption="Kathy, now at Subaru Telescope, has worked on multiple ground and space observatories, observing distant quasars to measure the chemical composition of the universe and its evolution. The stars and exoplanets PANOPTES is observing feel like unusually nearby targets for Kathy. Some have suggested that Kathy hopes PANOPTES will help prove that cats have colonized other planets."}
