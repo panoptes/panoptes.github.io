@@ -22,7 +22,7 @@ The core PANOPTES team who participated in the development of the prototype and 
 
 <hr>
 
-{% include thumbnail.html src="people/Wilfred.jpg" align="right" heading="Wilfred Tyler Gee" caption="Wilfred is a software developer who was tired of making money and decided he wanted to make science instead. Currently pursuing a bachelors degree in Astronomy from the University of Hawaii at Hilo, Wilfred also has a certificate in Women's Studies, as well as a minor in Physics and English. His previous bachelors was from the University of Utah in Psychology with a minor in Cognitive Science. Wilfred is also a wanna-be Shakespearean actor and, in his free time, likes to rapel down waterfalls." %}
+{% include thumbnail.html src="people/Wilfred.jpg" align="right" heading="Wilfred Tyler Gee" caption="Wilfred is a software developer who was tired of making money and decided he wanted to make science instead. Currently working on PANOPTES from Macquarie University in Sydney, Australia as part of his Masters Thesis, Wilfred recently attained a bachelors degree in Astronomy from the University of Hawaii at Hilo. His previous bachelors was from the University of Utah in Psychology. Wilfred is also a wanna-be Shakespearean actor and, in his free time, likes to rapel down waterfalls." %}
 
 <hr>
 
