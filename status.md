@@ -26,7 +26,7 @@ layout: default
 
 # Papers, Articles, Videos, Press
 
-* [OSCON interview with Wilfred Gee, PANOPTES](https://opensource.com/life/16/4/oscon-interview-wilfred-gee-panoptes) April 27, 2016
 * [Presentation to OSCON 2016](https://www.youtube.com/watch?v=qgpx9VefgzE) May 19, 2016
+* [OSCON interview with Wilfred Gee, PANOPTES](https://opensource.com/life/16/4/oscon-interview-wilfred-gee-panoptes) April 27, 2016
 * [Presentation to Denver Astronomical Society](https://www.youtube.com/watch?v=ytsz3I5-n2c) February 14, 2014
 * [JPL Night Sky Network TeleCon with Project PANOPTES](https://nightsky.jpl.nasa.gov/download-view.cfm?Doc_ID=528) September 24, 2013
