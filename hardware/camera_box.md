@@ -172,6 +172,6 @@ Once complete the unit should look as shown in the images below.
 
 ## Next Steps
 
-Ready to assemble the electronics for the head unit? See the <a href="{{ site.url }}/electronics/camera_box.html">Camera Box Electronics</a> instrunctions next!.
+Ready to assemble the electronics for the head unit? See the <a href="{{ site.url }}/electronics/camera_box.html">Camera Box Electronics</a> instructions next!.
 
 Or how about weatherproofing? See the <a href="{{ site.url }}/hardware/weatherproofing.html">Weatherproofing</a> page!.
