@@ -3,6 +3,11 @@ title: News/Status
 layout: default
 ---
 
+# PANOPTES Gazette
+
+* [May 2017](pdfs/panoptes_newsletter_may17.pdf)
+* [April 2017](pdfs/panoptes_newsletter_april17.pdf)
+
 # PANOPTES News
 
 <ul>
