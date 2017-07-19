@@ -1,6 +1,5 @@
-PANOPTES Baseline Unit Description
-
-Author: James Synge
+# PANOPTES Baseline Unit Description
+> Author: James Synge
 
 The first Baseline PANOPTES unit, PAN001, was upgraded in March 2017 to the
 condition shown below. This page will describe what its various components do,
@@ -68,18 +67,18 @@ POCS interacts with the rest of the components of a PANOPTES unit via USB, as sh
 As you can see, some components don't speak USB natively, but instead require an adapter (one for each) to translate between their older (and simpler) serial protocols and USB.
 
 > USB (Universal Serial Bus) also uses a serial protocol, but one that is quite
-> a bit more complicated to implement.
+> a bit more complicated to implement. The simpler protocols also have the
+> advantage that they can work over quite long cables, while USB 2.0 is limited
+> to 5 meters.
 
-The simpler protocols also have the advantage that they can work over quite long
-cables, while USB 2.0 is limited to 5 meters. The unused ports on the USB hub
-enable connecting a keyboard & mouse when debugging or modifying the setup of
-a PANOPTES unit.
+The unused ports on the USB hub enable connecting a keyboard & mouse when
+debugging or modifying the setup of a PANOPTES unit.
 
 # Camera Enclosure
 
 At the "other end" of a PANOPTES unit from the Computer Box is the Camera Enclosure, carried by the Equatorial Mount. This protective box keeps the DSLR cameras used to image the night sky, and their supporting electronics dry, though only when in the parked position: there are two great big holes in the side for the lenses, so parking the mount rotates the enclosure so that those holes are on the bottom, facing down at the ground.
 
-The cameras are Canon Rebel SL1s (aka EOS 100D), the cheapest of the Canon DSLRs at this writing. Attached to those are Rokinon 85mm f/1.4 lenses, which provide a large field of view: 15 x 10; as a result, a typical image of the night sky will contain 10s of thousands of stars. Note that the use of two cameras is not related to binocular vision. It provides us with more images to process, but at a lower cost than one camera with a larger lens with twice the light gathering of the two smaller lenses.
+The cameras are Canon Rebel SL1s (aka EOS 100D), the cheapest of the Canon DSLRs at this writing. Attached to those are Rokinon 85mm f/1.4 lenses, which provide a large field of view: 15 degrees x 10 degrees; as a result, a typical image of the night sky will contain 10s of thousands of stars. Note that the use of two cameras is not related to binocular vision. It provides us with more images to process, but at a lower cost than one camera with a larger lens with twice the light gathering of the two smaller lenses.
 
  A DC 12V power line and USB cable are fed through the mount and into the bottom of the enclosure. The DC 12V line is split to go to both a USB Hub and to the Camera Board. The Camera Board has:
 
