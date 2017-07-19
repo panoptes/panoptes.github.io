@@ -2,19 +2,36 @@ PANOPTES Baseline Unit Description
 
 Author: James Synge
 
-The first Baseline PANOPTES unit, PAN001, was upgraded in March 2017 to the condition shown below. This page will describe what its various components do, and how they work together; however, it does not go into how the captured images are processed to extract scientifically useful data; for more on that, read [Olivier Guyon’s pages](https://www.naoj.org/staff/guyon/09allskysurvey.web/content.html) describing the early history of Project PANOPTES, and [the paper by Gee, Guyon, Walawender, Jovanovic and Boucher](http://arizona.openrepository.com/arizona/handle/10150/622806).
+The first Baseline PANOPTES unit, PAN001, was upgraded in March 2017 to the
+condition shown below. This page will describe what its various components do,
+and how they work together; however, it does not go into how the captured images
+are processed to extract scientifically useful data; for more on that, read
+[Olivier Guyon’s pages](https://www.naoj.org/staff/guyon/09allskysurvey.web/content.html)
+describing the early history of Project PANOPTES, and the paper by [Gee, Guyon,
+Walawender, Jovanovic and Boucher](http://arizona.openrepository.com/arizona/handle/10150/622806).
 
 ![PAN001 on Mauna Loa](images/pan001_desc/pan001_with_labelled_components.png)
 
 # Control Box
 
-We’ll start with the control box as it runs the show. We’re using a robust Pelican Case as the housing for a small computer, the power management system, and some sensors & connectors which connect to the rest of the PANOPTES unit; the Pelican case keeps the rain and snow out, though we do cut big holes in the side for an air inlet and two smaller holes for air outlet and for wires.
+We’ll start with the control box as it runs the show. We’re using a robust
+Pelican Case as the housing for a small computer, the power management system,
+and some sensors & connectors which connect to the rest of the PANOPTES unit;
+the Pelican case keeps the rain and snow out, though we do cut big holes in the
+side for an air inlet and two smaller holes for air outlet and for wires.
 
 ![PAN001 Control Box Overview](images/pan001_desc/pan001_control_box_overview.png)
 
 ## Computer & PANOPTES Observatory Control System
 
-The brains of a PANOPTES unit is a small computer running **POCS**, the [PANOPTES Observatory Control System](https://github.com/panoptes/POCS). The computer is an Intel NUC, a small form factor PC connected to the internet (NOTE:  Internet access is not strictly necessary, as the unit can collect and store images locally, simply choosing the best available field(s) each night. However, internet access enables remote monitoring, debugging and upgrading of the software, and of course prompt reporting of results.) and via USB to the rest of the unit, enabling it to talk to the two DSLR cameras, the equatorial mount and the two Arduinos that provide it the ability to read data from sensors and to control switches. The PC has one or more drives for storage of captured images, computed light curves, POCS and the operating system. Unlike a standard PC, this one does not have a monitor, keyboard or mouse attached, though sometimes that is done during servicing of the unit, such as debugging software or upgrading the firmware in the cameras.
+The brains of a PANOPTES unit is a small computer running **POCS**, the [PANOPTES Observatory Control System](https://github.com/panoptes/POCS). The computer is an Intel NUC, a small form factor PC connected to the internet and via USB to the rest of the unit, enabling it to talk to the two DSLR cameras, the equatorial mount and the two Arduinos that provide it the ability to read data from sensors and to control switches. 
+
+> Internet access is not strictly necessary, as the unit can collect and store
+> images locally, simply choosing the best available field(s) each night.
+> However, internet access enables remote monitoring, debugging and upgrading
+> of the software, and of course prompt reporting of results.
+
+The PC has one or more drives for storage of captured images, computed light curves, POCS and the operating system. Unlike a standard PC, this one does not have a monitor, keyboard or mouse attached, though sometimes that is done during servicing of the unit, such as debugging software or upgrading the firmware in the cameras.
 
 POCS manages the process of fetching a list of fields to observe (currently from a local file, eventually also from the PANOPTES server), capturing images of the highest priority fields visible in the night sky, computing the brightness of the stars in each image, and building light curves for stars across images, and finally uploading those results to the PANOPTES server. POCS also measures and records temperature, humidity, wind speed and more; these will enable analysis to determine if there are some sensor readings that indicate unfavorable conditions for observing (e.g. if the dew point is close to the ambient temperature, then the lenses are likely to fog over, or if it is too windy for the cameras to be stable).
 
@@ -48,7 +65,15 @@ POCS interacts with the rest of the components of a PANOPTES unit via USB, as sh
 
 ![PAN001 USB Connections](images/pan001_desc/pan001_usb_connections.png)
 
-As you can see, some components don't speak USB natively, but instead require an adapter (one for each) to translate between their older (and simpler) serial protocols and USB (NOTE:  USB (Universal Serial Bus) also uses a serial protocol, but one that is quite a bit more complicated to implement.). And the simpler protocols also have the advantage that they can work over quite long cables, while USB 2.0 is limited to 5 meters. The spare ports enable connecting a keyboard & mouse when debugging.
+As you can see, some components don't speak USB natively, but instead require an adapter (one for each) to translate between their older (and simpler) serial protocols and USB.
+
+> USB (Universal Serial Bus) also uses a serial protocol, but one that is quite
+> a bit more complicated to implement.
+
+The simpler protocols also have the advantage that they can work over quite long
+cables, while USB 2.0 is limited to 5 meters. The unused ports on the USB hub
+enable connecting a keyboard & mouse when debugging or modifying the setup of
+a PANOPTES unit.
 
 # Camera Enclosure
 
