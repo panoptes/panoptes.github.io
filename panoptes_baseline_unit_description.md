@@ -4,13 +4,13 @@ Author: James Synge
 
 The first Baseline PANOPTES unit, PAN001, was upgraded in March 2017 to the condition shown below. This page will describe what its various components do, and how they work together; however, it does not go into how the captured images are processed to extract scientifically useful data; for more on that, read [Olivier Guyon’s pages](https://www.naoj.org/staff/guyon/09allskysurvey.web/content.html) describing the early history of Project PANOPTES, and [the paper by Gee, Guyon, Walawender, Jovanovic and Boucher](http://arizona.openrepository.com/arizona/handle/10150/622806).
 
-![PAN001 on Mauna Loa]({{ site.url }}/images/pan001_desc/pan001_with_labelled_components.png)
+![PAN001 on Mauna Loa](images/pan001_desc/pan001_with_labelled_components.png)
 
 # Control Box
 
 We’ll start with the control box as it runs the show. We’re using a robust Pelican Case as the housing for a small computer, the power management system, and some sensors & connectors which connect to the rest of the PANOPTES unit; the Pelican case keeps the rain and snow out, though we do cut big holes in the side for an air inlet and two smaller holes for air outlet and for wires.
 
-![PAN001 Control Box Overview]({{ site.url }}/images/pan001_desc/pan001_control_box_overview.png)
+![PAN001 Control Box Overview](images/pan001_desc/pan001_control_box_overview.png)
 
 ## Computer & PANOPTES Observatory Control System
 
@@ -24,7 +24,7 @@ Before capturing images, and throughout the night, POCS monitors the weather sen
 
 The control box has cables entering it for internet access and mains power (i.e. electricity: AC 120V/60Hz in much of the Americas, AC 240V/50Hz in most of the rest of the world). The components of a PANOPTES unit require DC electricity at 12V or lower, so the mains power is delivered to a Power Supply Unit (PSU) that performs the conversion. For conversion from AC 120V, we use a [PowerStream PST-SP12AL](https://www.powerstream.com/12V-backup.htm), which also acts as a battery backup for the system: it charges an attached 12V battery when mains power is available, but if that fails it immediately switches over to using the battery to continue supplying​ power to the rest of the system. The PSU also provides a signal indicating whether mains power is available; because a power outage could be of any duration, POCS uses the lack of mains power as a signal that it should park the mount.
 
-![PAN001 Power Distribution]({{ site.url }}/images/pan001_desc/pan001_power_distribution.png)
+![PAN001 Power Distribution](images/pan001_desc/pan001_power_distribution.png)
 
 The PSU is connected to the Power Board, a custom built board which enables controlled and monitored distribution of power within the PANOPTES unit. The board has relays enabling it to individually​ switch on and off the power to the PC, weather station, equatorial mount, camera box and fan (used to cool the control box). In addition, it can measure the electric current used by the whole system, the equatorial mount, the camera box and the fan; collecting this and other sensor data over time will allow us to learn more about the system’s behavior.
 
@@ -46,7 +46,7 @@ The relay control lines and the sensor signal lines are routed to a ribbon cable
 
 POCS interacts with the rest of the components of a PANOPTES unit via USB, as shown below.
 
-![PAN001 USB Connections]({{ site.url }}/images/pan001_desc/pan001_usb_connections.png)
+![PAN001 USB Connections](images/pan001_desc/pan001_usb_connections.png)
 
 As you can see, some components don't speak USB natively, but instead require an adapter (one for each) to translate between their older (and simpler) serial protocols and USB (NOTE:  USB (Universal Serial Bus) also uses a serial protocol, but one that is quite a bit more complicated to implement.). And the simpler protocols also have the advantage that they can work over quite long cables, while USB 2.0 is limited to 5 meters. The spare ports enable connecting a keyboard & mouse when debugging.
 
@@ -76,7 +76,7 @@ This type of mount is used for tracking the stars as they move across the night 
 
 PANOPTES is using iOptron mounts, either an iEQ30 Pro or an iEQ45 Pro; the latter has a higher carrying capacity, but is otherwise very similar. The iEQ30 Pro is shown in the following diagram.
 
-![iOptron iEQ30 Pro]({{ site.url }}/images/pan001_desc/ioptron_ieq30_pro.png)
+![iOptron iEQ30 Pro](images/pan001_desc/ioptron_ieq30_pro.png)
 
 We modify this by removing the polar scope (which is in the RA axis), and running cables in from the computer box through the polar scope’s location, and then into the hollow DEC axis, and up into the Camera Enclosure that is secured to the mount by the dovetail clamp. Weatherproofing is added to keep water out of the motors, electronics, and the bearings of the RA and DEC axes. The pictured hand controller is not used; instead a USB-to-Serial cable is connected to the mount control electronics, by which POCS controls the mount.
 
