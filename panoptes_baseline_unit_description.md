@@ -1,3 +1,7 @@
+---
+title: PANOPTES Baseline Unit Description
+---
+
 > Author: James Synge (PANOPTES Beta-test Builder, Lexington, MA, USA)
 
 The first Baseline PANOPTES unit, PAN001, was upgraded in March 2017 to the
