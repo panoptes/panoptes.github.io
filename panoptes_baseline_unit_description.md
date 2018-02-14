@@ -1,5 +1,8 @@
-# PANOPTES Baseline Unit Description
-> Author: James Synge
+---
+title: PANOPTES Baseline Unit Description
+---
+
+> Author: James Synge (PANOPTES Beta-test Builder, Lexington, MA, USA)
 
 The first Baseline PANOPTES unit, PAN001, was upgraded in March 2017 to the
 condition shown below. This page will describe what its various components do,
@@ -103,4 +106,3 @@ PANOPTES is using iOptron mounts, either an iEQ30 Pro or an iEQ45 Pro; the latte
 ![iOptron iEQ30 Pro](images/pan001_desc/ioptron_ieq30_pro.png)
 
 We modify this by removing the polar scope (which is in the RA axis), and running cables in from the computer box through the polar scope’s location, and then into the hollow DEC axis, and up into the Camera Enclosure that is secured to the mount by the dovetail clamp. Weatherproofing is added to keep water out of the motors, electronics, and the bearings of the RA and DEC axes. The pictured hand controller is not used; instead a USB-to-Serial cable is connected to the mount control electronics, by which POCS controls the mount.
-
