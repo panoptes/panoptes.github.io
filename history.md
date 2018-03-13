@@ -11,9 +11,9 @@ PANOPTES got its start in late 2010 as a small hobby project of Olivier Guyon.  
 
 Olivier constructed a prototype automated camera system, but could only obtain limited data from home due to poor weather.  Olivier, like many of the original PANOPTES team members lives in Hilo, Hawaii -- the rainiest city in the United States.  Some areas of Hilo average over [175 inches (4.56 meters)](http://rainfall.geography.hawaii.edu/interactivemap.html) of rain per year.
 
-At the time, another eventual PANOPTES team member, Josh Walawender, was working on a different small robotic telescope project which was located at the [Mauna Loa Observatory](https://www.esrl.noaa.gov/gmd/obop/mlo/) run by NOAA on the slopes of Mauna Loa.  With his help, the original test unit of PANOPTES was hosted by MLO and infrastructure (power and networking) was provided through the VYSOS project.
+At the time, another eventual PANOPTES team member, Josh Walawender, was working on a different small robotic telescope project which was located at the [Mauna Loa Observatory (MLO)](https://www.esrl.noaa.gov/gmd/obop/mlo/) run by NOAA on the slopes of Mauna Loa.  With his help, the original test unit of PANOPTES was hosted by MLO and infrastructure (power and networking) was provided through the Variable Young Stellar Objects Survey (VYSOS) project.
 
-Based on experience at Mauna Loa, the hardware of PANOPTES was tested and refined.  We were able to demonstrate that low cost hardware could be made to operate reliably under adverse weather conditions even without a protective dome or roof to protect the equipment.
+By this time others had joined the project and formed the initial PANOPTES team.  Based on experience at Mauna Loa, the hardware of PANOPTES was tested and refined.  We were able to demonstrate that low cost hardware could be made to operate reliably under adverse weather conditions even without a protective dome or roof to protect the equipment.
 
 ## Image Processing
 
@@ -27,4 +27,8 @@ By averaging the results of many observations from many cameras, we can obtain a
 
 ## Science
 
-The science goal of PANOPTES is to survey moderately bright stars (roughly 9th to 12th magnitude) to look for exoplanet transits.  These stars are much brighter than the typical star studied by [NASA's Kepler mission](https://en.wikipedia.org/wiki/Kepler_(spacecraft)) and thus are likely to be closer to Earth which should make those planets easier to separate from their star.  Some of the PANOPTES team also work on extreme adaptive optics systems such as the [SCExAO project at Subaru Telescope](https://www.subarutelescope.org/Projects/SCEXAO/) which can be used to image nearby planetary systems, so the link between these two interests is that PANOPTES can find targets that extreme AO systems (like SCExAO) can then follow up on.
+The science goal of PANOPTES is to survey moderately bright stars (roughly 9th to 12th magnitude) to look for exoplanet transits.  These stars are much brighter than the typical star studied by [NASA's Kepler mission](https://en.wikipedia.org/wiki/Kepler_(spacecraft)) and thus are likely to be closer to Earth which should make those planets easier to separate from their star.  
+
+Thanks to its highly distributed network of units, PANOPTES can provide nearly continuous observations using units around the globe, and observe large parts of the sky. This flexibility complements professional transit surveys that use a smaller number of telescopes, such as Kepler or [TESS](https://tess.gsfc.nasa.gov/index.html).
+
+PANOPTES will find new exoplanets that can be studied in detail with larger telescopes using techniques such as radial velocity, transit spectroscopy, and direct imaging.  In fact, some of the PANOPTES team also work on extreme adaptive optics systems such as the [SCExAO project at Subaru Telescope](https://www.subarutelescope.org/Projects/SCEXAO/) which can be used to image nearby planetary systems, so the link between these two interests is that PANOPTES can find targets that extreme AO systems (like SCExAO) can then follow up on.
