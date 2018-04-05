@@ -14,4 +14,4 @@ benefits of open source technologies for scientific disciplines.
 
 Abstract: [Project PANOPTES: How Open Source Enables the Discovery of Extra-solar Planets](https://www.socallinuxexpo.org/scale/16x/presentations/project-panoptes-how-open-source-enables-discovery-extra-solar-planets)
 
-Video: https://www.youtube.com/watch?v=Qe39_IhcWic&t=5h12m43s
+Video: [YouTube Link](https://www.youtube.com/watch?v=Qe39_IhcWic&t=5h12m43s)
