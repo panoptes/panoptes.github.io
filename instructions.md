@@ -21,5 +21,5 @@ The instructions linked below are still in development and should be considered 
 
 In addition, check out the
 
-* [Complete Parts List](https://docs.google.com/spreadsheets/d/1siKZqgbcrOrEVX0yuAO7TjjAdi5pyGCoeqVq1GEsDUo/edit?usp=sharing)
+* [Complete Parts List](https://docs.google.com/spreadsheets/d/1CNgfsW2ko_KfVSitZQWOqfJAsT9YhMeeW1QI6GUinNA/edit) This is the parts list as of March, 2018. Note that vendors will change their prices and available parts from time to time, so the prices are approximate, and not all of the parts may be available.
 * [Tools Required](tools.html)
