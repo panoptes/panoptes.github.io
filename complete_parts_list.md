@@ -4,7 +4,11 @@ layout: default
 ---
 
 The [March, 2018 Parts List](https://docs.google.com/spreadsheets/d/1CNgfsW2ko_KfVSitZQWOqfJAsT9YhMeeW1QI6GUinNA/edit)
-is for the latest version of the design, and is slightly less expensive than the January, 2017 design.
+is for the latest version of the design, and is slightly less
+expensive than the January, 2017 design. Note that vendors will
+change their prices and available parts from time to time,
+so the prices are approximate, and not all of the listed parts may
+be available, so substitutions may be required.
 
 If you have any quesions about the parts please don't hesitate to ask!
 Discussions about building take place in the
