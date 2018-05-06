@@ -3,9 +3,17 @@ title: Complete parts list
 layout: default
 ---
 
-An up-to-date Parts List organized by vendor and by functionality can be found below. If you have any quesions about the parts please don't hesitate to ask!
+The [March, 2018 Parts List](https://docs.google.com/spreadsheets/d/1CNgfsW2ko_KfVSitZQWOqfJAsT9YhMeeW1QI6GUinNA/edit)
+is for the latest version of the design, and is slightly less expensive than the January, 2017 design.
 
-[PANOPTES Parts List](https://docs.google.com/spreadsheets/d/1siKZqgbcrOrEVX0yuAO7TjjAdi5pyGCoeqVq1GEsDUo/edit?usp=sharing)
+If you have any quesions about the parts please don't hesitate to ask!
+Discussions about building take place in the
+[Building](https://forum.projectpanoptes.org/c/building) section
+our Discourse forum.
+If you'd like to discuss the hardware design, or to make suggestions
+for changes to the design (which we welcome), please do so in the
+[Hardware](https://forum.projectpanoptes.org/c/hardware) section
+of the forum.
 
 ## Tools / Misc
 - Power hand drill or drill press
