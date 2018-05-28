@@ -153,7 +153,7 @@ The aim is to assemble the head unit of PANOPTES, which should look like this wh
 * Place lenses on cameras.
 * Place dust shields on the lenses.
 
-## Bugs and leaf litter protection
+## Bug and leaf litter protection
 
 * In order to prevent bugs or leaf litter getting into the box, it is important to fill the small gap around the lenses and the case. This will be done by installing a meshing in the case which surrounds the lenses. Please see the image below for a guide of what you will be building. 
 * Remove the Rokinon lenses from the cameras. 
