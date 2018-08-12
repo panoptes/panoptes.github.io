@@ -10,16 +10,31 @@ layout: default
 
 ## PANOPTES Build Instructions
 
-The instructions linked below are still in development and should be considered to be at a beta level of readiness.  We will be updating these constantly as we build units and get feedback from the first generation of builders.  Please <a href="mailto:info@projectpanoptes.org">Contact Us</a> if you would like to build a unit and we will help you decide how to proceed.
+The instructions are in a state of flux, so rather than put them on the
+website we are updating them to match the [latest parts list](
+complete_parts_list.html) using
+Google Docs. The top-level document is
+[Building a Project PANOPTES Robotic Telescope](
+https://docs.google.com/document/d/18nDDY4hEiUnkAqFX-mvez379OQISXoeNOMg7GjpgS4E/edit),
+located in a Google Docs folder called
+[All Instructions](https://drive.google.com/open?id=1qgJHwwgDPWFXqGLd3rqZEdGeuVE0n7jd).
+
+Please <a href="mailto:info@projectpanoptes.org">Contact Us</a> if you would like to
+build a unit and we will help you with figuring out which versions to use and what
+parts to order.
+
+## Older Build Instructions
+
+These are the mechanical fabrication instructions for the design as of January, 2017.
+They should _not_ be used unless you already purchased the parts for that version of
+the design.
 
 * [Assembling the Camera Box](hardware/camera_box.html)
 * [Assembling the Control Box](hardware/control_box.html)
 * [Assembling the Pier and Mount](hardware/pier.html)
-* [Electronics and Wiring](hardware/electronics.html)
 * [Weatherproofing the Mount](hardware/weatherproofing.html)
-* [Installing the Software](software/install.html)
 
-In addition, check out the
+In addition, check out the:
 
 * [Complete Parts List](complete_parts_list.html)
 * [Tools Required](tools.html)
