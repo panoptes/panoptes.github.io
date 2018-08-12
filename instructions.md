@@ -10,23 +10,24 @@ layout: default
 
 ## PANOPTES Build Instructions
 
-The instructions are in a state of flux, so rather than put them on the
-website we are updating them to match the [latest parts list](
-complete_parts_list.html) using
-Google Docs. The top-level document is
+The instructions are being very actively updated,
+so rather than publish them on the
+website we are using Google Docs to edit and review them.
+The top-level document is
 [Building a Project PANOPTES Robotic Telescope](
 https://docs.google.com/document/d/18nDDY4hEiUnkAqFX-mvez379OQISXoeNOMg7GjpgS4E/edit),
-located in a Google Docs folder called
+located in a Google Drive folder called
 [All Instructions](https://drive.google.com/open?id=1qgJHwwgDPWFXqGLd3rqZEdGeuVE0n7jd).
+The [latest parts list](complete_parts_list.html) is a Google Spreadsheet.
 
 Please <a href="mailto:info@projectpanoptes.org">Contact Us</a> if you would like to
 build a unit and we will help you with figuring out which versions to use and what
 parts to order.
 
-## Older Build Instructions
+## OLDER Build Instructions
 
 These are the mechanical fabrication instructions for the design as of January, 2017.
-They should _not_ be used unless you already purchased the parts for that version of
+They should *not* be used unless you already purchased the parts for that version of
 the design.
 
 * [Assembling the Camera Box](hardware/camera_box.html)
