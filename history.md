@@ -3,6 +3,8 @@ title: PANOPTES History and Science Mission
 layout: default
 ---
 
+<br/>
+
 # A Brief History of PANOPTES
 
 PANOPTES got its start in late 2010 as a small hobby project of Olivier Guyon.
