@@ -3,6 +3,8 @@ title: What is PANOPTES?
 layout: default
 ---
 
+<br/>
+
 ## Scientific background: The transit technique
 
 The transit technique is the most accessible way to discover exoplanets: when
@@ -57,5 +59,10 @@ We are establishing a baseline PANOPTES unit, aimed at being easy to assemble
 and operate, yet reliable and low-cost. We use low-cost DSLR camera + lenses.
 Experienced amateur astronomers will also further develop hardware, with higher
 performance PANOPTES units being built by some members.
+
+## To learn more...
+
+A brief history of the project can be found on [this page](/history.html), and
+many frequently asked questions are addressed on our [FAQ page](/faq.html).
 
 **To join PANOPTES, please [contact us](contact.html)**
