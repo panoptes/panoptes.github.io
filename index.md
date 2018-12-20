@@ -51,10 +51,8 @@ services:
     image: "/uploads/2018/12/18/IMG_20160604_132450 (1).jpg"
     border: true
 sub_heading: Discover New Worlds
-textline: |-
-  **P**anoptic **A**stronomical **N**etworked **O**bservatories for a **P**ublic **T**ransiting **E**xoplanets **S**urvey
-
-  A citizen science project that aims to make it easy for anyone to build a low cost, robotic telescope that can be used to detect transiting exoplanets.
+textline: A citizen science project that aims to make it easy for anyone to build
+  a low cost, robotic telescope that can be used to detect transiting exoplanets.
 hero_button:
   text: ''
   href: ''
