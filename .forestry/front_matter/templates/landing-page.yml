@@ -42,6 +42,19 @@ fields:
     required: false
     schema:
       format: markdown
+- type: field_group
+  name: feature_button
+  label: Feature Button
+  description: This goes under the main textline in a Hero element.
+  fields:
+  - type: text
+    name: label
+    label: Label
+    description: Label for feature button.
+  - type: text
+    name: url
+    label: URL
+    description: Link for the feature button.
 - name: services
   label: Services
   type: field_group_list
