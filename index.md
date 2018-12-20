@@ -59,7 +59,7 @@ hero_button:
 show_news: true
 show_staff: false
 feature_button:
-  text: Check out our Community Forum!
+  text: Visit our Community Forum!
   href: https://forum.projectpanoptes.org
 
 ---
