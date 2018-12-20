@@ -33,5 +33,18 @@
 </footer>
 <!-- Javascript -->
 <script src="{{ "/js/main.js" | absolute_url }}" type="text/javascript"></script>
+<!-- Slick carousel Javascript -->
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.slick-carousel').slick({
+    adaptiveHeight: true,
+    autoplay: true,
+    autoplaySpeed: 10000,
+    dots: true,
+    pauseOnDotsHover: true,
+  });
+});
+</script>
 </body>
 </html>

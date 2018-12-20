@@ -1,3 +1,10 @@
+{% if page.slick_carousel %}
+<div class="slick-carousel">
+  <div>your content</div>
+  <div>your content</div>
+  <div>your content</div>
+</div>
+{% endif %}
 {% if page.banner_image and page.banner_image != "" %}
 	<header id="banner" style="background-image: url('{{ page.banner_image | absolute_url }}');">
 		<div class="container pure-g">
