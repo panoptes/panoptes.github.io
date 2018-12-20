@@ -80,6 +80,10 @@ aside {
 }
 
 /* Partners */
+.partners {
+  margin: 0 0;
+}
+
 .partners h2 {
   margin-bottom: 0px;
 }
