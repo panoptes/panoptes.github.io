@@ -29,11 +29,6 @@ aside {
   max-width: 27em;
 }
 
-.main-message h2 strong {
-  font-size: larger;
-  font-weight: 500px;
-}
-
 /* Services */
 .services p {
   height: 16em;
@@ -94,7 +89,7 @@ aside {
 }
 
 .partners ul {
-  display: inline-block;
+  display: flow-root;
   margin: 1em 2em;
 }
 
