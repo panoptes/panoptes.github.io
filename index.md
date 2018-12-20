@@ -58,5 +58,8 @@ hero_button:
   href: "/about"
 show_news: true
 show_staff: false
+feature_button:
+  label: Check out our Community Forum!
+  url: https://forum.projectpanoptes.org
 
 ---
