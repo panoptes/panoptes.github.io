@@ -20,6 +20,15 @@ aside {
       }
 }   
 
+/* Main Name on Home Page */
+.main-message .content-narrow {
+  text-align: -webkit-center
+}
+
+.main-message h2 {
+  max-width: 27em;
+}
+
 /* Services */
 .services p {
   height: 13em;
