@@ -54,8 +54,8 @@ sub_heading: Discover New Worlds
 textline: A citizen science project that aims to make it easy for anyone to build
   a low cost, robotic telescope that can be used to detect transiting exoplanets.
 hero_button:
-  text: Learn more
-  href: "/about"
+  text: ''
+  href: ''
 show_news: true
 show_staff: false
 feature_button:
