@@ -6,7 +6,7 @@ tags:
 - help
 date: 2018-12-16 21:06:14 +0000
 sub_heading: ''
-banner_image: "/uploads/2018/12/17/pan-head.png"
+banner_image: ''
 slug: ''
 
 ---
