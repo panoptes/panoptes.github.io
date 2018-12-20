@@ -20,6 +20,15 @@ aside {
       }
 }   
 
+@media (max-width: 768px)
+.container {
+    margin: 0 0em;
+}
+
+.content-narrow {
+  padding; 1em;
+}
+
 /* Main Name on Home Page */
 .main-message .content-narrow {
   text-align: -webkit-center
