@@ -61,5 +61,7 @@ show_staff: false
 feature_button:
   label: Check out our Community Forum!
   url: https://forum.projectpanoptes.org
+  text: Check out our Community Forum!
+  href: https://forum.projectpanoptes.org
 
 ---
