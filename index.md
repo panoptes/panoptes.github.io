@@ -1,6 +1,6 @@
 ---
 title: Home
-banner_image: "/uploads/2018/12/16/PAN001_sunset_banner.png"
+banner_image: ''
 layout: landing-page
 heading: Project PANOPTES
 partners:
