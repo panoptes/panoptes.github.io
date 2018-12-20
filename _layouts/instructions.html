@@ -1,0 +1,51 @@
+---
+layout: default
+---
+{% comment %}
+	This layout is used to by instructions.md to display all of documents in
+	the _instructions/ collection
+{% endcomment %}
+
+{% include breadcrumbs.html %}
+
+{% assign stripped_content = content | strip_newlines %}
+{% if content and stripped_content != "" %}
+<section class="about">
+	<div class="container pure-g">
+		<div class="pure-u-1">
+			<div class="content content-narrow">
+				{{ content }}
+			</div>
+		</div>
+	</div>
+</section>
+{% endif %}
+
+<div class="container pure-g">
+	<div class="pure-u-1">
+		<div class="content">
+			<div class="grid-layout">
+				<div class="container pure-g">
+					{% for instruction in site.instructions %}
+					<div class="pure-u-1 pure-u-md-1-3">
+						<div class="card">
+							<div class="card-header">
+							{% if instruction.banner_image and instruction.banner_image != "" %}
+							<img src="{{ instruction.banner_image | absolute_url }}" alt="{{ instruction.title }}">
+							{% else %}
+								<img src="{{ "/img/placeholder.png" | absolute_url }}" alt="{{ instruction.title }}">
+							{% endif %}
+							</div>
+							<div class="card-body">
+								<h3><a href="{{ instruction.url | absolute_url }}">{{ instruction.title }}</a></h3>
+								<p>{{ instruction.sub_heading | slice: 0, 80 }}</p>
+								<p>{{ instruction.content | truncate: 80 }}</p>
+							</div>
+						</div>
+					</div>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

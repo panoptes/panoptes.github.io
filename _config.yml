@@ -1,0 +1,39 @@
+title: Project PANOPTES
+short_title: PANOPTES
+description: PANOPTES is a citizen science project which aims to build low cost, robotic telescopes which can be used to detect transiting exoplanets.
+baseurl: 
+permalink: "/:path/"
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+collections:
+  people:
+    output: true
+    permalink: "/people/:path/"
+  teams:
+    output: true
+    permalink: "/teams/:path/"    
+  posts:
+    output: true
+  articles:
+    output: true
+    permalink: "/articles/:path/"
+  instructions:
+    output: true
+    permalink: "/instructions/:path/"
+# tag_page_layout: tag_page
+# tag_page_dir: tag
+jekyll-archives:
+  enabled: all
+  layout: "archive"
+gems:
+  - jekyll-menus
+  - jekyll-feed
+  - jekyll-archives

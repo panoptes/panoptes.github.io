@@ -1,0 +1,19 @@
+header:
+  - url: /
+    title: Home
+    identifier: home
+  - url: /posts
+    title: News
+    identifier: news
+  - url: /articles
+    title: Learn More
+    identifier: learn
+  - url: /faq
+    title: FAQ
+    identifier: faq
+  - url: /about
+    title: About
+    identifier: about    
+  - url: /contact
+    title: Contact
+    identifier: contact
