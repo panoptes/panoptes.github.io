@@ -15,8 +15,10 @@
   <link rel="stylesheet" href="https://yui-s.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
   <!--<![endif]-->
   <link rel="stylesheet" href="{{ "/css/main.min.css" | absolute_url }}">
+  {% if page.slick_carousel %}
   <!-- Slick carousel -->
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  {% if end %}
   <!-- PANOPTES specific styles -->
   <link rel="stylesheet" href="{{ "/css/panoptes.css" | absolute_url }}">
   </head>
