@@ -62,5 +62,6 @@ feature_button:
   text: Visit our Community Forum!
   href: https://forum.projectpanoptes.org
 show_site_name: true
+slick_carousel: true
 
 ---
