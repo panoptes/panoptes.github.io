@@ -32,17 +32,18 @@ aside {
 /* Slick Carousel */
 .carousel {
   margin: auto;
-  width: 65%;
+  width: 65vw;
   display: block;
 }
 
 .slick-slide {
-  width: 20em;
+  /*width: 20em;*/
 }
 
 .slick-slide img {
   display: block;
-  height: 20em;
+  max-height: 10vw;
+  max-width: 90vw;
 }
 
 /* Main Name on Home Page */
