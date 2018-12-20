@@ -33,9 +33,9 @@ fields:
     name: image
     label: Image
   - type: text
-    name: alt_text
-    label: Alt text
-    description: Alternative text for the image.
+    name: caption
+    label: Caption
+    description: Caption to use for the image.
 - type: file
   name: banner_image
   label: Hero Image

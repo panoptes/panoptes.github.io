@@ -64,9 +64,11 @@ feature_button:
 show_site_name: true
 slick_carousel: true
 slick_images:
-- image: "/uploads/2018/12/16/IMG_20160430_140820.jpg"
-  alt_text: AstroDay 2016
+- image: "/uploads/2018/12/20/OrionRegion.jpg"
+  alt_text: Orion Region
 - image: "/uploads/2018/12/16/PAN001_sunset_banner.png"
   alt_text: PAN001 Sunset Banner
+- image: "/uploads/2018/12/16/IMG_20160430_140820.jpg"
+  alt_text: AstroDay 2016
 
 ---
