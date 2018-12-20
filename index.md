@@ -66,6 +66,7 @@ slick_carousel: true
 slick_images:
 - image: "/uploads/2018/12/20/OrionRegion.jpg"
   alt_text: Orion Region
+  caption: M42 - Orion Region
 - image: "/uploads/2018/12/16/PAN001_sunset_banner.png"
   alt_text: PAN001 Sunset Banner
 - image: "/uploads/2018/12/16/IMG_20160430_140820.jpg"
