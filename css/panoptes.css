@@ -30,6 +30,10 @@ aside {
 }
 
 /* Main Name on Home Page */
+.main-message {
+  padding: 0px 0px;
+}
+
 .main-message .content-narrow {
   text-align: -webkit-center
 }
