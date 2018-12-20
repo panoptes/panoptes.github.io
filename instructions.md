@@ -6,7 +6,7 @@ publish_date: 2017-11-01 03:00:00 +0000
 banner_image: ''
 heading: Build Instructions
 services: []
-sub_heading: Hardware, software, part's lists, and more
+sub_heading: Hardware, software, part lists, and more
 menu:
   learn: {}
 
