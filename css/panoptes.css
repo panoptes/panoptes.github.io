@@ -114,6 +114,10 @@ aside {
 }
 
 /* News Posts */
+.news-twitter {
+  padding: 0 0;
+}
+
 .news-twitter .col-wrap {
     padding: 0 25px;
 }
