@@ -63,5 +63,8 @@ feature_button:
   href: https://forum.projectpanoptes.org
 show_site_name: true
 slick_carousel: true
+slick_images:
+- image: "/uploads/2018/12/16/PAN001_sunset_banner.png"
+  alt_text: PAN001 Sunset Banner
 
 ---
