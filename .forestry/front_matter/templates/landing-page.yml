@@ -48,11 +48,11 @@ fields:
   description: This goes under the main textline in a Hero element.
   fields:
   - type: text
-    name: label
+    name: text
     label: Label
     description: Label for feature button.
   - type: text
-    name: url
+    name: href
     label: URL
     description: Link for the feature button.
 - name: services
