@@ -29,6 +29,18 @@ aside {
   padding: 1em;
 }
 
+/* Slick Carousel */
+.carousel {
+  margin: auto;
+  width: 65%;
+  display: block;
+}
+
+.slick-slide img {
+  display: block;
+  height: 20em;
+}
+
 /* Main Name on Home Page */
 .main-message {
   padding: 0px 0px;
