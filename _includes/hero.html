@@ -5,9 +5,10 @@
 			<div class="pure-u-1 pure-u-md-1">
 				<header class="call-to-action">		
 					<div class="slick-carousel">
-						{% for image in page.slick_images %}
+						{% for slick_img in page.slick_images %}
 						  <div>
-						  	<img src="{{ image.image | absolute_url }}" alt="{{ image.caption }}" >
+						  	<img src="{{ slick_img.image | absolute_url }}" alt="{{ slick_img.caption }}" >
+						  	<p>{{slick_img.caption }}</p>
 						  </div>
 					 	{% endfor %}
 					</div>
