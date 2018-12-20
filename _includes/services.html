@@ -9,6 +9,7 @@
         <div class="pure-u-1 pure-u-md-1-{{ forloop.length }}">
               <div class="service">
                   <div class="service-icon"><img src="{{ item.thumbnail.image | absolute_url }}" alt="" class="{% if item.thumbnail.border %}bordered{% endif %}"></div>
+                  
                   <h2>{{ item.heading }}</h2>
                   <p>{{ item.description }}</p>
 

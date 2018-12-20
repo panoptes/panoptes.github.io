@@ -21,6 +21,10 @@ aside {
 }   
 
 /* Services */
+.services p {
+  height: 13em;
+}
+
 .service {
     padding: 1em;
 }
