@@ -17,7 +17,7 @@
                 <h2>Latest News</h2>
                 <ul class="posts">
                     {% for post in site.posts limit:3 %}
-                    <li>
+                    <li class="news-item">
                         <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
                         <date>{{ post.date | date_to_string }}</date>
                         <date>{{ post.sub_heading }}</date>

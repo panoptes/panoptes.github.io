@@ -10,7 +10,23 @@ layout: default
 <div class="container pure-g">
     <div class="pure-u-1">
         <div class="content content-narrow">
+			<div class="meta">
+				{% if page.roles.size > 0 %}
+				<ul class="tags-list">
+					{% for role in page.roles %}
+					  <li class="inline tag_list_item role"> {{ role }} </li>
+					{% endfor %}
+				</ul>
+				<br />
+				{% endif %}
+			</div>
             {{ content }}
+
+			{% if page.personal_url and page.personal_url != "" %}
+				<a href="{{ page.personal_url }}" class="pure-button button-success" title="{{ page.title }}" target="_blank">
+					Visit website&nbsp;<i class="fa fa-chevron-right"></i>
+				</a>
+			{% endif %}								
         </div>
     </div>
 </div>

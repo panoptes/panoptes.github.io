@@ -3,9 +3,8 @@ title: Hardware Description
 tags: []
 date: 2018-12-17 10:34:53 +0000
 sub_heading: ''
-banner_image: ''
+banner_image: "/uploads/2018/12/16/20180822_092718.jpg"
 slug: ''
-published: false
 
 ---
 # Hardware

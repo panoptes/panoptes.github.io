@@ -1,3 +1,15 @@
+aside {
+    background: #1f8dd6;
+    margin: 1em 0;
+    padding: 1em 2em;
+    border-radius: 25px;
+    color: #fff;
+}
+
+.breadcrumbs {
+  margin-bottom: 10px;
+}
+
 .logo a {
     width: 350px;
     background-size: 350px;
@@ -8,12 +20,28 @@
       }
 }   
 
+/* Services */
 .service {
     width: 80%
 }
 
+.service .button-link a {
+  width: 80%;
+}
 
-/*Center the Team photos*/
+.services .service-icon img {
+    width: inherit;
+    max-width: 275px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.services .service-icon img.bordered {
+  border: 1px solid;
+}
+
+
+/* Teams */
 .content img {
 	display: block;
 	margin: auto;
@@ -24,8 +52,64 @@
      overflow: hidden; 
 }
  
-/*Slightly rounded people pics*/
+/* People */
 .column-list-layout .post .post-header,
 .profile-photo {
     border-radius: 5%   
+}
+
+.personal_url {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 0;
+    line-height: 2em;
+    font-size: 12px;
+}
+
+/* Partners */
+.partners {
+  margin: 0px 200px;
+}
+
+.partners h2 {
+  margin-bottom: 0px;
+}
+
+.partners div {
+  text-align: -webkit-center;
+}
+.partners ul {
+  display: inline-block;
+}
+
+.partners ul li {
+  margin: 0px 10%;
+  float: left;
+  list-style: none;
+} 
+
+.partners ul li img {
+  max-width: 150px
+}
+
+.meta ul .role {
+  background-color: aliceblue;
+  padding: 2px 8px;
+  font-weight: 600;
+  border-radius: 7px;
+  border: 1px solid lightgrey;  
+}
+
+/* News Posts */
+.news-item {
+  border-left: 1px solid darkgrey;
+  background-color: lightgrey;
+  padding: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+/* Footer */
+.site-footer {
+  margin-top: 10px;
+  padding-top: 25px;
 }

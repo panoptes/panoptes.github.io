@@ -8,9 +8,16 @@
         {% for item in page.services %}
         <div class="pure-u-1 pure-u-md-1-{{ forloop.length }}">
               <div class="service">
-                  <div class="service-icon"><img src="{{ item.icon | absolute_url }}" alt=""></div>
+                  <div class="service-icon"><img src="{{ item.thumbnail.image | absolute_url }}" alt="" class="{% if item.thumbnail.border %}bordered{% endif %}"></div>
                   <h2>{{ item.heading }}</h2>
                   <p>{{ item.description }}</p>
+
+                  <div class="button-link">
+                    <a href="{{ item.link.href | absolute_url }}" class="pure-button button-success button-medium button-outline" title="{{ item.link.label }}">
+                      {{ item.link.label }}&nbsp;<i class="fa fa-chevron-right"></i>
+                    </a>
+                  </div>
+
               </div>
         </div>
         {% endfor %}

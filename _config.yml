@@ -22,6 +22,7 @@ collections:
     permalink: "/teams/:path/"    
   posts:
     output: true
+    permalink: "/posts/:path/"    
   articles:
     output: true
     permalink: "/articles/:path/"

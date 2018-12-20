@@ -1,0 +1,49 @@
+---
+label: post
+hide_body: false
+is_partial: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- type: text
+  label: Sub Heading
+  name: sub_heading
+  default: ''
+- name: date
+  label: Publish Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: tags
+  label: Tags
+  type: tag_list
+  hidden: false
+  default: ''
+- type: file
+  name: banner_image
+  label: Banner Image
+  description: Ideal dimensions 2500px by 1200px
+- type: list
+  name: related_posts
+  label: Related Posts
+  config:
+    use_select: true
+    source:
+      type: pages
+      section: posts
+- name: layout
+  label: Layout
+  type: text
+  hidden: true
+  default: post
+pages:
+- _posts/2018-12-16-we-re-hiring-postdoc-needed.md
+- _posts/2018-12-16-panoptes-aa233.md
+- _posts/2018-09-16-hawaiicon-2018.md
+- _posts/2018-08-25-pan012-party.md
+- _posts/2018-08-01-new-forum-launched.md
+- _posts/2018-04-05-scale-conference-16x.md
+- _posts/2018-10-02-panoptes-on-stardate.md

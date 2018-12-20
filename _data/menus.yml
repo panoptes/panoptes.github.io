@@ -8,7 +8,7 @@ header:
   - url: /articles
     title: Learn More
     identifier: learn
-  - url: /faq
+  - url: /articles/faq
     title: FAQ
     identifier: faq
   - url: /about
