@@ -31,9 +31,9 @@ aside {
 
 /* Slick Carousel */
 .carousel {
-  margin: auto;
+/*  margin: auto;
   width: 65vw;
-  display: block;
+  display: block;*/
 }
 
 .slick-slide {
