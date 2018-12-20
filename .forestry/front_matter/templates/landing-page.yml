@@ -22,6 +22,20 @@ fields:
   name: slick_carousel
   label: Slick Carousel
   description: If landing page should show a slick carousel.
+- type: field_group_list
+  name: slick_images
+  label: Slick Images
+  description: The images to use in the slick carousel.
+  config:
+    min: '0'
+  fields:
+  - type: file
+    name: image
+    label: Image
+  - type: text
+    name: alt_text
+    label: Alt text
+    description: Alternative text for the image.
 - type: file
   name: banner_image
   label: Hero Image
