@@ -80,25 +80,20 @@ aside {
 }
 
 /* Partners */
-.partners {
-  margin: 0px 200px;
-}
-
 .partners h2 {
   margin-bottom: 0px;
 }
 
-.partners div {
-  text-align: -webkit-center;
-}
 .partners ul {
   display: inline-block;
+  margin: 1em 2em;
 }
 
 .partners ul li {
   margin: 0px 10%;
   float: left;
   list-style: none;
+  padding-bottom: 2em;
 } 
 
 .partners ul li img {
