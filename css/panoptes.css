@@ -105,6 +105,10 @@ aside {
 }
 
 /* News Posts */
+.news-twitter .col-wrap {
+    padding: 0 25px;
+}
+
 .news-item {
   border-left: 1px solid darkgrey;
   background-color: lightgrey;
