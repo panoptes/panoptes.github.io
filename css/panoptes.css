@@ -115,7 +115,7 @@ aside {
 
 /* News Posts */
 .news-twitter {
-  padding: 0 0;
+  padding: 0 0 15px 0;
 }
 
 .news-twitter .col-wrap {
