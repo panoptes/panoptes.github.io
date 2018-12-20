@@ -69,7 +69,9 @@ slick_images:
   caption: M42 - Orion Region
 - image: "/uploads/2018/12/16/PAN001_sunset_banner.png"
   alt_text: PAN001 Sunset Banner
+  caption: PAN001 on Mauna Loa
 - image: "/uploads/2018/12/16/IMG_20160430_140820.jpg"
   alt_text: AstroDay 2016
+  caption: Hawaii AstroDay 2016
 
 ---
