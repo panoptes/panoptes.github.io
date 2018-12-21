@@ -35,14 +35,14 @@ aside {
 @media screen and (max-width: 575px) {
   /*Hide all the nave links except the first*/
   .navigation a:not(:first-child) {display: none;}
-  .navigation a.icon {
+  .navigation a.small-screen-icon {
     float: right;
     display: block;
   }
 
   /*Show the menu icon*/
   .navigation.responsive {position: relative;}
-  .navigation.responsive a.icon {
+  .navigation.responsive a.small-screen-icon {
     position: absolute;
     right: 0;
     top: 0;
