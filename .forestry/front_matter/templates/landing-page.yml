@@ -54,7 +54,7 @@ fields:
     label: Link
 - type: boolean
   name: show_site_name
-  label: Show Site Name
+  label: Show Site Name?
   description: If the site name should be shown above description.
 - type: textarea
   name: textline
