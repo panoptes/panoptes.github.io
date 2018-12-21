@@ -24,8 +24,17 @@ aside {
 }
 
  /*Menu */
+ .main-nav li {
+  float: inherit;
+ }
  .navigation li:hover {
-  background-color: rgba(0, 0, 255, 1);
+  background-color: rgba(138, 32, 4, 0.32);
+  border-radius: 5px;  
+}
+
+/*Nested links*/
+.navigation li ul li a:hover {
+    border-left: 2px solid #8b2004;
 }
 
 .navigation .small-screen-icon {
