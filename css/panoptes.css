@@ -26,9 +26,6 @@ aside {
 }
 
  /*Menu */
- .main-nav li {
-  float: inherit;
- }
  .navigation li:hover {
   background-color: rgba(138, 32, 4, 0.32);
   border-radius: 5px;  
