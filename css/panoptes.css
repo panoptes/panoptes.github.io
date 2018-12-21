@@ -30,20 +30,13 @@ aside {
 }
 
 /* Slick Carousel */
-.carousel {
-/*  margin: auto;
-  width: 65vw;
-  display: block;*/
-}
-
-.slick-slide {
-  /*width: 20em;*/
+.slick-slide .holder {
+    /*background: url(https://lifeyostaticfiles.s3.amazonaws.com/static/uploads/se7bGsmQRXu8dhOwEMOm_IMG_20160430_140820.jpg) no-repeat scroll 37% 70% / cover;*/
+    height: 400px;
 }
 
 .slick-slide img {
   display: block;
-  max-height: 10vw;
-  max-width: 90vw;
 }
 
 /* Main Name on Home Page */
