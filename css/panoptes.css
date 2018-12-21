@@ -53,7 +53,7 @@ aside {
 
   /*Hide all the nave links except the first*/
   .navigation li:not(:first-child) {display: none;}
-  .navigation a.small-screen-icon {
+  .navigation li.small-screen-icon {
     float: right;
     display: block;
   }
