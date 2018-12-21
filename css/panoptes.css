@@ -6,6 +6,7 @@
 @media only screen and (max-width: 575px) { 
   .site-header .logo a {
     background: url(../img/favicon.png) no-repeat;
+    background-size: contain;
   }
 
   #banner .call-to-action {
@@ -85,7 +86,7 @@ aside {
 
 /* Services */
 .services p {
-  height: 14em;
+  max-height: 35vw;
 }
 
 .service {
@@ -98,8 +99,8 @@ aside {
 
 .services .service-icon img {
     width: inherit;
-    max-width: 275px;
-    height: 200px;
+    max-width: 30vw;
+    height: 20vw;
     border-radius: 10px;
 }
 
