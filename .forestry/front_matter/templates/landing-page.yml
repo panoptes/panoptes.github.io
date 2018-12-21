@@ -125,6 +125,10 @@ fields:
   name: show_news
   label: Show News?
   description: Enables a news section with a twitter feed & latest posts
+- type: boolean
+  name: show_discourse
+  label: Show Discourse?
+  description: If we should show the latest discourse posts.
 - type: image_gallery
   name: partners
   label: Partner Logos
