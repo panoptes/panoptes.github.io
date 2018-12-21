@@ -46,7 +46,7 @@ aside {
 }
 
 @media all and (max-width: 480px) { 
-    .call-to-action {
+    #banner .call-to-action {
         display: none;
     }
 }
