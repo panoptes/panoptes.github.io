@@ -3,10 +3,12 @@
 }
 
 /* Small screens */
-@media only screen and (max-width: 575px) { 
+@media only screen and (max-width: 991px) { 
   .site-header .logo a {
     background: url(../img/favicon.png) no-repeat;
     background-size: contain;
+    border: 1px solid;
+    width: 2em;
   }
 
   #banner .call-to-action {
@@ -41,7 +43,7 @@ aside {
   display: none;
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 768px) {
   /*Hide all the nave links except the first*/
   .navigation a:not(:first-child) {display: none;}
   .navigation a.small-screen-icon {
@@ -151,8 +153,8 @@ aside {
 
 /* Teams */
 .content img {
-	display: block;
-	margin: auto;
+  display: block;
+  margin: auto;
 }
 /*Bigger Team photos*/
 .grid-layout .card .card-header {
