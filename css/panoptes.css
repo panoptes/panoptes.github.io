@@ -31,11 +31,14 @@ aside {
 
 /* Slick Carousel */
 .slick-carousel .holder {
-    /*background: url(https://lifeyostaticfiles.s3.amazonaws.com/static/uploads/se7bGsmQRXu8dhOwEMOm_IMG_20160430_140820.jpg) no-repeat scroll 37% 70% / cover;*/
     height: 400px;
 }
 
 /* Main Name on Home Page */
+.banner {
+  height 35vw;
+}
+
 .main-message {
   padding: 0px 0px;
 }
