@@ -45,7 +45,7 @@ aside {
   border-radius: 10px;
 }
 
-@media only screen and (max-width: 600px) {
+@media all and (max-width: 480px) { 
     .call-to-action {
         display: none;
     }
