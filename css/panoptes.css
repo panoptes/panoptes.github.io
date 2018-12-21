@@ -44,8 +44,18 @@ aside {
 }
 
 @media screen and (max-width: 768px) {
+  .navigation {
+      display: flex;
+      /* float: right; */
+  }
+
+  .main-nav {
+    display: flex;
+    float: right
+  }
+
   /*Hide all the nave links except the first*/
-  .navigation a:not(:first-child) {display: none;}
+  .navigation li:not(:first-child) {display: none;}
   .navigation a.small-screen-icon {
     float: right;
     display: block;
@@ -59,11 +69,10 @@ aside {
     top: 0;
   }
   .navigation.responsive a {
-    float: none;
     display: block;
-    text-align: left;
   }
 }
+
 
 .breadcrumbs {
   margin-bottom: 10px;
