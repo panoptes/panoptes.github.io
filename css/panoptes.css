@@ -23,6 +23,37 @@ aside {
     color: #fff;
 }
 
+ /*Menu */
+ .navigation li:hover {
+  background-color: rgba(0, 0, 255, 1);
+}
+
+.navigation .small-screen-icon {
+  display: none;
+}
+
+@media screen and (max-width: 575px) {
+  /*Hide all the nave links except the first*/
+  .navigation a:not(:first-child) {display: none;}
+  .navigation a.icon {
+    float: right;
+    display: block;
+  }
+
+  /*Show the menu icon*/
+  .navigation.responsive {position: relative;}
+  .navigation.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navigation.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
 .breadcrumbs {
   margin-bottom: 10px;
 }
@@ -37,7 +68,7 @@ aside {
       }
 }   
 
-@media (max-width: 768px)
+@media screen and (max-width: 768px)
 .container {
     margin: 0 0em;
 }
