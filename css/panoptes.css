@@ -39,6 +39,16 @@ aside {
   height: 35vw;
 }
 
+.call-to-action {
+  background-color: rgba(178, 170, 170, 0.5);
+  padding: 0px 8px;
+  border-radius: 10px;
+}
+
+.call-to-action h1 {
+  line-height: 0.8em;
+}
+
 .main-message {
   padding: 0px 0px;
 }
