@@ -33,5 +33,12 @@ fields:
           format: markdown
   config:
     labelField: section_name
+- type: text
+  name: layout
+  label: Layout
+  hidden: true
+  config:
+    required: true
+  default: faq
 pages:
 - faq2.md
