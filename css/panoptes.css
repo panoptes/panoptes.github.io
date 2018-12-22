@@ -225,6 +225,19 @@ aside {
      overflow: hidden; 
 }
  
+/* People */
+.column-list-layout .post .post-header, .profile-photo {
+    border-radius: 5%   
+}
+
+.personal_url {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 0;
+    line-height: 2em;
+    font-size: 12px;
+}
+
 /* Partners */
 .partners {
   margin: 0 0;
@@ -308,68 +321,6 @@ aside {
       height: 25%;
       border-radius: 10px;
   }  
-}
-
-
-/*People Page*/
-.column-list-layout {
-  .person {
-    margin: 0 1em;
-    margin-bottom: 2em;
-
-    transition: all 0.2s ease-in-out;
-    cursor: pointer;
-    overflow: hidden;
-
-    .person-header {
-      width: 80%;
-      margin: 0 auto;
-      overflow: hidden;
-      border-radius: 50%;
-
-      img {
-        width: 100%;
-        display: block;
-      }
-      .profile-photo {
-          border-radius: 5%   
-      }      
-    }
-
-    .person-body {
-      padding: 10px;
-      box-sizing: border-box;
-      min-height: 160px;
-
-      h3 {
-        font-size: 14px;
-        margin-bottom: 5px;
-        text-transform: uppercase;
-
-        a {
-          text-decoration: none;
-        }
-      }
-
-      .subtitle {
-        font-size: 12px;
-        font-weight: 500;
-      }
-
-      p {
-        font-size: 14px;
-      }
-    }
-  }
-}
-
-/* People */
-.personal_url {
-    float: left;
-    margin-right: 10px;
-    margin-bottom: 0;
-    line-height: 2em;
-    font-size: 12px;
 }
 
 /*
