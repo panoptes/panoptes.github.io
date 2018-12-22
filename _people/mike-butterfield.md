@@ -4,7 +4,7 @@ sub_heading: ''
 thumbnail: "/uploads/2018/12/22/MikeButterfield.jpg"
 roles: []
 email: ''
-personal_url: ''
+personal_url: http://mikebutterfield.com/
 layout: ''
 date: 2018-12-22 05:04:37 +0000
 published: false
