@@ -1,7 +1,7 @@
 ---
 title: Mike Butterfield
 sub_heading: ''
-thumbnail: ''
+thumbnail: "/uploads/2018/12/22/MikeButterfield.jpg"
 roles: []
 email: ''
 personal_url: ''
