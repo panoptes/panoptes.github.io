@@ -17,18 +17,19 @@
     width: 2em;
   }
 
+  #banner .call-to-action {
+      display: none;
+  }
+
+}
+
+@media only screen and (min-width: 768px) { 
   .site-header .logo.responsive a {
     background: url(../img/full-logo.png) no-repeat;
     background-size: contain;
     width: 10em;
     height: 10em;
   }
-
-
-  #banner .call-to-action {
-      display: none;
-  }
-
 }
 
 aside {
@@ -122,9 +123,10 @@ aside {
 }
 
 
-@media screen and (max-width: 768px)
-.container {
-    margin: 0 0em;
+@media screen and (max-width: 768px) {
+  .container {
+      margin: 0 0em;
+  }
 }
 
 .content-narrow {
@@ -194,6 +196,33 @@ aside {
 
 .services .service-icon img.bordered {
   border: 1px solid;
+}
+
+@media screen and (max-width: 768px) {
+  .services h2 {
+    font-size: 1em;
+  }
+  .services p {
+    height: 22em;
+    max-height: 22em;
+  }
+  .service .button-link a {
+    width: 100%;
+    padding: 10px 0px;
+  }  
+}
+
+@media screen and (max-width: 575px) {
+  .services p {
+    height: auto;
+    max-height: 70vw;
+  }
+  .services .service-icon img {
+      max-width: 100%;
+      width: 100%;      
+      height: 25%;
+      border-radius: 10px;
+  }  
 }
 
 /* Teams */
@@ -275,3 +304,8 @@ aside {
   margin-top: 10px;
   padding-top: 25px;
 }
+
+/*@media all and (max-width: 1199px) { ... } 
+@media all and (max-width: 991px) { ... } 
+@media all and (max-width: 768px) { ... } 
+@media all and (max-width: 575px) { ... }*/*/
