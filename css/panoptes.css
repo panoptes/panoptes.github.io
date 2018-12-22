@@ -297,7 +297,8 @@ aside {
 .thumbnail-img img {
     width: inherit !important;
     max-width: 25vw;
-    height: 18vw;
+    height: 18vw !important;
+    max-height: 300px
     border-radius: 10px;
 }
 
@@ -325,6 +326,10 @@ aside {
 
 .column-list-layout .post .post-header:hover {
     box-shadow: none;
+}
+
+.column-list-layout .post .post-body .subtitle {
+  height: 12px;
 }
 
 /*
