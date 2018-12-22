@@ -5,7 +5,7 @@ thumbnail: "/uploads/2018/12/22/Jen.jpg"
 roles: []
 email: ''
 personal_url: https://mimming.com/
-layout: ''
+layout: person
 date: 2018-12-22 05:05:29 +0000
 links:
 - label: Jen's Personal Website

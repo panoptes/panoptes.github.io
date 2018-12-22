@@ -5,7 +5,7 @@ thumbnail: "/uploads/2018/12/22/2015-08-29-172612.jpg"
 roles: []
 email: ''
 personal_url: ''
-layout: ''
+layout: person
 date: 2018-12-22 05:04:20 +0000
 links: []
 join_date: ''

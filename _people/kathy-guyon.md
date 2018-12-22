@@ -5,7 +5,7 @@ thumbnail: "/uploads/2018/12/22/KathyGuyon.jpg"
 roles: []
 email: ''
 personal_url: ''
-layout: ''
+layout: person
 date: 2018-12-22 05:06:07 +0000
 links: []
 join_date: ''

@@ -5,7 +5,7 @@ thumbnail: "/uploads/2018/12/22/JoshWalawender.jpg"
 roles: []
 email: ''
 personal_url: http://www.twilightlandscapes.com/
-layout: ''
+layout: person
 date: 2018-12-22 04:59:14 +0000
 links:
 - label: Josh's Personal Website
