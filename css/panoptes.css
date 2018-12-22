@@ -1,6 +1,13 @@
-.site-header .logo a {
-  background: url(../img/logo-retina.png) no-repeat;
-}
+.logo a {
+    width: 350px;
+    background-size: 350px;
+    background-image: url('../img/logo.png') no-repeat;
+
+    @media #{$retina}  {
+        background-image: url('../img/logo-retina.png') no-repeat;
+        background-size: 350px;
+      }
+}   
 
 /* Small screens */
 @media only screen and (max-width: 991px) { 
@@ -9,6 +16,13 @@
     background-size: contain;
     width: 2em;
   }
+
+  .site-header .logo.responsive a {
+    background: url(../img/full-logo.png) no-repeat;
+    background-size: contain;
+    width: 2em;
+  }
+
 
   #banner .call-to-action {
       display: none;
@@ -67,10 +81,26 @@ aside {
     display: block;
   }
   
-  .responsive li:not(:first-child) { display: block; }
+  .responsive li:not(:first-child) { 
+    display: block;
+
+  }
+  
+  .responsive li.nested ul.first-level {
+    display: contents;
+  }
+
+  .responsive li.nested ul.first-level a {
+    display: inherit;
+    font-size: small;
+    color: blue;
+    line-height: 10px;
+    padding-right: 20px;
+  }
 
   .responsive li.current a{ 
     border: none;
+    border-right: 2px solid #8b2004;
   }
 
   .navigation li:hover {
@@ -79,20 +109,10 @@ aside {
 
 }
 
-
 .breadcrumbs {
   margin-bottom: 10px;
 }
 
-.logo a {
-    width: 350px;
-    background-size: 350px;
-
-    @media #{$retina}  {
-        background-image: url('../img/logo-retina.png');
-        background-size: 350px;
-      }
-}   
 
 @media screen and (max-width: 768px)
 .container {
