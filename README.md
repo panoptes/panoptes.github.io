@@ -3,7 +3,7 @@ Project PANOPTES Website
 
 Welcome to the PANOPTES website. This website is hosted on [github pages](https://pages.github.com/)
 and is a static website, meaning we don't do any fancy server side processing or have anything
-to complex going on.
+too complex going on.
 
 The site was built with the help of [forestry.io](https://forestry.io) and can be edited in an easy
 way via that website, however we only have a limited number of guest accounts. However, all editing
