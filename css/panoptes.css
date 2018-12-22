@@ -181,7 +181,7 @@ aside {
 
 /* Services */
 .services p {
-  max-height: 35vw;
+  height: auto;
 }
 
 .service {
@@ -189,7 +189,7 @@ aside {
 }
 
 .service .button-link a {
-  width: 80%;
+  width: 90%;
 }
 
 .services .service-icon img {
@@ -203,25 +203,26 @@ aside {
   border: 1px solid;
 }
 
+
 @media screen and (max-width: 768px) {
   .services h2 {
     font-size: 1em;
   }
-  .services p {
-    height: 22em;
-    max-height: 22em;
-  }
+
+  .services .service-icon img {
+      max-width: 80%;
+      width: 50%;      
+      height: auto;
+      border-radius: 10px;
+  }  
+
   .service .button-link a {
-    width: 100%;
+    width: 60%;
     padding: 10px 0px;
   }  
 }
 
 @media screen and (max-width: 575px) {
-  .services p {
-    height: auto;
-    max-height: 70vw;
-  }
   .services .service-icon img {
       max-width: 100%;
       width: 100%;      
