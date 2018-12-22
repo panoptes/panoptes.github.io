@@ -32,7 +32,9 @@ layout: default
 								<h3><a href="{{ instruction.url | absolute_url }}">{{ instruction.title }}</a></h3>
 								<p>{{ instruction.sub_heading | slice: 0, 80 }}</p>
 								<p>{{ instruction.content | truncate: 80 }}</p>
-								<br><br>Continue reading →
+								<div class="read-more">
+									Continue reading →
+								</div>
 							</div>
 						</div>
 					</div>
