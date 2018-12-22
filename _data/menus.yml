@@ -1,22 +1,13 @@
 ---
 header:
-- url: "/contact"
-  title: Contact
-  identifier: contact
-  weight: 1
-- url: "/about"
-  title: About
-  identifier: about
-  weight: 2
-  children:
-    - url: "/teams"
-      title: Teams
-    - url: "/people"
-      title: People
-- url: "/articles/faq"
-  title: FAQ
-  identifier: faq
-  weight: 3
+- url: "/"
+  title: Home
+  identifier: home
+  weight: 6
+- url: "/posts"
+  title: News
+  identifier: news
+  weight: 5
 - url: "/articles"
   title: Learn More
   identifier: learn
@@ -30,11 +21,20 @@ header:
       title: Instructions
       identifier: instructions
       weight: 1      
-- url: "/posts"
-  title: News
-  identifier: news
-  weight: 5
-- url: "/"
-  title: Home
-  identifier: home
-  weight: 6
+- url: "/articles/faq"
+  title: FAQ
+  identifier: faq
+  weight: 3
+- url: "/about"
+  title: About
+  identifier: about
+  weight: 2
+  children:
+    - url: "/teams"
+      title: Teams
+    - url: "/people"
+      title: People
+- url: "/contact"
+  title: Contact
+  identifier: contact
+  weight: 1
