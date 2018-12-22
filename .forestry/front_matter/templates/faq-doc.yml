@@ -33,5 +33,3 @@ fields:
           format: markdown
   config:
     labelField: section_name
-pages:
-- faq.md
