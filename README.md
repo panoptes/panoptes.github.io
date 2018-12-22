@@ -16,7 +16,7 @@ real knowledge of html or javascript required.
 The content is in the form of [Markdown](https://www.markdownguide.org/) documents, which are just
 really simple and easy ways to add a litte semantic knowledge to your content. For instance, this
 README page is written in markdown and if I want make something **bold** I can just do `**bold**` (it
-might help to look at the [Raw version of this README](https://raw.githubusercontent.com/panoptes/panoptes.github.io/master/README.md)).
+might help to look at the [Raw version of this README](https://raw.githubusercontent.com/panoptes/panoptes.github.io/master/README.md)). See also this [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
 There are a few main pages and folders you will want to work with to edit the content.
 
