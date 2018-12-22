@@ -31,13 +31,13 @@ layout: default
 					<div class="pure-u-1 pure-u-md-1-3">
 						<div class="card">
 							<div class="card-header">
-							{% if article.banner_image and article.banner_image != "" %}
-			                <div class="thumbnail-img">
-			                  <img src="{{ article.banner_image | absolute_url }}" alt="{{ article.title }}" class="{% if item.thumbnail.border %}bordered{% endif %}">
-			                </div>							
-							{% else %}
-								<img src="{{ "/img/placeholder.png" | absolute_url }}" alt="{{ article.title }}">
-							{% endif %}
+			                	<div class="thumbnail-img">
+								{% if instruction.banner_image and instruction.banner_image != "" %}
+			                  		<img src="{{ article.banner_image }}" alt="{{ article.title }}" class="{% if item.thumbnail.border %}bordered{% endif %}">
+								{% else %}
+									<img src="{{ "/img/placeholder.png" }}" alt="{{ instruction.title }}">
+								{% endif %}
+			                	</div>							
 							</div>
 							<div class="card-body">
 								<h3><a href="{{ article.url | absolute_url }}">{{ article.title }}</a></h3>
