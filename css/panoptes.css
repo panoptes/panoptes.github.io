@@ -59,6 +59,10 @@ aside {
 
   /*Show the menu icon when clicked */
   .responsive li:not(:first-child) { display: block; }
+
+  .responsive li.current a{ 
+    border: none;
+  }
 }
 
 
