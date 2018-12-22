@@ -1,5 +1,5 @@
 ---
-title: " Contact"
+title: " "
 date: 2017-11-01 03:00:00 +0000
 banner_image: "/uploads/2018/12/16/logo-bg-starry-banner.png"
 heading: ''
