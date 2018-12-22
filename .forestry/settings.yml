@@ -48,9 +48,6 @@ sections:
 - type: document
   path: _data/information.yml
   label: Contact Information
-- type: document
-  path: _data/faq.yml
-  label: FAQ Doc
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
