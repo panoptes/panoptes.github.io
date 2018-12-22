@@ -19,9 +19,6 @@
               <li>
                 <a href="{{ child.url | absolute_url }}"{% if child.target %} target="_blank" {% endif %}>
                   {{ child.title }}
-                  {% if child.childen %}
-                    <i class='icon-right-dir-2'></i>
-                  {% endif %}
                 </a>
               </li>
               {% endfor %}
@@ -29,10 +26,7 @@
             {% endif %}
             <a href="{{ link.url | absolute_url }}"{% if link.target %} target="_blank" {% endif %}>
                   {{ link.title }}
-                  {% if link.children %}
-                    <i class='icon-chevron-down'></i>
-                  {% endif %}
-                </a>
+            </a>
           </li>
           {% endfor %}
           <li class="small-screen-icon">
