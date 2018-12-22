@@ -4,12 +4,12 @@ hide_body: false
 is_partial: false
 fields:
 - type: field_group_list
-  name: section
-  label: Section
+  name: sections
+  label: Sections
   description: FAQ Section Area
   fields:
   - type: text
-    name: section_name
+    name: name
     label: Section Name
   - type: field_group_list
     name: questions
@@ -32,7 +32,7 @@ fields:
         schema:
           format: markdown
   config:
-    labelField: section_name
+    labelField: name
 - type: text
   name: layout
   label: Layout
