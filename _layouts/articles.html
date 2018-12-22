@@ -32,10 +32,10 @@ layout: default
 						<div class="card">
 							<div class="card-header">
 			                	<div class="thumbnail-img">
-								{% if instruction.banner_image and instruction.banner_image != "" %}
+								{% if article.banner_image and article.banner_image != "" %}
 			                  		<img src="{{ article.banner_image }}" alt="{{ article.title }}" class="{% if item.thumbnail.border %}bordered{% endif %}">
 								{% else %}
-									<img src="{{ "/img/placeholder.png" }}" alt="{{ instruction.title }}">
+									<img src="{{ "/img/placeholder.png" }}" alt="{{ article.title }}">
 								{% endif %}
 			                	</div>							
 							</div>

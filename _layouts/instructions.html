@@ -22,7 +22,7 @@ layout: default
 							<div class="card-header">
 			                	<div class="thumbnail-img">
 								{% if instruction.banner_image and instruction.banner_image != "" %}
-			                  		<img src="{{ instruction.banner_image }}" alt="{{ instruction.title }}" class="{% if item.thumbnail.border %}bordered{% endif %}">
+			                  		<img src="{{ instruction.banner_image }}" alt="{{ instruction.title }}" class="bordered">
 								{% else %}
 									<img src="{{ "/img/placeholder.png" }}" alt="{{ instruction.title }}">
 								{% endif %}

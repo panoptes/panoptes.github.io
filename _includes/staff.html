@@ -16,7 +16,7 @@
                             <div class="post-header">
                                 <div class="thumbnail-img">
                                 {% if person.thumbnail %}
-                                    <img src="{{ person.thumbnail }}" alt="{{ person.title }}" class="{% if item.thumbnail.border %}bordered{% endif %}">
+                                    <img src="{{ person.thumbnail }}" alt="{{ person.title }}" class="bordered">
                                 {% else %}
                                     <img src="{{ "/img/placeholder.png" }}" alt="{{ person.title }}">
                                 {% endif %}
