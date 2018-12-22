@@ -323,6 +323,10 @@ aside {
   }  
 }
 
+.column-list-layout .post .post-header:hover {
+    box-shadow: none;
+}
+
 /*
 @media all and (max-width: 1199px) { ... } 
 @media all and (max-width: 991px) { ... } 
