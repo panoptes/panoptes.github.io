@@ -58,7 +58,7 @@ aside {
   }
 
   /*Show the menu icon when clicked */
-  .navigation li {
+  .responsive li {
     float: inherit;
   }
 
@@ -117,6 +117,9 @@ aside {
   background-color: rgba(178, 170, 170, 0.5);
   padding: 0px 8px;
   border-radius: 10px;
+  -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  box-shadow: 1px 2px 3px rgba(0,0,0,.5);   
 }
 
 @media all and (max-width: 575px) { 
@@ -164,7 +167,6 @@ aside {
 .services .service-icon img.bordered {
   border: 1px solid;
 }
-
 
 /* Teams */
 .content img {
