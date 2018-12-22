@@ -4,7 +4,7 @@ sub_heading: ''
 thumbnail: ''
 roles: []
 email: ''
-personal_url: ''
+personal_url: http://www.twilightlandscapes.com/
 layout: ''
 date: 2018-12-22 04:59:14 +0000
 published: false
