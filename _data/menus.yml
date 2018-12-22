@@ -1,19 +1,26 @@
+---
 header:
-  - url: /
-    title: Home
-    identifier: home
-  - url: /posts
-    title: News
-    identifier: news
-  - url: /articles
-    title: Learn More
-    identifier: learn
-  - url: /articles/faq
-    title: FAQ
-    identifier: faq
-  - url: /about
-    title: About
-    identifier: about    
-  - url: /contact
-    title: Contact
-    identifier: contact
+- url: "/contact"
+  title: Contact
+  identifier: contact
+  weight: 1
+- url: "/about"
+  title: About
+  identifier: about
+  weight: 2
+- url: "/articles/faq"
+  title: FAQ
+  identifier: faq
+  weight: 3
+- url: "/articles"
+  title: Learn More
+  identifier: learn
+  weight: 4
+- url: "/posts"
+  title: News
+  identifier: news
+  weight: 5
+- url: "/"
+  title: Home
+  identifier: home
+  weight: 6

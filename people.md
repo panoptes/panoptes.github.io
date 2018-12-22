@@ -7,6 +7,8 @@ banner_image: ''
 heading: PANOPTES People
 sub_heading: The people that make PANOPTES go
 show_staff: true
-menus: about
+menu:
+  about:
+    weight: 2
 
 ---

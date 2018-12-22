@@ -9,7 +9,8 @@ sub_heading: Articles, explanations, and more.
 textline: Below are some articles that are related to the project in general and are
   meant to be informative and educational.
 menu:
-  learn: {}
+  learn:
+    weight: 2
 
 ---
 Looking for [Build Instructions](/instructions)? Have a question or want to see how other [Teams](/teams) are doing? 

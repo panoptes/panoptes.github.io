@@ -8,7 +8,8 @@ heading: Build Instructions
 services: []
 sub_heading: Hardware, software, part lists, and more
 menu:
-  learn: {}
+  learn:
+    weight: 1
 
 ---
 {% include note.html text="The baseline design is meant to be assembled by anyone with a basic knowledge of electronics, computers, and astronomy, and a taste for building things/tinkering. There is no need to machine parts, and only standard tools are required (you will need a drill, screwdrivers, voltmeter). All electronics are readily available, and only need to be mounted and wired together.
