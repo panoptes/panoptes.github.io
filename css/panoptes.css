@@ -339,25 +339,32 @@ aside {
     padding-bottom: 5px;
 }
 
-.teams-map {
+.read-more:hover {
+  color: #8b2004;
+  font-weight: bold;
+}
+
+#teams-map {
   margin: 0 auto;
+  margin: 20px;
 }
 
-.teams-map iframe {
-  width: 480;
-  height: 320;
+#teams-map iframe {
+  width: 480px;
+  height: 360px;
 }
 
-@media all and (max-width: 768px) { 
-  .teams-map iframe {
-    width: 640;
-    height: 480;
+@media all and (min-width: 768px) { 
+  #teams-map iframe {
+    width: 640px;
+    height: 480px;
   }
 } 
-@media all and (max-width: 991px) { 
-  .teams-map iframe {
-    width: 800;
-    height: 600;
+
+@media all and (min-width: 991px) { 
+  #teams-map iframe {
+    width: 800px;
+    height: 600px;
   }  
 } 
 
