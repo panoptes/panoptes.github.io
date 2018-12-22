@@ -197,8 +197,23 @@ aside {
 }
 
 @media screen and (max-width: 768px) {
+  .services h2 {
+    font-size: 1em;
+  }
   .services p {
-    max-height: 48vw;
+    height: 22em;
+    max-height: 22em;
+  }
+  .service .button-link a {
+    width: 100%;
+    padding: 10px 0px;
+  }  
+}
+
+@media screen and (max-width: 575px) {
+  .services p {
+    height: auto;
+    max-height: 70vw;
   }
   .services .service-icon img {
       max-width: 100%;
@@ -287,3 +302,8 @@ aside {
   margin-top: 10px;
   padding-top: 25px;
 }
+
+/*@media all and (max-width: 1199px) { ... } 
+@media all and (max-width: 991px) { ... } 
+@media all and (max-width: 768px) { ... } 
+@media all and (max-width: 575px) { ... }*/*/
