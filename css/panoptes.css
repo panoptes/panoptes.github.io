@@ -296,7 +296,7 @@ aside {
 
 /* Image Thumbnails */
 .thumbnail-img img {
-    width: inherit;
+    width: inherit !important;
     max-width: 25vw;
     height: 18vw;
     border-radius: 10px;
