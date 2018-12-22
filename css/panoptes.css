@@ -46,6 +46,10 @@ aside {
 }
 
  /*Menu */
+.main-nav {
+  padding-right: 1em;
+}
+
 .navigation li:hover {
   background-color: rgba(138, 32, 4, 0.32);
   border-radius: 5px;  
@@ -181,7 +185,7 @@ aside {
 
 /* Services */
 .services p {
-  height: auto;
+  height: 13em;
 }
 
 .service {
@@ -203,6 +207,11 @@ aside {
   border: 1px solid;
 }
 
+@media screen and (max-width: 991px) {
+  .services p {
+    height: 19em;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .services h2 {
@@ -311,7 +320,9 @@ aside {
   padding-top: 25px;
 }
 
-/*@media all and (max-width: 1199px) { ... } 
+/*
+@media all and (max-width: 1199px) { ... } 
 @media all and (max-width: 991px) { ... } 
 @media all and (max-width: 768px) { ... } 
-@media all and (max-width: 575px) { ... }*/*/
+@media all and (max-width: 575px) { ... }
+*/
