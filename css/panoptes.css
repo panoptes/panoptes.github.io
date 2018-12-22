@@ -214,14 +214,22 @@ aside {
 }
 
 /* Teams */
-.card-body {
-  height: 13em;
+/* Teams */
+.card {
+  height: 150vw;
+  margin: 0.5em 0em !important;
+}
+.card-header {
+  border: 1px solid red;
+  max-height: 80vw !important;
+}
+.card-header img {
+  height: auto !important;
 }
 
-@media screen and (max-width: 991px) {
-  .card-body p {
-    height: 19em;
-  }
+.content img {
+  display: block;
+  margin: auto;
 }
 
 .content img {
