@@ -40,44 +40,25 @@ aside {
 }
 
 @media screen and (max-width: 768px) {
-  .navigation {
-      /* display: block; */
-  }
-
   .main-nav {
-    display: flex;
-    float: right
+      display: block;
   }
 
-  /*Hide all the nave links except the first*/
-  .navigation li:not(:first-child) {display: none;}
-  .navigation li.small-screen-icon {
+  /*Hide all the nav links except the first*/
+  .main-nav li:not(:first-child) { display: none; }
+  .main-nav li.small-screen-icon {
     float: right;
     display: block;
   }
 
-  .navigation li.small-screen-icon a {  
-    color: blue;
-    border: 2px solid blue;
+  .main-nav.responsive ul {
+      float: none;
+      margin-top: 14px;
+      text-align: right;
   }
 
-  .responsive a {  
-    color: blue;
-    border: 2px solid blue;
-  }
-
-  /*Show the menu icon*/
-  .navigation.responsive {display: block; position: relative;}
-  .navigation li:not(:first-child) {display: list-item;}
-  .navigation.responsive li.small-screen-icon a {
-    position: absolute;
-    right: 0;
-    top: 0;
-    color: blue;
-  }
-  .navigation.responsive a {
-    display: block;
-  }
+  /*Show the menu icon when clicked */
+  .responsive li:not(:first-child) { display: block; }
 }
 
 
