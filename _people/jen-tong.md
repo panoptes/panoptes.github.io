@@ -7,6 +7,12 @@ email: ''
 personal_url: https://mimming.com/
 layout: ''
 date: 2018-12-22 05:05:29 +0000
+links:
+- label: Jen's Personal Website
+  href: https://mimming.com/
+- label: Twitter
+  href: http://twitter.com/MimmingCodes
+join_date: ''
 published: false
 
 ---
