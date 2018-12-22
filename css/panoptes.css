@@ -208,7 +208,7 @@ aside {
   }
 
   .service .button-link a {
-    width: 60%;
+    width: 90%;
     padding: 10px 0px;
   }  
 }
@@ -335,6 +335,28 @@ aside {
 .read-more {
   float: right;
 }
+
+.teams-map {
+  margin: 0 auto;
+}
+
+.teams-map iframe {
+  width: 480;
+  height: 320;
+}
+
+@media all and (max-width: 768px) { 
+  .teams-map iframe {
+    width: 640;
+    height: 480;
+  }
+} 
+@media all and (max-width: 991px) { 
+  .teams-map iframe {
+    width: 800;
+    height: 600;
+  }  
+} 
 
 /*
 @media all and (max-width: 1199px) { ... } 
