@@ -213,16 +213,39 @@ aside {
   }  
 }
 
-
 /* Teams */
+.teams p {
+  height: 13em;
+}
+
+.team {
+    padding: 1em;
+}
+
+.team .button-link a {
+  width: 90%;
+}
+
+@media screen and (max-width: 991px) {
+  .teams p {
+    height: 19em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .teams h2 {
+    font-size: 1em;
+  }
+
+  .team .button-link a {
+    width: 90%;
+    padding: 10px 0px;
+  }  
+}
+
 .content img {
   display: block;
   margin: auto;
-}
-/*Bigger Team photos*/
-.grid-layout .card .card-header {
-     max-height: 300px; 
-     overflow: hidden; 
 }
  
 /* People */
@@ -346,7 +369,7 @@ aside {
 
 #teams-map {
   margin: 0 auto;
-  margin: 20px;
+  margin-bottom: 20px;
 }
 
 #teams-map iframe {
