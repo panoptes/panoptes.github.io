@@ -59,6 +59,7 @@ fields:
   hidden: true
   default: unit
 pages:
+- _teams/pan015.md
 - _teams/pan001.md
 - _teams/pan011.md
 - _teams/pan005.md
@@ -66,7 +67,6 @@ pages:
 - _teams/pan010.md
 - _teams/pan006.md
 - _teams/pan012.md
-- _teams/pan015.md
 - _teams/pan002.md
 - _teams/pan007.md
 - _teams/pan013.md
