@@ -8,6 +8,9 @@ fields:
   label: Section
   description: FAQ Section Area
   fields:
+  - type: text
+    name: section_name
+    label: Section Name
   - type: field_group_list
     name: questions
     label: Questions
@@ -28,3 +31,7 @@ fields:
         wysiwyg: true
         schema:
           format: markdown
+  config:
+    labelField: section_name
+pages:
+- faq.md
