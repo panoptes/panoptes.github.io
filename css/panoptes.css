@@ -58,6 +58,15 @@ aside {
   }
 
   /*Show the menu icon when clicked */
+  .navigation li {
+    float: inherit;
+  }
+
+  .main-nav.responsive li.small-screen-icon {
+    float: inherit;
+    display: block;
+  }
+  
   .responsive li:not(:first-child) { display: block; }
 
   .responsive li.current a{ 
