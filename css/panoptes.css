@@ -17,18 +17,19 @@
     width: 2em;
   }
 
+  #banner .call-to-action {
+      display: none;
+  }
+
+}
+
+@media only screen and (min-width: 768px) { 
   .site-header .logo.responsive a {
     background: url(../img/full-logo.png) no-repeat;
     background-size: contain;
     width: 10em;
     height: 10em;
   }
-
-
-  #banner .call-to-action {
-      display: none;
-  }
-
 }
 
 aside {
