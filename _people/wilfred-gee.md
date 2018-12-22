@@ -11,4 +11,4 @@ links: []
 join_date: ''
 
 ---
-Wilfred is a software developer who was tired of making money and decided he wanted to make science instead. Currently working on PANOPTES from Macquarie University in Sydney, Australia as part of his Masters Thesis, Wilfred recently attained a bachelors degree in Astronomy from the University of Hawaii at Hilo. His previous bachelors was from the University of Utah in Psychology. Wilfred is also a wanna-be Shakespearean actor and, in his free time, likes to rapel down waterfalls.
+Wilfred has been working with PANOPTES since he was an undergraduate at the University of Hawai'i Hilo where he helped out with the initial baseline and prototype builds and was mostly responsible for [POCS](https://github.com/panoptes/POCS), the software that runs the units.  Wilfred then went down to Macquarie University in Sydney, Australia to complete his Master's Thesis and is currently working on his PhD, helping to build the image processing algorithm and data pipeline.
