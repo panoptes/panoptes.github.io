@@ -1,0 +1,30 @@
+---
+label: FAQ Doc
+hide_body: false
+is_partial: false
+fields:
+- type: field_group_list
+  name: section
+  label: Section
+  description: FAQ Section Area
+  fields:
+  - type: field_group_list
+    name: questions
+    label: Questions
+    description: Questions in the section
+    fields:
+    - type: text
+      name: question
+      label: question
+      description: The question.
+      config:
+        required: true
+    - type: textarea
+      name: answer
+      label: answer
+      description: The answer
+      config:
+        required: true
+        wysiwyg: true
+        schema:
+          format: markdown
