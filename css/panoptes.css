@@ -214,33 +214,14 @@ aside {
 }
 
 /* Teams */
-.teams p {
+.card-body {
   height: 13em;
 }
 
-.team {
-    padding: 1em;
-}
-
-.team .button-link a {
-  width: 90%;
-}
-
 @media screen and (max-width: 991px) {
-  .teams p {
+  .card-body p {
     height: 19em;
   }
-}
-
-@media screen and (max-width: 768px) {
-  .teams h2 {
-    font-size: 1em;
-  }
-
-  .team .button-link a {
-    width: 90%;
-    padding: 10px 0px;
-  }  
 }
 
 .content img {
