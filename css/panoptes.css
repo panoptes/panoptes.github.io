@@ -93,16 +93,23 @@ aside {
 
   .responsive li.nested ul.first-level a {
     display: inherit;
-    font-size: small;
-    color: blue;
+    font-size: smaller;
     line-height: 10px;
-    padding-right: 20px;
+    padding-right: 5px;
   }
 
-  .responsive li.current a{ 
+  .responsive li.current a{
     border: none;
     border-right: 2px solid #8b2004;
   }
+
+  .responsive li a{
+    text-decoration: underline;
+  }
+
+  .responsive li.nested ul.first-level a{
+    text-decoration: none;
+  }  
 
   .navigation li:hover {
     background-color: white;
