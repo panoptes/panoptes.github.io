@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+{% include breadcrumbs.html class="content-narrow" %}
+
+{% for section in page.sections %}
+<div class="container pure-g">
+  <div class="pure-u-1">
+      <div class="content content-narrow">
+        <div class="list-layout news-item">
+          <h2><a href="{{ post.url | absolute_url }}">{{ section.name }}</a></h2>
+          <ul>
+          {% for q in questions %}
+            <li>{{ q.question }} <br />
+              {{ q.answer }}
+            </li>
+          {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}
