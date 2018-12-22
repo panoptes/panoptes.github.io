@@ -24,17 +24,24 @@ fields:
   type: text
   hidden: false
   default: ''
-- name: personal_url
-  label: Webpage
-  type: text
-  hidden: false
-  default: ''
-  description: If the member has a url they would like linked.
 - name: layout
   label: Layout
   type: text
   hidden: true
   default: person
+- type: field_group_list
+  name: links
+  label: Links
+  description: Any webpages for the person.
+  fields:
+  - type: text
+    name: label
+    label: Label
+    description: Name for web page.
+  - type: text
+    name: href
+    label: href
+    description: Link to web page.
 pages:
 - _people/olivier-guyon.md
 - _people/josh-walawender.md
