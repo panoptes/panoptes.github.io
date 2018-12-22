@@ -3,7 +3,7 @@ title: What is PANOPTES?
 tags: []
 date: 2018-12-17 11:07:27 +0000
 sub_heading: ''
-banner_image: "/uploads/2018/12/16/logo-bg-starry-banner.png"
+banner_image: ''
 slug: ''
 
 ---
