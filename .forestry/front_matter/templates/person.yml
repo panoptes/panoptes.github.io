@@ -24,11 +24,6 @@ fields:
   type: text
   hidden: false
   default: ''
-- name: layout
-  label: Layout
-  type: text
-  hidden: true
-  default: person
 - type: field_group_list
   name: links
   label: Links
@@ -42,6 +37,15 @@ fields:
     name: href
     label: href
     description: Link to web page.
+- type: datetime
+  name: join_date
+  label: Join Date
+  description: Date the person started working with PANOPTES.
+- name: layout
+  label: Layout
+  type: text
+  hidden: true
+  default: person
 pages:
 - _people/olivier-guyon.md
 - _people/josh-walawender.md
