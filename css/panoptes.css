@@ -20,7 +20,8 @@
   .site-header .logo.responsive a {
     background: url(../img/full-logo.png) no-repeat;
     background-size: contain;
-    width: 2em;
+    width: 10em;
+    height: 10em;
   }
 
 
