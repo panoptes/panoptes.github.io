@@ -51,8 +51,6 @@ sections:
 - type: document
   path: _data/faq.yml
   label: FAQ Doc
-  match: "**/*"
-  read_only: false
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
