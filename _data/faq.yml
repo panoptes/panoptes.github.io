@@ -1,0 +1,6 @@
+---
+section:
+  - title: Questions about the project
+    questions:
+      - question: What is Project PANOPTES?
+        answer: PANOPTES (Panoptic Automated Network of Observatories for a Public Transiting Exoplanets Survey) is a citizen science project which aims to build a worldwide network of low cost, robotic telescopes used to detect transiting exoplanets.
