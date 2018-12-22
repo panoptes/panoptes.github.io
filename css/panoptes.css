@@ -41,8 +41,7 @@ aside {
 
 @media screen and (max-width: 768px) {
   .navigation {
-      display: flex;
-      /* float: right; */
+      /* display: block; */
   }
 
   .main-nav {
@@ -57,12 +56,24 @@ aside {
     display: block;
   }
 
+  .navigation li.small-screen-icon a {  
+    color: blue;
+    border: 2px solid blue;
+  }
+
+  .responsive a {  
+    color: blue;
+    border: 2px solid blue;
+  }
+
   /*Show the menu icon*/
-  .navigation.responsive {position: relative;}
+  .navigation.responsive {display: block; position: relative;}
+  .navigation li:not(:first-child) {display: list-item;}
   .navigation.responsive li.small-screen-icon a {
     position: absolute;
     right: 0;
     top: 0;
+    color: blue;
   }
   .navigation.responsive a {
     display: block;

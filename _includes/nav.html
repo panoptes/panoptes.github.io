@@ -17,15 +17,6 @@
             <ul class="first-level">
               {% for child in link.children %}
               <li>
-                {% if child.children %}
-                <ul class="second-level">
-                  {% for child in child.children %}
-                  <li>
-                    <a href="{{ child.url | absolute_url }}">{{ child.title }}</a>
-                  </li>
-                  {% endfor %}
-                </ul>
-                {% endif %}
                 <a href="{{ child.url | absolute_url }}"{% if child.target %} target="_blank" {% endif %}>
                   {{ child.title }}
                   {% if child.childen %}
@@ -38,7 +29,7 @@
             {% endif %}
             <a href="{{ link.url | absolute_url }}"{% if link.target %} target="_blank" {% endif %}>
                   {{ link.title }}
-                  {% if link.childen %}
+                  {% if link.children %}
                     <i class='icon-chevron-down'></i>
                   {% endif %}
                 </a>
