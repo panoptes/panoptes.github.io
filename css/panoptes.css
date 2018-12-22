@@ -25,7 +25,7 @@ aside {
 }
 
  /*Menu */
- .navigation li:hover {
+.navigation li:hover {
   background-color: rgba(138, 32, 4, 0.32);
   border-radius: 5px;  
 }
@@ -72,6 +72,11 @@ aside {
   .responsive li.current a{ 
     border: none;
   }
+
+  .navigation li:hover {
+    background-color: white;
+  }
+
 }
 
 
