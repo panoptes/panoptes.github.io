@@ -57,7 +57,7 @@
 					</h2>
 					{% endif %}
 					<p>{{ page.textline }}</p>
-					{% if page.feature_button %}
+					{% if page.feature_button and page.feature_button.href != "" %}
 					<div>
 						<a href="{{ page.feature_button.href | absolute_url }}" class="pure-button button-success button-xlarge" title="{{ page.feature_button.text }}" target="_blank">
 							{{ page.feature_button.text }}
