@@ -1,18 +1,40 @@
-<div class="masthead">
-  <h2><a href="{{ site.url }}/">Project PANOPTES</a></h2>
-  <nav>
-    <ul class="nav nav-justified">
-      <nav>
-        <ul class="nav nav-justified">
-        <li><a href="{{ site.url }}/index.html">Home</a></li>
-        <li><a href="{{ site.url }}/status.html">News/Status</a></li>
-        <li><a href="{{ site.url }}/instructions.html">Instructions</a></li>
-        <li><a href="{{ site.url }}/contact.html">Participate/Contact</a></li>
-        <li><a href="{{ site.url }}/faq.html">FAQ</a></li>        
-        <li><a href="https://github.com/panoptes">GitHub</a></li>
+{% comment %}
+	Displays the site's navigation using the jekyll-menus plugin
+{% endcomment %}
+
+{% assign url = page.url | remove:'index.html' %}
+
+<header class="site-header">
+  <div class="container">
+      <h1 class="logo" id="main-logo">
+        <a href="{{ "/" | absolute_url }}">{{ site.name }}</a>
+      </h1>
+      <nav class="main-nav" id="site-navigation">
+        <ul class="navigation">
+          {% for link in site.menus.header %}
+          <li class="{% if link.children %}nested {% endif %}{% if url == link.url %}current{% endif %}">
+            <a href="{{ link.url | absolute_url }}"{% if link.target %} target="_blank" {% endif %}>
+                  {{ link.title }}
+            </a>
+            {% if link.children %}
+            <ul class="first-level">
+              {% for child in link.children %}
+              <li>
+                <a href="{{ child.url | absolute_url }}"{% if child.target %} target="_blank" {% endif %}>
+                  {{ child.title }}
+                </a>
+              </li>
+              {% endfor %}
+            </ul>
+            {% endif %}
+          </li>
+          {% endfor %}
+          <li class="small-screen-icon">
+            <a href="javascript:void(0);" onclick="showNav()">
+              <i class="fa fa-bars"></i>  
+            </a>
+          </li>
         </ul>
-      </nav>
-    </ul>
-  </nav>
-</div>
-<hr class="layout">
+    </nav>
+  </div>
+</header>

@@ -1,20 +1,84 @@
-<hr class="layout">
-<div class="row">
-    <div class="col-lg-12">
-        <ul class="list-inline">
-                <li><a href="{{ site.url }}/what.html">Project Overview</a></li>
+<footer class="site-footer">
+	<div class="container pure-g">
+        <div class="footer-col pure-u-1 pure-u-md-1-4">
+            <img src="{{ "/img/logo-white.png" | absolute_url }}" alt="" class="footer-logo">
+        </div>
+        <div class="footer-col pure-u-1 pure-u-md-1-4">
+            <h3>About {{ site.short_title }}</h3>
+            <ul>
+		<li><a href="/about">About</a></li>    
+		<li><a href="/posts">News</a></li>		
+		<li><a href="/instructions">Instructions</a></li>		
+		<li><a href="/articles/faq">FAQ</a></li>
+            </ul>
+        </div>
+        <div class="footer-col pure-u-1 pure-u-md-1-4">
+            <h3>Community</h3>
+            <ul>
+		<li><a href="/teams">Teams</a></li>    
+		<li><a href="/people">People</a></li>    		    
+            </ul>
+        </div>
+        <div class="footer-col pure-u-1 pure-u-md-1-4">
+            <h3>Contact</h3>
+            {% include address.html %}
+        </div>
+	</div>
+	<div class="copyright">
+        <p>
+            &copy;{{ 'now' | date: "%Y" }} {{ site.title }} - All Rights Reserved<br>
+			<a href="{{ "/admin" | absolute_url }}">Site Admin</a>
+		</p>
+	</div>
+</footer>
+<!-- Javascript -->
+<script src="{{ "/js/main.js" | absolute_url }}" type="text/javascript"></script>
 
-                <li><a href="{{ site.url }}/hardware.html">Hardware Description</a></li>
+<script type="text/javascript">
+    function showNav() {
+      var x = document.getElementById("site-navigation");
+      if (x.className === "main-nav") {
+        x.className += " responsive";
+      } else {
+        x.className = "main-nav";
+      }
+      var x = document.getElementById("main-logo");
+      if (x.className === "logo") {
+        x.className += " responsive";
+      } else {
+        x.className = "logo";
+      }      
+    }      
+</script>
+{% if page.slick_carousel %}
+<!-- jQuery & Slick carousel Javascript -->
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $('.slick-carousel').slick({
+        autoplay: true,
+        autoplaySpeed: 10000,
+        dots: true,
+        pauseOnDotsHover: true,
+        fade: true,
+        easing: 'linear',
+    });
+});
+</script>
+{% endif %}
+{% if page.show_discourse %}
+<script type="text/javascript">
+  DiscourseEmbed = { discourseUrl: 'https://forum.projectpanoptes.org/',
+                     discourseEmbedUrl: 'https://projectpanoptes.org' };
 
-                <li><a href="{{ site.url }}/software.html">Software Description</a></li>
-
-                <li><a href="{{ site.url }}/instructions.html">Build Instructions</a></li>
-
-                <li><a href="{{ site.url }}/contact.html">Participation / Contact Us</a></li>
-
-                <li><a href="{{ site.url }}/status.html">News / Status</a></li>
-
-                <li><a href="{{ site.url }}/team.html">The PANOPTES Team</a></li>
-        </ul>
-    </div>
-</div>
+  (function() {
+    var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+    d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+  })();
+</script>
+{% endif %}
+</body>
+</html>

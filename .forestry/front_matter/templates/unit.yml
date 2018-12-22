@@ -1,0 +1,77 @@
+---
+label: unit
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Unit ID
+  description: The assigned unit id.
+- name: unit_name
+  label: Name
+  type: text
+  hidden: false
+  default: ''
+  description: The name given to the unit by the team members.
+- name: host
+  description: The hosting institution.
+  label: Host
+  type: text
+  hidden: false
+  default: ''
+- name: location
+  description: Where the unit is located.
+  label: Location
+  type: text
+  hidden: false
+  default: ''
+- type: file
+  label: Thumbnail
+  name: thumbnail
+  description: Square image, Max 500 pixels.
+- name: email
+  label: Email
+  type: text
+  hidden: false
+  default: ''
+- name: url
+  label: URL
+  description: If the team has its own web page.
+  type: text
+  hidden: false
+  default: ''
+- type: select
+  name: status
+  config:
+    source:
+      type: simple
+    options:
+    - Just starting
+    - Building
+    - Upgrading
+    - Observing
+    - On vacation
+  label: Status
+  description: Status of the unit.
+- name: layout
+  label: Layout
+  type: text
+  hidden: true
+  default: unit
+pages:
+- _teams/pan001.md
+- _teams/pan011.md
+- _teams/pan005.md
+- _teams/pan014.md
+- _teams/pan010.md
+- _teams/pan006.md
+- _teams/pan012.md
+- _teams/pan015.md
+- _teams/pan002.md
+- _teams/pan007.md
+- _teams/pan013.md
+- _teams/pan016.md
+- _teams/pan003.md
+- _teams/pan004.md
+- _teams/pan009.md
+- _teams/pan008.md

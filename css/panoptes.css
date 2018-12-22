@@ -1,0 +1,277 @@
+.logo a {
+    width: 350px;
+    background-size: 350px;
+    background-image: url('../img/logo.png') no-repeat;
+
+    @media #{$retina}  {
+        background-image: url('../img/logo-retina.png') no-repeat;
+        background-size: 350px;
+      }
+}   
+
+/* Small screens */
+@media only screen and (max-width: 991px) { 
+  .site-header .logo a {
+    background: url(../img/favicon.png) no-repeat;
+    background-size: contain;
+    width: 2em;
+  }
+
+  .site-header .logo.responsive a {
+    background: url(../img/full-logo.png) no-repeat;
+    background-size: contain;
+    width: 10em;
+    height: 10em;
+  }
+
+
+  #banner .call-to-action {
+      display: none;
+  }
+
+}
+
+aside {
+    background: #1f8dd6;
+    margin: 1em 0;
+    padding: 1em 2em;
+    border-radius: 25px;
+    color: #fff;
+}
+
+ /*Menu */
+.navigation li:hover {
+  background-color: rgba(138, 32, 4, 0.32);
+  border-radius: 5px;  
+}
+
+/*Nested links*/
+.navigation li ul li a:hover {
+    border-left: 2px solid #8b2004;
+}
+
+.navigation .small-screen-icon {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .main-nav {
+      display: block;
+  }
+
+  /*Hide all the nav links except the first*/
+  .main-nav li:not(:first-child) { display: none; }
+  .main-nav li.small-screen-icon {
+    float: right;
+    display: block;
+  }
+
+  .main-nav.responsive ul {
+      float: none;
+      margin-top: 14px;
+      text-align: right;
+  }
+
+  /*Show the menu icon when clicked */
+  .responsive li {
+    float: inherit;
+  }
+
+  .main-nav.responsive li.small-screen-icon {
+    float: inherit;
+    display: block;
+  }
+  
+  .responsive li:not(:first-child) { 
+    display: block;
+
+  }
+  
+  .responsive li.nested ul.first-level {
+    display: contents;
+  }
+
+  .responsive li.nested ul.first-level a {
+    display: inherit;
+    font-size: smaller;
+    line-height: 10px;
+    padding-right: 5px;
+  }
+
+  .responsive li.current a{
+    border: none;
+    border-right: 2px solid #8b2004;
+  }
+
+  .responsive li a{
+    text-decoration: underline;
+  }
+
+  .responsive li.nested ul.first-level a{
+    text-decoration: none;
+  }  
+
+  .navigation li:hover {
+    background-color: white;
+  }
+
+}
+
+.breadcrumbs {
+  margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 768px)
+.container {
+    margin: 0 0em;
+}
+
+.content-narrow {
+  padding: 1em;
+}
+
+/* Slick Carousel */
+.slick-carousel .holder {
+    height: 400px;
+}
+
+/* Main Name on Home Page */
+#banner {
+  height: 35vw;
+}
+
+.call-to-action {
+  background-color: rgba(178, 170, 170, 0.5);
+  padding: 0px 8px;
+  border-radius: 10px;
+  -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  box-shadow: 1px 2px 3px rgba(0,0,0,.5);   
+}
+
+@media all and (max-width: 575px) { 
+    #banner .call-to-action {
+        display: none;
+    }
+}
+
+#banner .call-to-action h1 {
+  line-height: 0.8em;
+}
+
+.main-message {
+  padding: 0px 0px;
+}
+
+.main-message .content-narrow {
+  text-align: -webkit-center
+}
+
+.main-message h2 {
+  max-width: 27em;
+}
+
+/* Services */
+.services p {
+  max-height: 35vw;
+}
+
+.service {
+    padding: 1em;
+}
+
+.service .button-link a {
+  width: 80%;
+}
+
+.services .service-icon img {
+    width: inherit;
+    max-width: 30vw;
+    height: 20vw;
+    border-radius: 10px;
+}
+
+.services .service-icon img.bordered {
+  border: 1px solid;
+}
+
+/* Teams */
+.content img {
+  display: block;
+  margin: auto;
+}
+/*Bigger Team photos*/
+.grid-layout .card .card-header {
+     max-height: 300px; 
+     overflow: hidden; 
+}
+ 
+/* People */
+.column-list-layout .post .post-header,
+.profile-photo {
+    border-radius: 5%   
+}
+
+.personal_url {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 0;
+    line-height: 2em;
+    font-size: 12px;
+}
+
+/* Partners */
+.partners {
+  margin: 0 0;
+}
+
+.partners h2 {
+  margin-bottom: 0px;
+}
+
+.partners ul {
+  display: flow-root;
+  margin: 1em 2em;
+}
+
+.partners ul li {
+  margin: 0px 10%;
+  float: left;
+  list-style: none;
+  padding-bottom: 2em;
+} 
+
+.partners ul li img {
+  max-width: 150px
+}
+
+.meta ul .role {
+  background-color: aliceblue;
+  padding: 2px 8px;
+  font-weight: 600;
+  border-radius: 7px;
+  border: 1px solid lightgrey;  
+}
+
+/* News Posts */
+.news-twitter {
+  padding: 0 0 15px 0;
+}
+
+.news-twitter .col-wrap {
+    padding: 0 25px;
+}
+
+.news-item {
+  border-left: 1px solid darkgrey;
+  background-color: lightgrey;
+  padding: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+/* Footer */
+.site-footer {
+  margin-top: 10px;
+  padding-top: 25px;
+}

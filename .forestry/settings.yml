@@ -1,0 +1,55 @@
+---
+new_page_extension: md
+auto_deploy: true
+admin_path: ''
+webhook_url: 
+sections:
+- type: heading
+  label: Content
+- type: jekyll-posts
+  label: News
+  create: all
+  templates:
+  - post
+- type: directory
+  path: _articles
+  label: Articles
+  create: all
+  match: "*"
+  templates:
+  - project
+- type: directory
+  path: _instructions
+  label: Instructions
+  create: all
+  match: "**/*"
+  templates:
+  - instruction
+- type: directory
+  path: _teams
+  label: Teams
+  create: all
+  match: "*"
+  templates:
+  - unit
+- type: directory
+  path: _people
+  label: People
+  create: all
+  match: "**/*"
+  templates:
+  - person
+- type: jekyll-pages
+  label: Pages
+  create: all
+  templates:
+  - landing-page
+  - default
+- type: document
+  path: _data/information.yml
+  label: Contact Information
+upload_dir: uploads
+public_path: "/uploads"
+front_matter_path: ''
+use_front_matter_path: false
+file_template: ":year:/:month:/:day:/:filename:"
