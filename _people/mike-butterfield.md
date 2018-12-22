@@ -11,7 +11,6 @@ links:
 - label: SpaceView Website
   href: http://spaceviewnetwork.com/
 join_date: ''
-published: false
 
 ---
 Mike is a graduate student at the College of Optical Sciences at the University of Arizona and an optical scientist at GEOST, Inc., in Tucson, AZ. He is the chief architect for the amateur astronomy space-debris and satellite tracking project, SpaceView. You can read more about Mike’s research, engineering, and general interests on his personal website.
