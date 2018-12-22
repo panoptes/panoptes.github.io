@@ -7,7 +7,6 @@
   .site-header .logo a {
     background: url(../img/favicon.png) no-repeat;
     background-size: contain;
-    border: 1px solid;
     width: 2em;
   }
 
@@ -60,7 +59,7 @@ aside {
 
   /*Show the menu icon*/
   .navigation.responsive {position: relative;}
-  .navigation.responsive a.small-screen-icon {
+  .navigation.responsive li.small-screen-icon a {
     position: absolute;
     right: 0;
     top: 0;
