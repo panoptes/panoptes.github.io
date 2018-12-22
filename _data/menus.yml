@@ -8,6 +8,11 @@ header:
   title: About
   identifier: about
   weight: 2
+  children:
+    - url: "/teams"
+      title: Teams
+    - url: "/people"
+      title: People
 - url: "/articles/faq"
   title: FAQ
   identifier: faq
@@ -16,6 +21,15 @@ header:
   title: Learn More
   identifier: learn
   weight: 4
+  children:
+    - url: "/articles"
+      title: Articles
+      identifier: articles
+      weight: 1
+    - url: "/instructions"
+      title: Instructions
+      identifier: instructions
+      weight: 1      
 - url: "/posts"
   title: News
   identifier: news
