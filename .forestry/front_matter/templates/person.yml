@@ -37,6 +37,7 @@ fields:
   default: person
 pages:
 - _people/olivier-guyon.md
+- _people/mike-butterfield.md
 - _people/josh-walawender.md
 - _people/nem-jovanovic.md
 - _people/wilfred-gee.md
