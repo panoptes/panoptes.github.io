@@ -21,7 +21,9 @@ layout: default
 						<div class="card">
 							<div class="card-header">
 							{% if instruction.banner_image and instruction.banner_image != "" %}
-							<img src="{{ instruction.banner_image | absolute_url }}" alt="{{ instruction.title }}">
+			                <div class="thumbnail-img">
+			                  <img src="{{ instruction.banner_image | absolute_url }}" alt="{{ instruction.title }}" class="{% if item.thumbnail.border %}bordered{% endif %}">
+			                </div>							
 							{% else %}
 								<img src="{{ "/img/placeholder.png" | absolute_url }}" alt="{{ instruction.title }}">
 							{% endif %}
