@@ -15,7 +15,7 @@
 }   
 
 /* Small screens */
-@media only screen and (max-width: 991px) { 
+@media only screen and (max-width: 575px) { 
   .site-header .logo a {
     background: url(../img/favicon.png) no-repeat;
     background-size: contain;
