@@ -1,6 +1,6 @@
 ---
 title: Home
-banner_image: "/uploads/2018/12/16/PAN001_sunset_banner.png"
+banner_image: ''
 layout: landing-page
 heading: Project PANOPTES
 partners:
@@ -62,7 +62,7 @@ feature_button:
   text: Visit our Community Forum!
   href: https://forum.projectpanoptes.org
 show_site_name: true
-slick_carousel: false
+slick_carousel: true
 slick_images:
 - image: "/uploads/2018/12/20/OrionRegion.jpg"
   caption: M42 - Orion Region

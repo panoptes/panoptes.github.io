@@ -138,5 +138,5 @@ fields:
   hidden: true
   default: home
 pages:
-- index.md
 - teams.md
+- index.md
