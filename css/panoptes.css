@@ -160,7 +160,7 @@ aside {
   background: url('/uploads/2018/12/16/PAN001_sunset.png');
   background-repeat: no-repeat;
   background-position-x: 70%;
-  background-position-y: 90%;
+  background-position-y: 50%;
 }
 
 @media screen and (max-width: 768px) {
