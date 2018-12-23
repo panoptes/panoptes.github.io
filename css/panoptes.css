@@ -200,7 +200,6 @@ aside {
 @media screen and (max-width: 768px) {
   .service p {
     height: 20em !important;
-    border: 1px solid green;
   }
   
   .service .button-link a {
@@ -212,7 +211,6 @@ aside {
 @media screen and (max-width: 575px) {
   .service p {
     height: auto !important;
-    border: 1px solid blue;
   }
 }
 
@@ -228,7 +226,6 @@ aside {
   max-height: 80vw !important;
   display: block;
   overflow: hidden;
-  border: 1px dashed blue;
 }
 
 .card-header img {
@@ -247,20 +244,17 @@ aside {
 
 @media all and (min-width: 768px) { 
   .card {
-    border: 1px dashed red;
     margin: 0.5em 0.5em !important;
     height: 60vw;
   }  
 
   .card-header {
     height: 175px !important;
-    border: 1px dashed blue;
   }  
 } 
 
 @media all and (min-width: 991px) { 
   .card {
-    border: 1px dashed green;
     margin: 0.5em 0.5em !important;
     height: 55vw;
     max-height: 600px;
@@ -268,7 +262,6 @@ aside {
 
   .card-header {
     height: 30vw !important;
-    border: 1px dashed blue;
   }    
 } 
  
