@@ -165,7 +165,7 @@ aside {
   border-radius: 10px;
   background: url('/uploads/2018/12/16/PAN001_sunset.png');
   background-repeat: no-repeat;
-  background-position-x: 70%;
+  background-position-x: 50%;
   background-position-y: 50%;
 }
 
@@ -178,13 +178,11 @@ aside {
 
 @media screen and (max-width: 575px) {
   #banner {
-    height: auto !important;
-    margin-left: none;
-    margin-right: none;
-    background-position-y: 50%;
-    background-position-x: 50%;
+    height: 19vw !important;
+    margin: 0 auto;
     border: none;
     background: url('/img/logo-title.png') no-repeat !important;
+    width: 85%;
   }
 }
 
