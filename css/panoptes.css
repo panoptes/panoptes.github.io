@@ -162,7 +162,8 @@ aside {
 /* Main Name on Home Page */
 #banner {
   border: 1px solid;
-  border-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   background: url('/uploads/2018/12/16/PAN001_sunset.png');
   background-repeat: no-repeat;
   background-position-x: 50%;
