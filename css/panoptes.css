@@ -313,7 +313,7 @@ aside {
     width: inherit !important;
     max-width: 25vw;
     height: 18vw !important;
-    max-height: 300px
+    max-height: 300px;
     border-radius: 10px;
 }
 
