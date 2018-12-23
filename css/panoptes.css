@@ -135,6 +135,7 @@ aside {
 @media screen and (max-width: 768px) {
   .container {
       margin: 0 1em;
+      border: 1px dashed red;
   }
 }
 
@@ -203,6 +204,10 @@ aside {
 }
 
 @media screen and (max-width: 768px) {
+  .services p {
+    height: auto;
+  }
+    
   .services h2 {
     font-size: 1em;
   }
@@ -306,27 +311,31 @@ aside {
 }
 
 /* Image Thumbnails */
+.thumbnail-img {
+  border: 1px solid red;
+
+}
 .thumbnail-img img {
-    width: inherit !important;
-    max-width: 25vw;
-    height: 18vw !important;
-    max-height: 300px
-    border-radius: 10px;
+      max-width: 100%;
+      width: 100%;      
+      height: auto !important;
+      border-radius: 10px;
 }
 
 .thumbnail-img img.bordered {
   border: 1px solid;
 }
 
+
+/* At this side we have columns */
 @media screen and (max-width: 768px) {
   .thumbnail-img img {
-      max-width: 80%;
-      width: 50%;      
-      height: auto;
-      border-radius: 10px;
-  }  
+      height: auto !important;
+      border-radius: 20px;
+  }
 }
 
+/*
 @media screen and (max-width: 575px) {
   .thumbnail-img img {
       max-width: 100%;
@@ -335,6 +344,7 @@ aside {
       border-radius: 10px;
   }  
 }
+*/
 
 .column-list-layout .post .post-header:hover {
     box-shadow: none;
