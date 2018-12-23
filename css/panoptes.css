@@ -209,18 +209,7 @@ aside {
 
 @media all and (max-width: 575px) { 
   #banner .call-to-action {
-    vertical-align: top;
-    margin: 0vw -9vw;
-  }  
-  #banner .call-to-action h1 {
-      font-size: 1.5em;
-  }
-  #banner .call-to-action h2 {
-      font-size: 1em;
-  }    
-  .call-to-action {
-    background-color: unset;
-    box-shadow: none;   
+    display: none;
   }  
 }
 
