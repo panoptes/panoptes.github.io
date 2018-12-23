@@ -369,9 +369,8 @@ aside {
 }
 
 .news-item {
-  border-left: 1px solid darkgrey;
-  background-color: lightgrey;
-  padding: 0.5em;
+  border-left: 2px solid darkgrey;
+  padding: 0em 0.5em;
   margin-bottom: 0.5em;
 }
 
