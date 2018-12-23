@@ -43,7 +43,6 @@ sections:
   label: Pages
   create: all
   templates:
-  - faq-doc
   - landing-page
   - default
 - type: document
