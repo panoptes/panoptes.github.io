@@ -31,7 +31,7 @@ layout: default
 							<div class="card-body">
 								<h3><a href="{{ instruction.url | absolute_url }}">{{ instruction.title }}</a></h3>
 								<p>{{ instruction.sub_heading | slice: 0, 80 }}</p>
-								<p>{{ instruction.content | strip_html | truncate: 80, "..." }}</p>
+								<p>{{ instruction.content | strip_html | truncate: 120, "..." }}</p>
 								<div class="read-more">Continue reading →</div>
 							</div>
 						</div>
