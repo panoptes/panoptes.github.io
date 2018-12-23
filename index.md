@@ -15,20 +15,18 @@ services:
     of the science, from data acquisition to reduction. An entire exoplanet finding
     telescope can be built for about $5000 USD.
   heading: Overview
-  icon: "/uploads/2018/12/16/pan-logo.png"
   link:
     page: about.md
     label: What is PANOPTES?
     href: "/about"
   thumbnail:
-    image: "/uploads/2018/12/16/pan-logo.png"
+    image: "/uploads/2018/12/16/pan-logo-no-title.png"
 - description: The philosophy behind the PANOPTES hardware and software design is
     to use as many commercial off the shelf (COTS) parts as possible as these are
     generally inexpensive and easily acquired. In addition, the PANOPTES design is
     kept as simple as possible as this makes the build process easier and means that
     the final product is more reliable.
   heading: Software / Hardware
-  icon: "/uploads/2018/12/16/20180822_092718.jpg"
   link:
     page: instructions.md
     label: Get Building!
