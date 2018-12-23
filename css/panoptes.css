@@ -32,6 +32,12 @@ body {
     background-size: contain;
     width: 2em;
   }
+
+  .button-xlarge {
+    border: 2px solid green;
+    max-width: 80vw;
+    padding: 1em 1em;
+  }
 }
 
 @media only screen and (min-width: 768px) { 
@@ -176,6 +182,8 @@ aside {
     height: 70vw !important;
     margin-left: 1.25em !important;
     margin-right: 1.25em !important;
+    background-position-y: 90%;
+    background-position-x: 67%;
   }
 }
 
@@ -388,9 +396,9 @@ aside {
 /* Image Thumbnails */
 .thumbnail-img img {
     width: inherit !important;
-    max-width: 25vw;
+    max-width: 300px;
     height: 18vw !important;
-    max-height: 300px;
+    max-height: 225px;
     border-radius: 10px;
 }
 
