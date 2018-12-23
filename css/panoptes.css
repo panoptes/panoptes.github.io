@@ -131,10 +131,6 @@ aside {
   margin-bottom: 10px;
 }
 
-.container {
-  margin: 0 0.5em !important;
-  border: 1px dashed red;
-}
 
 @media screen and (max-width: 768px) {
   .container {
@@ -143,7 +139,7 @@ aside {
 }
 
 .content-narrow {
-  padding: none;
+  padding: 1em;
 }
 
 /* Slick Carousel */
@@ -188,43 +184,48 @@ aside {
 }
 
 /* Services */
-.services p {
-  height: 13em;
-}
 
 .service {
     padding: 1em;
+}
+
+.service p {
+  height: 13em;
 }
 
 .service .button-link a {
   width: 90%;
 }
 
-@media screen and (max-width: 991px) {
-  .services p {
-    height: 19em;
-  }
-}
-
 @media screen and (max-width: 768px) {
-  .services h2 {
-    font-size: 1em;
+  .service p {
+    height: 20em !important;
+    border: 1px solid green;
   }
-
+  
   .service .button-link a {
-    width: 90%;
+    width: 95%;
     padding: 10px 0px;
   }  
 }
 
+@media screen and (max-width: 575px) {
+  .service p {
+    height: auto !important;
+    border: 1px solid blue;
+  }
+}
+
+
+/* Teams */
 /* Teams */
 .card {
-  height: auto !important;
+  height: 150vw;
   margin: 0.5em 0em !important;
 }
 .card-header {
-  height: auto !important;
-  max-height: 300px !important;
+  border: 1px solid red;
+  max-height: 80vw !important;
 }
 .card-header img {
   height: auto !important;
@@ -324,7 +325,7 @@ aside {
 @media screen and (max-width: 768px) {
   .thumbnail-img img {
       max-width: 80%;
-      width: 50%;
+      width: 50%;      
       height: auto;
       border-radius: 10px;
   }  
@@ -333,9 +334,9 @@ aside {
 @media screen and (max-width: 575px) {
   .thumbnail-img img {
       max-width: 100%;
-      width: 100%;
+      width: 100%;      
       height: auto !important;
-      /* border-radius: 10px; */
+      border-radius: 10px;
   }  
 }
 
