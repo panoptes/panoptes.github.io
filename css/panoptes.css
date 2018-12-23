@@ -21,11 +21,6 @@
     background-size: contain;
     width: 2em;
   }
-
-  #banner .call-to-action {
-      display: none;
-  }
-
 }
 
 @media only screen and (min-width: 768px) { 
@@ -149,8 +144,34 @@ aside {
 
 /* Main Name on Home Page */
 #banner {
-  height: 35vw;
+  border: 1px solid;
+  border-radius: 10px;
+  background: url('/uploads/2018/12/16/PAN001_sunset.png');
+  background-repeat: no-repeat;
+  background-position-x: 66%;
+  background-position-y: 85%;
+  margin-left: 1.25em !important;
+  margin-right: 1.25em !important;
 }
+
+@media screen and (max-width: 575px) {
+  #banner {
+    max-height: 275px;
+    height: 50vw !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #banner {
+    margin: 0;
+    height: 70vw !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  
+}
+
 
 .call-to-action {
   background-color: rgba(178, 170, 170, 0.5);
