@@ -1,3 +1,14 @@
+body {
+  width: 95%;
+  max-width: 1200px !important;
+  margin: 0 auto;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .main-nav li a .fa {
   font-size: 1em;
   margin-right: 0px;
@@ -15,17 +26,18 @@
 }   
 
 /* Small screens */
-@media only screen and (max-width: 991px) { 
+@media only screen and (max-width: 575px) { 
   .site-header .logo a {
     background: url(../img/favicon.png) no-repeat;
     background-size: contain;
     width: 2em;
   }
 
-  #banner .call-to-action {
-      display: none;
+  .button-xlarge {
+    border: 2px solid green;
+    max-width: 80vw;
+    padding: 1em 1em;
   }
-
 }
 
 @media only screen and (min-width: 768px) { 
@@ -149,7 +161,29 @@ aside {
 
 /* Main Name on Home Page */
 #banner {
-  height: 35vw;
+  border: 1px solid;
+  border-radius: 10px;
+  background: url('/uploads/2018/12/16/PAN001_sunset.png');
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  #banner {
+    margin: 0;
+    height: 50vw !important;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #banner {
+    height: 19vw !important;
+    margin: 0 auto;
+    border: none;
+    background: url('/img/logo-title.png') no-repeat !important;
+    width: 100%;
+  }
 }
 
 .call-to-action {
@@ -161,11 +195,25 @@ aside {
   box-shadow: 1px 2px 3px rgba(0,0,0,.5);   
 }
 
-@media all and (max-width: 575px) { 
-    #banner .call-to-action {
-        display: none;
-    }
+#banner .call-to-action {
+  vertical-align: text-bottom;
+  margin: 5vw 13vw;
 }
+
+@media screen and (max-width: 768px) {
+  #banner .call-to-action {
+    vertical-align: text-bottom;
+    margin: 5vw 0vw;
+  }  
+}
+
+@media all and (max-width: 575px) { 
+  #banner .call-to-action {
+    display: none;
+  }  
+}
+
+
 
 #banner .call-to-action h1 {
   line-height: 0.8em;
@@ -184,76 +232,88 @@ aside {
 }
 
 /* Services */
-.services p {
-  height: 13em;
-}
 
 .service {
     padding: 1em;
+}
+
+.service p {
+  height: 13em;
 }
 
 .service .button-link a {
   width: 90%;
 }
 
-.services .service-icon img {
-    width: inherit;
-    max-width: 25vw;
-    height: 18vw;
-    border-radius: 10px;
-}
-
-.services .service-icon img.bordered {
-  border: 1px solid;
-}
-
-@media screen and (max-width: 991px) {
-  .services p {
-    height: 19em;
-  }
-}
-
 @media screen and (max-width: 768px) {
-  .services h2 {
-    font-size: 1em;
+  .service p {
+    height: 20em !important;
   }
-
-  .services .service-icon img {
-      max-width: 80%;
-      width: 50%;      
-      height: auto;
-      border-radius: 10px;
-  }  
-
+  
   .service .button-link a {
-    width: 60%;
+    width: 95%;
     padding: 10px 0px;
   }  
 }
 
 @media screen and (max-width: 575px) {
-  .services .service-icon img {
-      max-width: 100%;
-      width: 100%;      
-      height: 25%;
-      border-radius: 10px;
-  }  
+  .service p {
+    height: auto !important;
+  }
 }
 
+
 /* Teams */
+/* Teams */
+.card {
+  height: auto;
+  margin: 0.5em 0em !important;
+}
+
+.card-header {
+  max-height: 80vw !important;
+  display: block;
+  overflow: hidden;
+}
+
+.card-header img {
+  height: auto !important;
+}
+
 .content img {
   display: block;
   margin: auto;
 }
-/*Bigger Team photos*/
-.grid-layout .card .card-header {
-     max-height: 300px; 
-     overflow: hidden; 
+
+.content img {
+  display: block;
+  margin: auto;
 }
+
+@media all and (min-width: 768px) { 
+  .card {
+    margin: 0.5em 0.5em !important;
+    height: 60vw;
+  }  
+
+  .card-header {
+    height: 175px !important;
+  }  
+} 
+
+@media all and (min-width: 991px) { 
+  .card {
+    margin: 0.5em 0.5em !important;
+    height: 450px;
+  }  
+
+  .card-header {
+    height: 200px !important;
+  }    
+} 
  
 /* People */
-.column-list-layout .post .post-header,
-.profile-photo {
+.column-list-layout .post .post-header, .profile-photo {
     border-radius: 5%   
 }
 
@@ -308,9 +368,8 @@ aside {
 }
 
 .news-item {
-  border-left: 1px solid darkgrey;
-  background-color: lightgrey;
-  padding: 0.5em;
+  border-left: 2px solid darkgrey;
+  padding: 0em 0.5em;
   margin-bottom: 0.5em;
 }
 
@@ -319,6 +378,81 @@ aside {
   margin-top: 10px;
   padding-top: 25px;
 }
+
+/* Image Thumbnails */
+.thumbnail-img img {
+    width: inherit !important;
+    max-width: 300px;
+    height: 18vw !important;
+    max-height: 225px;
+    border-radius: 10px;
+}
+
+.thumbnail-img img.bordered {
+  border: 1px solid;
+}
+
+@media screen and (max-width: 768px) {
+  .thumbnail-img img {
+      max-width: 90%;
+      width: 50%;
+      height: auto;
+      border-radius: 10px;
+  }  
+}
+
+@media screen and (max-width: 575px) {
+  .thumbnail-img img {
+      max-width: 100%;
+      width: 100%;      
+      height: auto !important;
+      border-radius: 10px;
+  }  
+}
+
+.column-list-layout .post .post-header:hover {
+    box-shadow: none;
+}
+
+.column-list-layout .post .post-body .subtitle {
+  height: 12px;
+}
+
+.read-more {
+    float: right;
+    font-size: smaller;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+.read-more:hover {
+  color: #8b2004;
+  font-weight: bold;
+}
+
+#teams-map {
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+#teams-map iframe {
+  width: 99%;
+  height: 360px;
+}
+
+@media all and (min-width: 768px) { 
+  #teams-map iframe {
+    width: 640px;
+    height: 480px;
+  }
+} 
+
+@media all and (min-width: 991px) { 
+  #teams-map iframe {
+    width: 800px;
+    height: 600px;
+  }  
+} 
 
 /*
 @media all and (max-width: 1199px) { ... } 

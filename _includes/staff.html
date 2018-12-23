@@ -14,23 +14,27 @@
                     <div class="pure-u-1 pure-u-md-1-4">
                         <div class="post">
                             <div class="post-header">
-                            {% if person.thumbnail %}
-                                <img alt="{{ person.title }}" src="{{ person.thumbnail | absolute_url }}">
-                            {% else %}
-                                <img alt="{{ person.title }}" src="{{ "/img/placeholder.png" | absolute_url }}>
-                            {% endif %}
+                                <div class="thumbnail-img">
+                                {% if person.thumbnail %}
+                                    <img src="{{ person.thumbnail }}" alt="{{ person.title }}" class="bordered">
+                                {% else %}
+                                    <img src="{{ "/img/placeholder.png" }}" alt="{{ person.title }}">
+                                {% endif %}
+                                </div>               
                             </div>
                             <div class="post-body">
                                 <h3>
                                     <a href="{{ person.url | absolute_url }}">{{ person.title }}</a>
                                 </h3>
                                 {% if person.sub_heading %}
-                                <div class="subtitle">
-                                    {{ person.sub_heading }}
-                                </div>{% endif %}
+                                    <div class="subtitle">
+                                        {{ person.sub_heading }}
+                                    </div>
+                                {% endif %}
                                 <p>
-                                    {{ person.content | truncatewords: 25, "...<br><br>Continue reading →" }}
+                                    {{ person.content | truncatewords: 25, "..." }}
                                 </p>
+                                <div class="read-more">Continue reading →</div>
                             </div>
                         </div>
                     </div>
