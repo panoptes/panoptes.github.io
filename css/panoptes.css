@@ -304,12 +304,11 @@ aside {
 @media all and (min-width: 991px) { 
   .card {
     margin: 0.5em 0.5em !important;
-    height: 55vw;
-    max-height: 600px;
+    height: 450px;
   }  
 
   .card-header {
-    height: 30vw !important;
+    height: 200px !important;
   }    
 } 
  
