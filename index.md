@@ -2,7 +2,7 @@
 title: Home
 banner_image: "/uploads/2018/12/16/PAN001_sunset.png"
 layout: landing-page
-heading: Project PANOPTES
+heading: ''
 partners:
 - "/uploads/2018/12/17/MacArth_primary_logo_stacked.gif"
 - "/uploads/2018/12/17/Google_Cloud_Logo.png"
@@ -48,7 +48,7 @@ services:
   thumbnail:
     image: "/uploads/2018/12/18/IMG_20160604_132450 (1).jpg"
     border: true
-sub_heading: Discover New Worlds
+sub_heading: ''
 textline: A citizen science project that aims to make it easy for anyone to build
   a low cost, robotic telescope that can be used to detect transiting exoplanets.
 hero_button:
