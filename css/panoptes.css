@@ -324,8 +324,8 @@ aside {
 
 @media screen and (max-width: 768px) {
   .thumbnail-img img {
-      max-width: 80%;
-      width: 50%;      
+      max-width: 90%;
+      width: 50%;
       height: auto;
       border-radius: 10px;
   }  
