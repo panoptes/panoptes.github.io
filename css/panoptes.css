@@ -49,13 +49,30 @@ body {
   }
 }
 
-aside {
-    background: #1f8dd6;
+aside.include {
     margin: 1em 0;
     padding: 1em 2em;
     border-radius: 25px;
     color: #fff;
 }
+
+aside.include i {
+  padding-top: .25em;
+}
+
+aside.include.note {
+    background: #1f8dd6;
+}
+
+aside.include.warning {
+    background: #d61f1fba;
+}
+
+aside.include.construction {
+    background: #ffc10787;
+    color: #000;
+}
+
 
  /*Menu */
 .main-nav {
@@ -264,7 +281,6 @@ aside {
 }
 
 
-/* Teams */
 /* Teams */
 .card {
   height: auto;
