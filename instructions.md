@@ -16,4 +16,7 @@ menu:
 
 Please note, however, that some components do require the use of basic hand tools and electrical wiring. Always use caution when dealing directly with a PANOPTES unit." %}
 
-{% include warning.html text="We are currently doing some updates to the instructions and parts list. If you are about to start building please <a href="/contact">contact the team</a> before purchasing any parts so we can let you know if anything might have changed." %}
+{% capture warning %}
+We are currently doing some updates to the instructions and parts list. If you are about to start building please <a href="/contact">contact the team</a> before purchasing any parts so we can let you know if anything might have changed.
+{% endcapture %}
+{% include warning.html text=warning %}
