@@ -49,21 +49,26 @@ body {
   }
 }
 
-aside {
+aside.include {
     margin: 1em 0;
     padding: 1em 2em;
     border-radius: 25px;
 }
 
-aside.note {
+aside.include i {
+  padding-top: .25em;
+}
+
+aside.include.note {
     background: #1f8dd6;
     color: #fff;
 }
 
-aside.warning {
+aside.include.warning {
     background: #d61f1fba;
     color: #fff;
 }
+
 
  /*Menu */
 .main-nav {
