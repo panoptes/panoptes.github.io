@@ -3,7 +3,9 @@ layout: post
 title: Light curves at AAS233
 sub_heading: ''
 date: 2019-02-04 13:00:00 +0000
-tags: []
+tags:
+- lightcurves
+- image processing
 banner_image: ''
 related_posts: []
 
