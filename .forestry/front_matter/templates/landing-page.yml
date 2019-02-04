@@ -139,4 +139,5 @@ fields:
   default: home
 pages:
 - teams.md
+- Projects/gsoc-2019.md
 - index.md
