@@ -24,6 +24,10 @@ Here you can see the overlap between targets defined in the TESS [CTL](https://t
 
 Wilfred also showed some examples of where the processing is failing as well as succeeding.
 
+The processing algorithm automatically finds the "best" comparison stars for a given target (details coming soon!). Here is the light curve for the closest match to HD189733b during the transit, showing a nice flat curve:
+
+![](/uploads/2019/02/04/lc02.png)
+
 Nice [Detla Scuti](https://en.wikipedia.org/wiki/Delta_Scuti_variable):
 
 ![Delta Scuti](/uploads/2019/02/04/lc04.png)
