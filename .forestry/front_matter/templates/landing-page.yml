@@ -129,6 +129,10 @@ fields:
   name: show_discourse
   label: Show Discourse?
   description: If we should show the latest discourse posts.
+- type: boolean
+  name: show_twitter
+  label: Show Twitter
+  description: Show twitter links
 - type: image_gallery
   name: partners
   label: Partner Logos
