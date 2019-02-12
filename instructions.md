@@ -36,7 +36,7 @@ We are currently doing some updates to the instructions and parts list. If you a
 * [Camera Board](https://docs.google.com/document/d/1s3tEUO1Q2KuMHedp-IeugBAyem4SVrbKMxW9XXL8S0A/edit?usp=sharing "Camera Board")
 * [Power Board](https://docs.google.com/document/d/1hVsuHUJtCPB81fEnkQpL3MVM2UtKzK09S1w7U1IMjXc/edit?usp=sharing "Power Board")
 * [UPS](https://docs.google.com/document/d/1-HZhbLLyDDZDyXezQh_nAOAjs5aE3kKESwva30vOzNM/edit?usp=sharing "Power Supply")
-* [Tools for Electronics Work](instructions/tools-electronic/)
+* [Tools for Electronics Work](instructions/tools-electronics/)
 
 ### Computer Setup
 
