@@ -33,11 +33,10 @@ We are currently doing some updates to the instructions and parts list. If you a
 
 ### Electronics Fabrication
 
-* Camera Board
-* Power Board
-* Telemetry Board
-* UPS
-* Tools for Electronics Work
+* [Camera Board](https://docs.google.com/document/d/1s3tEUO1Q2KuMHedp-IeugBAyem4SVrbKMxW9XXL8S0A/edit?usp=sharing "Camera Board")
+* [Power Board](https://docs.google.com/document/d/1hVsuHUJtCPB81fEnkQpL3MVM2UtKzK09S1w7U1IMjXc/edit?usp=sharing "Power Board")
+* [UPS](https://docs.google.com/document/d/1-HZhbLLyDDZDyXezQh_nAOAjs5aE3kKESwva30vOzNM/edit?usp=sharing "Power Supply")
+* [Tools for Electronics Work](instructions/tools-electronic/)
 
 ### Computer Setup
 
@@ -45,8 +44,10 @@ We are currently doing some updates to the instructions and parts list. If you a
 
 ### Deployment
 
-### Assembly and Testing
+* [Daytime Outdoor Setup](https://docs.google.com/document/d/1zeZcgR-46xPgfOuzNUPTf1fNDD9ypeWvNu9-LWWulVI/edit?usp=sharing "Daytime Outdoor Setup")
+* [Polar Alignment](https://docs.google.com/document/d/1fXIjYrP540tkyQ9XsG5Hywn6Agxv1Bt6anQzcYq30qI/edit?usp=sharing "Polar Alignment")
 
 ### Misc.
 
 * [Tool Safety and Tutorials](instructions/tool-safety-and-tutorials/ "Tool Safety and Tutorials")
+* [Glossary](instructions/glossary/ "Glossary")
