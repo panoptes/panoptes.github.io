@@ -35,4 +35,4 @@ We are currently doing some updates to the instructions and parts list. If you a
 
 ### Misc.
 
-* Tool Safety and Tutorials
+* [Tool Safety and Tutorials]()
