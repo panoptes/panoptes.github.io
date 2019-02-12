@@ -33,6 +33,12 @@ We are currently doing some updates to the instructions and parts list. If you a
 
 ### Electronics Fabrication
 
+* Camera Board
+* Power Board
+* Telemetry Board
+* UPS
+* Tools for Electronics Work
+
 ### Computer Setup
 
 * Intel NUC Setup - Coming Soon!
