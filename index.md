@@ -68,6 +68,7 @@ slick_images:
   caption: PAN001 on Mauna Loa
 - image: "/uploads/2018/12/16/IMG_20160430_140820.jpg"
   caption: Hawaii AstroDay 2016
-show_discourse: true
+show_discourse: false
+show_twitter: true
 
 ---

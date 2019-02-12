@@ -22,6 +22,7 @@ feature_button:
 services: []
 show_news: false
 show_discourse: false
+show_twitter: false
 partners: []
 
 ---
