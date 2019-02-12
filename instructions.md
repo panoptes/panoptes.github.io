@@ -25,9 +25,17 @@ We are currently doing some updates to the instructions and parts list. If you a
 
 ### Mechanical Fabrication
 
+* [Camera Box](https://docs.google.com/document/d/1mFRa6uzVql949QeHUonyB3D45D7_WUwnBW0KFUG8B2Y/edit?usp=sharing "Camera Box Construction")
+* [Control Box](https://docs.google.com/document/d/11OCLtuYcSsovX_aF40Vl0i_g6CaOHSPlegfoNBd-jkA/edit?usp=sharing "Control Box Construction")
+* [Telescope Pier](https://docs.google.com/document/d/1Z66t304Jn2eTqlHpoT0Z9tACoWqVp7MQWaTYMXJLF3g/edit?usp=sharing "Telescope Pier Construction")
+* [Weatherproofing](https://docs.google.com/document/d/16w6iendTwTzYA3T8iUYXx2gFOx_Vmk-KIxZ5T8c0LSo/edit?usp=sharing "Weatherproofing")
+* [Tools for Mechanical Fabrication](instructions/tools-mechanical/ "Tools for Mechanical Fabrication")
+
 ### Electronics Fabrication
 
 ### Computer Setup
+
+* Intel NUC Setup - Coming Soon!
 
 ### Deployment
 
