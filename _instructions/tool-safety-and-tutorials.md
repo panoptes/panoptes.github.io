@@ -3,7 +3,6 @@ title: Tool Safety and Tutorials
 sub_heading: ''
 banner_image: ''
 date: 2019-02-12 20:01:35 +0000
-published: false
 
 ---
 Tool Safety and Tutorials
