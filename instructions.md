@@ -20,3 +20,19 @@ Please note, however, that some components do require the use of basic hand tool
 We are currently doing some updates to the instructions and parts list. If you are about to start building please <a href="/contact">contact the team</a> before purchasing any parts so we can let you know if anything might have changed.
 {% endcapture %}
 {% include construction.html text=construction %}
+
+## Instructions
+
+### Mechanical Fabrication
+
+### Electronics Fabrication
+
+### Computer Setup
+
+### Deployment
+
+### Assembly and Testing
+
+### Misc.
+
+* Tool Safety and Tutorials
