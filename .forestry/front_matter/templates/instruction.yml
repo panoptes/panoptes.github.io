@@ -14,3 +14,5 @@ fields:
 - type: file
   name: banner_image
   label: Banner Image
+pages:
+- _instructions/tool-safety-and-tutorials.md
