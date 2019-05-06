@@ -8,13 +8,15 @@
         <h2>Partners</h2>
         <div>
             <ul class="">
-                {% for logo in page.partners %}
-                    <li>
-                        <img src="{{ logo | absolute_url }}" alt="{{ logo }}" />
-                    </li>
-                {% endfor %}
+		    <li><a href="https://www.macfound.org/" target="_blank"><img src="/img/partners/macarthur.png" alt="The MacArthur Foundation" /></a></li>
+		    <li><a href="https://www.jpl.nasa.gov/" target="_blank"><img src="/img/partners/jpl.png" alt="Jet Propulsion Laboratory" /></a></li>
+		    <li><a href="https://subarutelescope.org/" target="_blank"><img src="/img/partners/subaru.png" alt="NAOJ - Subaru Telescope" /></a></li>
+		    <li><a href="https://cloud.google.com/" target="_blank"><img src="/img/partners/gcp.png" alt="Google Cloud Platform" /></a></li>
             </ul>
         </div>
     </div>
+Project PANOPTES is funded in part through NASA’s <a href="https://www.universe-of-learning.org/" target="_blank">Universe of Learning</a> (UoL) Program via a subcontract with the Jet Propulsion Laboratory. This material is based upon work supported by NASA under award number NNX16AC65A.
+<br /> <br />
+Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Aeronautics and Space Administration.
 </section>
 {% endif %}

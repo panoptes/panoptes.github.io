@@ -1,7 +1,6 @@
 ---
 label: project
 hide_body: false
-is_partial: false
 fields:
 - type: text
   name: title
@@ -29,5 +28,5 @@ fields:
   default: ''
 pages:
 - _articles/what-is-panoptes.md
-- _articles/hardware-description.md
 - _articles/software-description.md
+- _articles/hardware-description.md

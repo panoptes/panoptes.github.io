@@ -357,10 +357,22 @@ aside.include.construction {
 }
 
 .partners ul li {
-  margin: 0px 10%;
+  margin: 0em 6em;
   float: left;
   list-style: none;
   padding-bottom: 2em;
+} 
+
+@media all and (max-width: 575px) { 
+  .partners ul {
+    padding-inline-start: 0em;
+  } 
+  .partners ul li {
+    margin: 0em 4em;
+  } 
+  .partners ul:last-child {
+    padding-bottom: 0em;
+  } 
 } 
 
 .partners ul li img {

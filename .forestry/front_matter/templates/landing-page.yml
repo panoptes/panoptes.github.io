@@ -1,7 +1,6 @@
 ---
 label: landing-page
 hide_body: false
-is_partial: false
 fields:
 - name: title
   label: Title
@@ -142,6 +141,6 @@ fields:
   hidden: true
   default: home
 pages:
-- gsoc-2019.md
-- teams.md
 - index.md
+- teams.md
+- gsoc-2019.md

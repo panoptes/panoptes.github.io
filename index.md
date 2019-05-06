@@ -3,11 +3,7 @@ title: Home
 banner_image: "/uploads/2018/12/16/PAN001_sunset.png"
 layout: landing-page
 heading: ''
-partners:
-- "/uploads/2018/12/17/MacArth_primary_logo_stacked.gif"
-- "/uploads/2018/12/17/Google_Cloud_Logo.png"
-- "/uploads/2018/12/17/200px-Jet_Propulsion_Laboratory_logo.svg.png"
-- "/uploads/2018/12/17/subaru_color1_300.png"
+partners: []
 services:
 - description: Due to the simplicity and low cost a PANOPTES "unit" can be built quickly
     and easily by students or amateur scientists. PANOPTES is designed from the ground
@@ -21,6 +17,7 @@ services:
     href: "/about"
   thumbnail:
     image: "/uploads/2018/12/16/pan-logo-no-title.png"
+    border: false
 - description: The philosophy behind the PANOPTES hardware and software design is
     to use as many commercial off the shelf (COTS) parts as possible as these are
     generally inexpensive and easily acquired. In addition, the PANOPTES design is
