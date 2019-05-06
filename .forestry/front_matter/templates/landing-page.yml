@@ -141,6 +141,6 @@ fields:
   hidden: true
   default: home
 pages:
-- teams.md
 - index.md
+- teams.md
 - gsoc-2019.md
