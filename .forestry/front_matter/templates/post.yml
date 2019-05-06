@@ -39,11 +39,11 @@ fields:
   hidden: true
   default: post
 pages:
-- _posts/2019-02-13-instructions-update.md
 - _posts/2018-04-05-scale-conference-16x.md
 - _posts/2018-08-01-new-forum-launched.md
-- _posts/2018-12-16-panoptes-aa233.md
-- _posts/2018-10-02-panoptes-on-stardate.md
 - _posts/2018-08-25-pan012-party.md
 - _posts/2018-09-16-hawaiicon-2018.md
+- _posts/2018-10-02-panoptes-on-stardate.md
+- _posts/2018-12-16-panoptes-aa233.md
 - _posts/2018-12-16-we-re-hiring-postdoc-needed.md
+- _posts/2019-02-13-instructions-update.md
