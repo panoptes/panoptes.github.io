@@ -353,11 +353,10 @@ aside.include.construction {
 
 .partners ul {
   display: flow-root;
-  margin: 1em 2em;
 }
 
 .partners ul li {
-  margin: 0em 6em;
+  margin: 0em 1em;
   float: left;
   list-style: none;
   padding-bottom: 2em;
@@ -365,7 +364,7 @@ aside.include.construction {
 
 @media all and (max-width: 575px) { 
   .partners ul {
-    padding-inline-start: 0em;
+    padding-inline-start: 2em;
   } 
   .partners ul li {
     margin: 0em 4em;
