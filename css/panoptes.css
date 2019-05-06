@@ -363,7 +363,7 @@ aside.include.construction {
   padding-bottom: 2em;
 } 
 
-@media all and (min-width: 575px) { 
+@media all and (max-width: 575px) { 
   .partners ul {
     padding-inline-start: 0em;
   } 
