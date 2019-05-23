@@ -21,33 +21,22 @@ We are currently doing some updates to the instructions and parts list. If you a
 {% endcapture %}
 {% include construction.html text=construction %}
 
+## Getting Started
+
+This document provides an overview of the process of building, testing, deploying and running a Project PANOPTES Robotic Telescope (a “unit”). To read more about how the components work together as a whole, read the Baseline System Description.
+
+Note that there isn’t a just a single design for the PANOPTES telescope, and therefore not a single document with instructions for building the telescope. Based on feedback from builders of the telescope and on changes in available parts, the team develops new designs for selected components (e.g. a narrower pier for supporting the mount, or a wider camera box to allow for larger DSLR cameras). The instructions for building each version of each components are stored in separate files, with dates in their file names to indicate the time period during which we were recommending the design. You can read more about the [file name structure here](https://docs.google.com/document/d/1Q-3iaeCD92sxdfII2MKPkGfYEmNk0nlTdWdmeryd7U0/edit#heading=h.zfwc02pmibwu).
+
+The instructions provide detailed instructions on exactly how to build each component, but there is in fact considerably room for adjusting the design to suit local conditions (e.g. in the event that you can’t get some of the parts we’ve specified). If you plan to, or need to, make such changes, please discuss them on the [PANOPTES Forum](https://forum.projectpanoptes.org/) so that we can determine together the impact of your changes; for example, changing the bolts used to connect the camera mounting plates from metric to imperial will make no difference, while changing the kind of microcontroller will likely require that the software be changed to work with the new microcontroller.
+
+## What Does it Take to Build a Robotic Telescope?
+
+The PANOPTES telescope is designed so that all of the parts can be built with relatively inexpensive tools (e.g. a handheld electric drill, a soldering iron and a multimeter), many of which you may already own or have available to you. There is no need for a machine shop, though some operations are easier if you have access to a drill press. Anyone able to safely operate these tools (or learn to do so) should find the process of building the custom components and assembling the telescope to be accessible to them.
+
+If you are unsure of how to perform a fabrication step, we encourage you to find a local mentor with greater expertise (e.g. for soldering, you might look for an electrician, electrical engineer or a robotics or amateur radio hobbyist). You may also find online tutorials helpful; we provide links in [this document](https://docs.google.com/document/d/14BLDHaeub3YLBFKAgj_xOK400BF4XxnDl2L0hbKwbms/edit) to some tutorials that you may find useful. And please don’t hesitate to post questions on the [PANOPTES Forum](https://forum.projectpanoptes.org/).
+
 ## Instructions
 
-### Mechanical Fabrication
+The build instructions for a PANOPTES unit are divided into a number of logical sections. Some sections depend on each other so there is a recommended build order, as specified in the document below.
 
-* [Camera Box](https://docs.google.com/document/d/1mFRa6uzVql949QeHUonyB3D45D7_WUwnBW0KFUG8B2Y/edit?usp=sharing "Camera Box Construction")
-* [Control Box](https://docs.google.com/document/d/11OCLtuYcSsovX_aF40Vl0i_g6CaOHSPlegfoNBd-jkA/edit?usp=sharing "Control Box Construction")
-* [Telescope Pier](https://docs.google.com/document/d/1Z66t304Jn2eTqlHpoT0Z9tACoWqVp7MQWaTYMXJLF3g/edit?usp=sharing "Telescope Pier Construction")
-* [Weatherproofing](https://docs.google.com/document/d/16w6iendTwTzYA3T8iUYXx2gFOx_Vmk-KIxZ5T8c0LSo/edit?usp=sharing "Weatherproofing")
-* [Tools for Mechanical Fabrication](instructions/tools-mechanical/ "Tools for Mechanical Fabrication")
-
-### Electronics Fabrication
-
-* [Camera Board](https://docs.google.com/document/d/1s3tEUO1Q2KuMHedp-IeugBAyem4SVrbKMxW9XXL8S0A/edit?usp=sharing "Camera Board")
-* [Power Board](https://docs.google.com/document/d/1hVsuHUJtCPB81fEnkQpL3MVM2UtKzK09S1w7U1IMjXc/edit?usp=sharing "Power Board")
-* [UPS](https://docs.google.com/document/d/1-HZhbLLyDDZDyXezQh_nAOAjs5aE3kKESwva30vOzNM/edit?usp=sharing "Power Supply")
-* [Tools for Electronics Work](instructions/tools-electronics/)
-
-### Computer Setup
-
-* Intel NUC Setup - Coming Soon!
-
-### Deployment
-
-* [Daytime Outdoor Setup](https://docs.google.com/document/d/1zeZcgR-46xPgfOuzNUPTf1fNDD9ypeWvNu9-LWWulVI/edit?usp=sharing "Daytime Outdoor Setup")
-* [Polar Alignment](https://docs.google.com/document/d/1fXIjYrP540tkyQ9XsG5Hywn6Agxv1Bt6anQzcYq30qI/edit?usp=sharing "Polar Alignment")
-
-### Misc.
-
-* [Tool Safety and Tutorials](instructions/tool-safety-and-tutorials/ "Tool Safety and Tutorials")
-* [Glossary](instructions/glossary/ "Glossary")
+[Build Sequence](https://docs.google.com/spreadsheets/d/1C4WFS_g-MSjlMjF8eZmGfEdwyWye1urbdM1iVdJfzEM/edit?usp=sharing)
