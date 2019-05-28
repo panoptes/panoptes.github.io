@@ -35,8 +35,12 @@ The PANOPTES telescope is designed so that all of the parts can be built with re
 
 If you are unsure of how to perform a fabrication step, we encourage you to find a local mentor with greater expertise (e.g. for soldering, you might look for an electrician, electrical engineer or a robotics or amateur radio hobbyist). You may also find online tutorials helpful; we provide links in [this document](https://docs.google.com/document/d/14BLDHaeub3YLBFKAgj_xOK400BF4XxnDl2L0hbKwbms/edit) to some tutorials that you may find useful. And please don’t hesitate to post questions on the [PANOPTES Forum](https://forum.projectpanoptes.org/).
 
-## Instructions
+## Instructions and Parts List
+<a href="#" id="parts"></a>
+<a href="#" id="instructions"></a>
 
 The build instructions for a PANOPTES unit are divided into a number of logical sections. Some sections depend on each other so there is a recommended build order, as specified in the document below.
+
+The Parts List for each section is also contained within the Build Sequence Sheet.
 
 [Build Sequence](https://docs.google.com/spreadsheets/d/1C4WFS_g-MSjlMjF8eZmGfEdwyWye1urbdM1iVdJfzEM/edit?usp=sharing)
