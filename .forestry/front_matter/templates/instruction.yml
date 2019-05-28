@@ -14,7 +14,7 @@ fields:
   name: banner_image
   label: Banner Image
 pages:
-- _instructions/tools-electronics.md
-- _instructions/glossary.md
-- _instructions/tool-safety-and-tutorials.md
 - _instructions/tools-mechanical.md
+- _instructions/tool-safety-and-tutorials.md
+- _instructions/glossary.md
+- _instructions/tools-electronics.md
