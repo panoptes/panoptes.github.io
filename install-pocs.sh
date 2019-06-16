@@ -121,18 +121,18 @@ do_install() {
     echo "source ${PANDIR}/env_file" >> ${HOME}/.bashrc
 
     # Get Docker
-    if ! hash docker; then
+    command -v docker &>> ${PANDIR}/logs/install-pocs.log || {
         echo "Installing Docker"
         sh -c "$(wget -qO- https://get.docker.com)"
         sudo usermod -aG docker ${PANUSER} &>> ${PANDIR}/logs/install-pocs.log
-    fi
+    }
 
-    if ! hash docker-compose; then
+    command -v docker-compose &>> ${PANDIR}/logs/install-pocs.log || {
         # Docker compose as container - https://docs.docker.com/compose/install/#install-compose
         sudo curl -L --fail https://github.com/docker/compose/releases/download/1.24.0/run.sh -o /usr/local/bin/docker-compose
         sudo chmod a+x /usr/local/bin/docker-compose
         sudo docker pull docker/compose
-    fi
+    }
 
     echo "Pulling POCS docker images"
     sudo docker pull gcr.io/panoptes-survey/panoptes-utils
