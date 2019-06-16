@@ -71,6 +71,7 @@ esac
 done
 
 do_install() {
+    clear
     echo "Installing PANOPTES software."
     echo "USER: ${PANUSER}"
     echo "DIR: ${PANDIR}"
@@ -109,7 +110,7 @@ do_install() {
         if [ ! -d "${PANDIR}/${repo}" ]; then
             echo "Cloning ${repo}"
             # Just redirect the errors because otherwise looks like it hangs.
-            git clone https://github.com/${github_user}/${repo}.git
+            git clone https://github.com/${github_user}/${repo}.git &>> ${PANDIR}/logs/install-pocs.log
         else
             echo "Repo ${repo} already exists on system."
         fi
@@ -122,15 +123,15 @@ do_install() {
     # Get Docker
     if ! hash docker; then
         echo "Installing Docker"
-        sh -c "$(wget https://get.docker.com -O -)"
-        sudo usermod -aG docker ${PANUSER}
+        sh -c "$(wget -qO- https://get.docker.com)"
+        sudo usermod -aG docker ${PANUSER} &>> ${PANDIR}/logs/install-pocs.log
     fi
 
     if ! hash docker-compose; then
         # Docker compose as container - https://docs.docker.com/compose/install/#install-compose
         sudo curl -L --fail https://github.com/docker/compose/releases/download/1.24.0/run.sh -o /usr/local/bin/docker-compose
         sudo chmod a+x /usr/local/bin/docker-compose
-        sudo docker pull docker pull docker/compose
+        sudo docker pull docker/compose
     fi
 
     echo "Pulling POCS docker images"
@@ -139,6 +140,12 @@ do_install() {
     sudo docker pull gcr.io/panoptes-survey/paws
 
     echo "Please reboot your machine before using POCS."
+
+    read -p "Reboot now? [y/N]:" -r
+    if [[ $REPLY =~ ^[Yy]$ ]]
+    then
+        sudo reboot
+    fi
 
 }
 # wrapped up in a function so that we have some protection against only getting
