@@ -91,7 +91,7 @@ do_install() {
     # apt: git, wget
     echo "Installing system dependencies"
     sudo apt update &>> ${PANDIR}/logs/install-pocs.log
-    sudo apt --yes install wget git openssh-server byobu &>> ${PANDIR}/logs/install-pocs.log
+    sudo apt --yes install wget git openssh-server byobu vim-nox &>> ${PANDIR}/logs/install-pocs.log
 
     echo "Cloning PANOPTES source code."
     echo "Github user for PANOPTES repos (POCS, PAWS, panoptes-utils)."
@@ -110,13 +110,14 @@ do_install() {
             echo "Cloning ${repo}"
             # Just redirect the errors because otherwise looks like it hangs.
             git clone https://github.com/${github_user}/${repo}.git
-
-            # TODO
-            # echo "export PANDIR=${PANDIR}" >> ${HOME}/.bashrc
         else
             echo "Repo ${repo} already exists on system."
         fi
     done
+
+    # Copy env_file from POCS
+    ln -s ${PANDIR}/POCS/docker/env_file ${PANDIR}
+    echo "source ${PANDIR}/env_file" >> ${HOME}/.bashrc
 
     # Get Docker
     if ! hash docker; then
@@ -129,9 +130,11 @@ do_install() {
         # Docker compose as container - https://docs.docker.com/compose/install/#install-compose
         sudo curl -L --fail https://github.com/docker/compose/releases/download/1.24.0/run.sh -o /usr/local/bin/docker-compose
         sudo chmod a+x /usr/local/bin/docker-compose
+        sudo docker pull docker pull docker/compose
     fi
 
     echo "Pulling POCS docker images"
+    sudo docker pull gcr.io/panoptes-survey/panoptes-utils
     sudo docker pull gcr.io/panoptes-survey/pocs
     sudo docker pull gcr.io/panoptes-survey/paws
 
