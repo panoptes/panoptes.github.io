@@ -123,7 +123,7 @@ do_install() {
     # Get Docker
     command -v docker &>> ${PANDIR}/logs/install-pocs.log || {
         echo "Installing Docker"
-        sh -c "$(wget -qO- https://get.docker.com)"
+        sh -c "$(wget -qO- https://get.docker.com &>> ${PANDIR}/logs/install-pocs.log)"
         sudo usermod -aG docker ${PANUSER} &>> ${PANDIR}/logs/install-pocs.log
     }
 
