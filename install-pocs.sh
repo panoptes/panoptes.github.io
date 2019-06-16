@@ -117,7 +117,7 @@ do_install() {
     done
 
     # Copy env_file from POCS
-    ln -s ${PANDIR}/POCS/docker/env_file ${PANDIR}
+    ln -sf ${PANDIR}/POCS/docker/env_file ${PANDIR}
     echo "source ${PANDIR}/env_file" >> ${HOME}/.bashrc
 
     # Get Docker
