@@ -149,7 +149,6 @@ do_install() {
         echo "WARNING: Docker images not installed/downloaded."
     fi
 
-
     echo "Please reboot your machine before using POCS."
 
     read -p "Reboot now? [y/N]:" -r
