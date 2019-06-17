@@ -121,13 +121,13 @@ do_install() {
     echo "source ${PANDIR}/env_file" >> ${HOME}/.bashrc
 
     # Get Docker
-    command -v docker &>> ${PANDIR}/logs/install-pocs.log || {
+    if ! hash docker 2>/dev/null || {
         echo "Installing Docker"
         sh -c "$(wget -qO- https://get.docker.com &>> ${PANDIR}/logs/install-pocs.log)"
         sudo usermod -aG docker ${PANUSER} &>> ${PANDIR}/logs/install-pocs.log
     }
 
-    command -v docker-compose &>> ${PANDIR}/logs/install-pocs.log || {
+    if ! hash docker 2>/dev/null || {
         # Docker compose as container - https://docs.docker.com/compose/install/#install-compose
         sudo curl -L --fail https://github.com/docker/compose/releases/download/1.24.0/run.sh -o /usr/local/bin/docker-compose
         sudo chmod a+x /usr/local/bin/docker-compose
