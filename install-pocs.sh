@@ -134,7 +134,7 @@ do_install() {
         /bin/bash -c "$(wget -qO- https://get.docker.com)" &>> ${PANDIR}/logs/install-pocs.log
         sudo usermod -aG docker "${PANUSER}" &>> "${PANDIR}/logs/install-pocs.log"
 
-        if ! hash docker 2>/dev/null; then
+        if ! hash docker-compose 2>/dev/null; then
             # Docker compose as container - https://docs.docker.com/compose/install/#install-compose
             sudo wget -q https://github.com/docker/compose/releases/download/1.24.0/run.sh -O /usr/local/bin/docker-compose
             sudo chmod a+x /usr/local/bin/docker-compose
