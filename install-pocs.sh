@@ -101,9 +101,13 @@ do_install() {
     echo "Github user for PANOPTES repos (POCS, PAWS, panoptes-utils)."
 
     # Default user
-    read -p "Github User [using wtgee as default for now]: " github_user
+    read -p "Github User [press Enter for default]: " github_user
     github_user=${github_user:-wtgee}
     echo "Using repositories from user '${github_user}'."
+
+    if [[ "${github_user}" = "wtgee" ]]; then
+        echo "Using development files from user 'wtgee' for now."
+    fi
 
     cd "${PANDIR}"
 
