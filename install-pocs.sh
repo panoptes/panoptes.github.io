@@ -94,6 +94,9 @@ do_install() {
     sudo apt update &>> ${PANDIR}/logs/install-pocs.log
     sudo apt --yes install wget curl git openssh-server byobu vim-nox &>> ${PANDIR}/logs/install-pocs.log
 
+    # System time doesn't seem to be updating correctly for some reason. Perhaps just a VirtualBox issue
+    sudo systemctl start systemd-timesyncd.service
+
     echo "Cloning PANOPTES source code."
     echo "Github user for PANOPTES repos (POCS, PAWS, panoptes-utils)."
 
