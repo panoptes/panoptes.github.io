@@ -39,11 +39,11 @@ usage() {
 "
 }
 
-if [ -z ${PANUSER} ]; then
+if [ -z "${PANUSER}" ]; then
     export PANUSER=$USER
     echo "export PANUSER=${PANUSER}" >> ${HOME}/.bashrc
 fi
-if [ -z ${PANDIR} ]; then
+if [ -z "${PANDIR}" ]; then
     export PANDIR='/var/panoptes'
     echo "export PANDIR=${PANDIR}" >> ${HOME}/.bashrc
 fi
@@ -76,23 +76,23 @@ do_install() {
     echo "USER: ${PANUSER}"
     echo "DIR: ${PANDIR}"
 
-    if [[ ! -d ${PANDIR} ]] || [[ $(stat -c "%U" ${PANDIR}) -ne $USER ]]; then
+    if [[ ! -d "${PANDIR}" ]] || [[ $(stat -c "%U" "${PANDIR}") -ne "$USER" ]]; then
         echo "Creating directories"
         # Make directories
-        sudo mkdir -p ${PANDIR}
-        sudo chown -R ${PANUSER}:${PANUSER} ${PANDIR}
+        sudo mkdir -p "${PANDIR}"
+        sudo chown -R "${PANUSER}":"${PANUSER}" "${PANDIR}"
 
-        mkdir -p ${PANDIR}/logs
-        mkdir -p ${PANDIR}/conf_files
-        mkdir -p ${PANDIR}/images
+        mkdir -p "${PANDIR}/logs"
+        mkdir -p "${PANDIR}/conf_files"
+        mkdir -p "${PANDIR}/images"
     fi
 
     echo "Log files will be stored in ${PANDIR}/logs/install-pocs.log."
 
     # apt: git, wget
     echo "Installing system dependencies"
-    sudo apt update &>> ${PANDIR}/logs/install-pocs.log
-    sudo apt --yes install wget curl git openssh-server byobu vim-nox &>> ${PANDIR}/logs/install-pocs.log
+    sudo apt update &>> "${PANDIR}/logs/install-pocs.log"
+    sudo apt --yes install wget curl git openssh-server byobu vim-nox &>> "${PANDIR}/logs/install-pocs.log"
 
     # System time doesn't seem to be updating correctly for some reason. Perhaps just a VirtualBox issue
     sudo systemctl start systemd-timesyncd.service
@@ -105,7 +105,7 @@ do_install() {
     github_user=${github_user:-wtgee}
     echo "Using repositories from user '${github_user}'."
 
-    cd ${PANDIR}
+    cd "${PANDIR}"
 
     declare -a repos=("POCS" "PAWS" "panoptes-utils")
 
@@ -113,22 +113,26 @@ do_install() {
         if [ ! -d "${PANDIR}/${repo}" ]; then
             echo "Cloning ${repo}"
             # Just redirect the errors because otherwise looks like it hangs.
-            git clone https://github.com/${github_user}/${repo}.git &>> ${PANDIR}/logs/install-pocs.log
-            if [[ "${repo}" = "POCS" && "${github_user}" = "wtgee"]]
+            git clone "https://github.com/${github_user}/${repo}.git" &>> "${PANDIR}/logs/install-pocs.log"
+            if [[ "${repo}" = "POCS" && "${github_user}" = "wtgee"]]; then
+                echo "Getting docker branch 'new-docker'"
+                cd "${repo}" && git checkout new-docker
+                cd "${PANDIR}"
+            fi
         else
             echo "Repo ${repo} already exists on system."
         fi
     done
 
     # Copy env_file from POCS
-    ln -sf ${PANDIR}/POCS/docker/env_file ${PANDIR}
-    echo "source ${PANDIR}/env_file" >> ${HOME}/.bashrc
+    ln -sf "${PANDIR}/POCS/docker/env_file" "${PANDIR}"
+    echo "source ${PANDIR}/env_file" >> "${HOME}/.bashrc"
 
     # Get Docker
     if ! hash docker 2>/dev/null; then
         echo "Installing Docker"
         /bin/bash -c "$(wget -qO- https://get.docker.com)" &>> ${PANDIR}/logs/install-pocs.log
-        sudo usermod -aG docker ${PANUSER} &>> ${PANDIR}/logs/install-pocs.log
+        sudo usermod -aG docker "${PANUSER}" &>> "${PANDIR}/logs/install-pocs.log"
 
         if ! hash docker 2>/dev/null; then
             # Docker compose as container - https://docs.docker.com/compose/install/#install-compose
