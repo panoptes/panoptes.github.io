@@ -101,8 +101,8 @@ do_install() {
     echo "Github user for PANOPTES repos (POCS, PAWS, panoptes-utils)."
 
     # Default user
-    read -p "Github User [panoptes]: " github_user
-    github_user=${github_user:-panoptes}
+    read -p "Github User [using wtgee as default for now]: " github_user
+    github_user=${github_user:-wtgee}
     echo "Using repositories from user '${github_user}'."
 
     cd ${PANDIR}
@@ -114,6 +114,7 @@ do_install() {
             echo "Cloning ${repo}"
             # Just redirect the errors because otherwise looks like it hangs.
             git clone https://github.com/${github_user}/${repo}.git &>> ${PANDIR}/logs/install-pocs.log
+            if [[ "${repo}" = "POCS" && "${github_user}" = "wtgee"]]
         else
             echo "Repo ${repo} already exists on system."
         fi
