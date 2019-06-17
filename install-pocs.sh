@@ -114,7 +114,7 @@ do_install() {
             echo "Cloning ${repo}"
             # Just redirect the errors because otherwise looks like it hangs.
             git clone "https://github.com/${github_user}/${repo}.git" &>> "${PANDIR}/logs/install-pocs.log"
-            if [[ "${repo}" = "POCS" && "${github_user}" = "wtgee"]]; then
+            if [[ "${repo}" = "POCS" && "${github_user}" = "wtgee" ]]; then
                 echo "Getting docker branch 'new-docker'"
                 cd "${repo}" && git checkout new-docker
                 cd "${PANDIR}"
