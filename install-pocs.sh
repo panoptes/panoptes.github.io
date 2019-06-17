@@ -123,7 +123,7 @@ do_install() {
     # Get Docker
     if ! hash docker 2>/dev/null; then
         echo "Installing Docker"
-        sh -c "$(wget -qO- https://get.docker.com &>> ${PANDIR}/logs/install-pocs.log)"
+        /bin/bash -c "$(wget -qO- https://get.docker.com)" &>> ${PANDIR}/logs/install-pocs.log
         sudo usermod -aG docker ${PANUSER} &>> ${PANDIR}/logs/install-pocs.log
 
         if ! hash docker 2>/dev/null; then
