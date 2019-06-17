@@ -92,7 +92,7 @@ do_install() {
     # apt: git, wget
     echo "Installing system dependencies"
     sudo apt update &>> ${PANDIR}/logs/install-pocs.log
-    sudo apt --yes install wget git openssh-server byobu vim-nox &>> ${PANDIR}/logs/install-pocs.log
+    sudo apt --yes install wget curl git openssh-server byobu vim-nox &>> ${PANDIR}/logs/install-pocs.log
 
     echo "Cloning PANOPTES source code."
     echo "Github user for PANOPTES repos (POCS, PAWS, panoptes-utils)."
@@ -129,7 +129,7 @@ do_install() {
 
     if ! hash docker 2>/dev/null || {
         # Docker compose as container - https://docs.docker.com/compose/install/#install-compose
-        sudo curl -L --fail https://github.com/docker/compose/releases/download/1.24.0/run.sh -o /usr/local/bin/docker-compose
+        sudo wget -q https://github.com/docker/compose/releases/download/1.24.0/run.sh -O /usr/local/bin/docker-compose
         sudo chmod a+x /usr/local/bin/docker-compose
         sudo docker pull docker/compose
     }
