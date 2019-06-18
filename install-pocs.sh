@@ -83,7 +83,6 @@ do_install() {
         sudo chown -R "${PANUSER}":"${PANUSER}" "${PANDIR}"
 
         mkdir -p "${PANDIR}/logs"
-        mkdir -p "${PANDIR}/conf_files"
         mkdir -p "${PANDIR}/images"
     fi
 
