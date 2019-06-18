@@ -128,9 +128,12 @@ do_install() {
         fi
     done
 
-    # Copy env_file from POCS
+    # Link env_file from POCS
     ln -sf "${PANDIR}/POCS/docker/env_file" "${PANDIR}"
     echo "source ${PANDIR}/env_file" >> "${HOME}/.bashrc"
+
+    # Link conf_files dir from POCS
+    ln -sf "${PANDIR}/POCS/conf_files" "${PANDIR}"
 
     # Get Docker
     if ! hash docker 2>/dev/null; then
