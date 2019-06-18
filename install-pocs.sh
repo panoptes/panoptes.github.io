@@ -76,6 +76,9 @@ do_install() {
     echo "USER: ${PANUSER}"
     echo "DIR: ${PANDIR}"
 
+    # System time doesn't seem to be updating correctly for some reason. Perhaps just a VirtualBox issue
+    sudo systemctl start systemd-timesyncd.service
+
     if [[ ! -d "${PANDIR}" ]] || [[ $(stat -c "%U" "${PANDIR}") -ne "$USER" ]]; then
         echo "Creating directories"
         # Make directories
@@ -93,9 +96,6 @@ do_install() {
     sudo apt update &>> "${PANDIR}/logs/install-pocs.log"
     sudo apt --yes install wget curl git openssh-server jq httpie byobu vim-nox &>> "${PANDIR}/logs/install-pocs.log"
 
-    # System time doesn't seem to be updating correctly for some reason. Perhaps just a VirtualBox issue
-    sudo systemctl start systemd-timesyncd.service
-
     echo "Cloning PANOPTES source code."
     echo "Github user for PANOPTES repos (POCS, PAWS, panoptes-utils)."
 
@@ -109,9 +109,7 @@ do_install() {
     fi
 
     cd "${PANDIR}"
-
     declare -a repos=("POCS" "PAWS" "panoptes-utils")
-
     for repo in "${repos[@]}"; do
         if [ ! -d "${PANDIR}/${repo}" ]; then
             echo "Cloning ${repo}"
