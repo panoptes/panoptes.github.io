@@ -126,8 +126,8 @@ do_install() {
     echo "Installing system dependencies"
 
     if [[ "${OS}" = "Linux" ]]; then
-        sudo apt update >> "${LOGFILE}" 2>&1
-        sudo apt --yes install wget curl git openssh-server jq httpie byobu vim-nox >> "${LOGFILE}" 2>&1
+        sudo apt-get update >> "${LOGFILE}" 2>&1
+        sudo apt-get --yes install wget curl git openssh-server jq httpie byobu vim-nox >> "${LOGFILE}" 2>&1
     elif [[ "${OS}" = "Darwin" ]]; then
         sudo brew update | sudo tee -a "${LOGFILE}"
         sudo brew install wget curl git jq httpie | sudo tee -a "${LOGFILE}"
