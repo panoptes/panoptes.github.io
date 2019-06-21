@@ -88,10 +88,13 @@ do_install() {
     esac
     echo ${machine}
 
+    LOGFILE="${PANDIR}/logs/install-pocs.log"
+
     echo "Installing PANOPTES software."
     echo "USER: ${PANUSER}"
     echo "OS: ${OS}"
     echo "DIR: ${PANDIR}"
+    echo "Logfile: ${LOGFILE}"
 
     # System time doesn't seem to be updating correctly for some reason.
     # Perhaps just a VirtualBox issue but running on all linux.
@@ -123,11 +126,11 @@ do_install() {
     echo "Installing system dependencies"
 
     if [[ "${OS}" = "Linux" ]]; then
-        sudo apt update &>> "${PANDIR}/logs/install-pocs.log"
-        sudo apt --yes install wget curl git openssh-server jq httpie byobu vim-nox &>> "${PANDIR}/logs/install-pocs.log"
+        sudo apt update > "${LOGFILE}" 2>&1
+        sudo apt --yes install wget curl git openssh-server jq httpie byobu vim-nox > "${LOGFILE}" 2>&1
     elif [[ "${OS}" = "Darwin" ]]; then
-        sudo brew update | sudo tee -a "${PANDIR}/logs/install-pocs.log"
-        sudo brew install wget curl git jq httpie | sudo tee -a "${PANDIR}/logs/install-pocs.log"
+        sudo brew update | sudo tee -a "${LOGFILE}"
+        sudo brew install wget curl git jq httpie | sudo tee -a "${LOGFILE}"
     fi
 
     echo "Cloning PANOPTES source code."
@@ -148,7 +151,7 @@ do_install() {
         if [ ! -d "${PANDIR}/${repo}" ]; then
             echo "Cloning ${repo}"
             # Just redirect the errors because otherwise looks like it hangs.
-            git clone "https://github.com/${github_user}/${repo}.git" &>> "${PANDIR}/logs/install-pocs.log"
+            git clone "https://github.com/${github_user}/${repo}.git" > "${LOGFILE}" 2>&1
             if [[ "${repo}" = "POCS" && "${github_user}" = "wtgee" ]]; then
                 echo "Getting docker branch 'new-docker'"
                 cd "${repo}" && git checkout new-docker
@@ -180,7 +183,7 @@ do_install() {
             fi
 
             echo "Adding ${PANUSER} to docker group"
-            sudo usermod -aG docker "${PANUSER}" &>> "${PANDIR}/logs/install-pocs.log"
+            sudo usermod -aG docker "${PANUSER}" > "${LOGFILE}" 2>&1
         elif [[ "${OS}" = "Darwin" ]]; then
             brew cask install docker
             echo "Adding ${PANUSER} to docker group"
