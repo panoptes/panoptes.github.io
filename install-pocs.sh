@@ -70,16 +70,36 @@ case $key in
 esac
 done
 
+function command_exists {
+    # https://gist.github.com/gubatron/1eb077a1c5fcf510e8e5
+    # this should be a very portable way of checking if something is on the path
+    # usage: "if command_exists foo; then echo it exists; fi"
+  type "$1" &> /dev/null
+}
+
 do_install() {
     clear
+
+    OS="$(uname -s)"
+    case "${OS}" in
+        Linux*)     machine=Linux;;
+        Darwin*)    machine=Mac;;
+        *)          machine="UNKNOWN:${unameOut}"
+    esac
+    echo ${machine}
+
     echo "Installing PANOPTES software."
     echo "USER: ${PANUSER}"
+    echo "OS: ${OS}"
     echo "DIR: ${PANDIR}"
 
-    # System time doesn't seem to be updating correctly for some reason. Perhaps just a VirtualBox issue
-    sudo systemctl start systemd-timesyncd.service
+    # System time doesn't seem to be updating correctly for some reason.
+    # Perhaps just a VirtualBox issue but running on all linux.
+    if [[ "${OS}" = 'Linux' ]]; then
+        sudo systemctl start systemd-timesyncd.service
+    fi
 
-    if [[ ! -d "${PANDIR}" ]] || [[ $(stat -c "%U" "${PANDIR}") -ne "$USER" ]]; then
+    if [[ ! -d "${PANDIR}" ]]; then
         echo "Creating directories"
         # Make directories
         sudo mkdir -p "${PANDIR}"
@@ -87,14 +107,28 @@ do_install() {
 
         mkdir -p "${PANDIR}/logs"
         mkdir -p "${PANDIR}/images"
+    else
+        echo "WARNING ${PANDIR} already exists. You can exit and specify an alternate directory with --pandir or continue."
+        read -p "Would you like to proceed with existing ${PANDIR}? [y/N]:" -r
+        if [[ $REPLY != ^[Yy]$ ]]
+        then
+            echo "Exiting."
+            exit 1;
+        fi
     fi
 
     echo "Log files will be stored in ${PANDIR}/logs/install-pocs.log."
 
     # apt: git, wget
     echo "Installing system dependencies"
-    sudo apt update &>> "${PANDIR}/logs/install-pocs.log"
-    sudo apt --yes install wget curl git openssh-server jq httpie byobu vim-nox grc &>> "${PANDIR}/logs/install-pocs.log"
+
+    if [[ "${OS}" = 'Linux' ]]; then
+        sudo apt update &>> "${PANDIR}/logs/install-pocs.log"
+        sudo apt --yes install wget curl git openssh-server jq httpie byobu vim-nox &>> "${PANDIR}/logs/install-pocs.log"
+    elif [[ "${OS}" = 'Darwin' ]]; then
+        sudo brew update | sudo tee -a "${PANDIR}/logs/install-pocs.log"
+        sudo brew install wget curl git jq httpie | sudo tee -a "${PANDIR}/logs/install-pocs.log"
+    fi
 
     echo "Cloning PANOPTES source code."
     echo "Github user for PANOPTES repos (POCS, PAWS, panoptes-utils)."
@@ -133,16 +167,24 @@ do_install() {
     ln -sf "${PANDIR}/POCS/conf_files" "${PANDIR}"
 
     # Get Docker
-    if ! hash docker 2>/dev/null; then
+    if ! command_exists docker; then
         echo "Installing Docker"
-        /bin/bash -c "$(wget -qO- https://get.docker.com)" &>> ${PANDIR}/logs/install-pocs.log
-        sudo usermod -aG docker "${PANUSER}" &>> "${PANDIR}/logs/install-pocs.log"
+        if [[ "${OS}" = 'Linux' ]]; then
+            /bin/bash -c "$(wget -qO- https://get.docker.com)" &>> ${PANDIR}/logs/install-pocs.log
 
-        if ! hash docker-compose 2>/dev/null; then
-            # Docker compose as container - https://docs.docker.com/compose/install/#install-compose
-            sudo wget -q https://github.com/docker/compose/releases/download/1.24.0/run.sh -O /usr/local/bin/docker-compose
-            sudo chmod a+x /usr/local/bin/docker-compose
-            sudo docker pull docker/compose
+            if ! command_exists docker-compose; then
+                # Docker compose as container - https://docs.docker.com/compose/install/#install-compose
+                sudo wget -q https://github.com/docker/compose/releases/download/1.24.0/run.sh -O /usr/local/bin/docker-compose
+                sudo chmod a+x /usr/local/bin/docker-compose
+                sudo docker pull docker/compose
+            fi
+
+            echo "Adding ${PANUSER} to docker group"
+            sudo usermod -aG docker "${PANUSER}" &>> "${PANDIR}/logs/install-pocs.log"
+        elif [[ "${OS}" = 'Darwin' ]]; then
+            brew cask install docker
+            echo "Adding ${PANUSER} to docker group"
+            sudo dscl -aG docker "${PANUSER}"
         fi
 
         echo "Pulling POCS docker images"
@@ -162,6 +204,7 @@ do_install() {
     fi
 
 }
+
 # wrapped up in a function so that we have some protection against only getting
 # half the file during "curl | sh" - copied from get.docker.com
 do_install
