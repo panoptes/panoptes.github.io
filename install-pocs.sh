@@ -96,29 +96,6 @@ do_install() {
     sudo apt update &>> "${PANDIR}/logs/install-pocs.log"
     sudo apt --yes install wget curl git openssh-server jq httpie byobu vim-nox grc &>> "${PANDIR}/logs/install-pocs.log"
 
-    # Make GRC log output work with PANOPTES logs
-    mkdir -p "/home/${PANUSER}/.grc"
-    echo <<< EOF > "/home/${PANUSER}/.grc/conf.log"
-regexp=^D.*$
-colours=bold default
-======
-regexp=[^\d]*\d\d:\d\d:\d\d[\.,]{0,1}\d{0,1}\d{0,1}\d{0,1}
-colours=bold blue
-count=once
-======
-regexp=^I.*$
-colours=bold blue
-======
-regexp=^E.*$
-colours=bold red
-======
-regexp=^W.*$
-colours=bold yellow on_black
-======
-regexp=^C.*$
-colours=bold on_red
-EOF
-
     echo "Cloning PANOPTES source code."
     echo "Github user for PANOPTES repos (POCS, PAWS, panoptes-utils)."
 
