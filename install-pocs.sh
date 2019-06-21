@@ -95,7 +95,7 @@ do_install() {
 
     # System time doesn't seem to be updating correctly for some reason.
     # Perhaps just a VirtualBox issue but running on all linux.
-    if [[ "${OS}" = 'Linux' ]]; then
+    if [[ "${OS}" = "Linux" ]]; then
         sudo systemctl start systemd-timesyncd.service
     fi
 
@@ -122,10 +122,10 @@ do_install() {
     # apt: git, wget
     echo "Installing system dependencies"
 
-    if [[ "${OS}" = 'Linux' ]]; then
+    if [[ "${OS}" = "Linux" ]]; then
         sudo apt update &>> "${PANDIR}/logs/install-pocs.log"
         sudo apt --yes install wget curl git openssh-server jq httpie byobu vim-nox &>> "${PANDIR}/logs/install-pocs.log"
-    elif [[ "${OS}" = 'Darwin' ]]; then
+    elif [[ "${OS}" = "Darwin" ]]; then
         sudo brew update | sudo tee -a "${PANDIR}/logs/install-pocs.log"
         sudo brew install wget curl git jq httpie | sudo tee -a "${PANDIR}/logs/install-pocs.log"
     fi
@@ -169,7 +169,7 @@ do_install() {
     # Get Docker
     if ! command_exists docker; then
         echo "Installing Docker"
-        if [[ "${OS}" = 'Linux' ]]; then
+        if [[ "${OS}" = "Linux" ]]; then
             /bin/bash -c "$(wget -qO- https://get.docker.com)" &>> ${PANDIR}/logs/install-pocs.log
 
             if ! command_exists docker-compose; then
@@ -181,7 +181,7 @@ do_install() {
 
             echo "Adding ${PANUSER} to docker group"
             sudo usermod -aG docker "${PANUSER}" &>> "${PANDIR}/logs/install-pocs.log"
-        elif [[ "${OS}" = 'Darwin' ]]; then
+        elif [[ "${OS}" = "Darwin" ]]; then
             brew cask install docker
             echo "Adding ${PANUSER} to docker group"
             sudo dscl -aG docker "${PANUSER}"
