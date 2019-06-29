@@ -113,7 +113,7 @@ do_install() {
     else
         echo "WARNING ${PANDIR} already exists. You can exit and specify an alternate directory with --pandir or continue."
         read -p "Would you like to proceed with existing ${PANDIR}? [y/N]:" -r
-        if [[ $REPLY != ^[Yy]$ ]]
+        if [[ $REPLY != ^[Yy] ]]
         then
             echo "Exiting."
             exit 1;
