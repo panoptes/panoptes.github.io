@@ -112,12 +112,12 @@ do_install() {
         mkdir -p "${PANDIR}/images"
     else
         echo "WARNING ${PANDIR} already exists. You can exit and specify an alternate directory with --pandir or continue."
-        read -p "Would you like to proceed with existing ${PANDIR}? [y/N]:" -r
-        if [[ $REPLY != ^[Yy] ]]
-        then
-            echo "Exiting."
-            exit 1;
-        fi
+        select yn in "Yes" "No"; do
+            case $yn in
+                Yes ) echo "Proceeding with existing directory"; break;;
+                No ) echo "Exiting"; exit 1;;
+            esac
+        done
     fi
 
     echo "Log files will be stored in ${PANDIR}/logs/install-pocs.log."
@@ -200,7 +200,7 @@ do_install() {
 
     echo "Please reboot your machine before using POCS."
 
-    read -p "Reboot now? [y/N]:" -r
+    read -p "Reboot now? [y/N]: " -r
     if [[ $REPLY =~ ^[Yy]$ ]]
     then
         sudo reboot
