@@ -198,6 +198,12 @@ do_install() {
         echo "WARNING: Docker images not installed/downloaded."
     fi
 
+    echo "Download arduino-cli"
+    mkdir -p $HOME/bin
+    cd $HOME/bin
+    wget -q https://downloads.arduino.cc/arduino-cli/arduino-cli-latest-linux64.tar.bz2 -O arduino-cli.tar.bz2
+    tar xcvj arduino-cli.tar.bz2
+
     echo "Please reboot your machine before using POCS."
 
     read -p "Reboot now? [y/N]:" -r
