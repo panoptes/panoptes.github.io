@@ -127,7 +127,7 @@ do_install() {
 
     if [[ "${OS}" = "Linux" ]]; then
         sudo apt-get update >> "${LOGFILE}" 2>&1
-        sudo apt-get --yes install wget curl git openssh-server ack jq httpie byobu vim-nox >> "${LOGFILE}" 2>&1
+        sudo apt-get --yes install wget curl git openssh-server ack jq httpie byobu vim-nox zsh >> "${LOGFILE}" 2>&1
     elif [[ "${OS}" = "Darwin" ]]; then
         sudo brew update | sudo tee -a "${LOGFILE}"
         sudo brew install wget curl git jq httpie | sudo tee -a "${LOGFILE}"
@@ -197,12 +197,6 @@ do_install() {
     else
         echo "WARNING: Docker images not installed/downloaded."
     fi
-
-    echo "Download arduino-cli"
-    mkdir -p $HOME/bin
-    cd $HOME/bin
-    wget -q https://downloads.arduino.cc/arduino-cli/arduino-cli-latest-linux64.tar.bz2 -O arduino-cli.tar.bz2
-    tar xcvj arduino-cli.tar.bz2
 
     echo "Please reboot your machine before using POCS."
 
