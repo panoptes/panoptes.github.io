@@ -145,6 +145,8 @@ do_install() {
         echo "Using development files from user 'wtgee' for now."
     fi
 
+    GIT_BRANCH="utils-and-docker"
+
     cd "${PANDIR}"
     declare -a repos=("POCS" "PAWS" "panoptes-utils")
     for repo in "${repos[@]}"; do
@@ -153,8 +155,8 @@ do_install() {
             # Just redirect the errors because otherwise looks like it hangs.
             git clone "https://github.com/${github_user}/${repo}.git" >> "${LOGFILE}" 2>&1
             if [[ "${repo}" = "POCS" && "${github_user}" = "wtgee" ]]; then
-                echo "Getting docker branch 'new-docker'"
-                cd "${repo}" && git checkout new-docker
+                echo "Getting docker branch '$GIT_BRANCH'"
+                cd "${repo}" && git checkout $GIT_BRANCH
                 cd "${PANDIR}"
             fi
         else
@@ -196,6 +198,11 @@ do_install() {
         sudo docker pull gcr.io/panoptes-survey/paws
     else
         echo "WARNING: Docker images not installed/downloaded."
+    fi
+
+    # Add an SSH key if one doesn't exists
+    if [ ! -f "${HOME}/.ssh/id_rsa" ]; then
+        ssh-keygen -t rsa -N "" -f "${HOME}/.ssh/id_rsa";
     fi
 
     echo "Please reboot your machine before using POCS."
