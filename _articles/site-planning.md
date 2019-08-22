@@ -15,15 +15,14 @@ There are a number of factors to consider when actually selecting a site locatio
 
 The best way to find the ideal location (if you have a choice from several) is to stand in the location where you are considering installing the unit and raising your arm to point at the tallest object you can see around you as shown in Figure 1 below. Then turn 360 degrees and check that that is indeed the highest object. Once you have confirmed this, point at the original tall object with your arm and get a friend to measure the height of your fingertips from the ground, the height of your armpit above the ground and the length of your arm (these are indicated by the purple arrows in Figure 1.
 
-![](https://docs.google.com/drawings/d/sGTzsDmJJoWCyIuyz4kVHRw/image?w=395&h=336&rev=67&ac=1&parent=1xyxNN4ve371p61c3DBlsfyeH6woJkyOvByuhj3Wj2eI =395x336)
+!\[\](https://docs.google.com/drawings/d/sGTzsDmJJoWCyIuyz4kVHRw/image?w=395&h=336&rev=67&ac=1&parent=1xyxNN4ve371p61c3DBlsfyeH6woJkyOvByuhj3Wj2eI =395x336)
 
 _Figure 1: How to check the elevation of objects surrounding a potential PANOPTES site._
 
 Once you have these dimensions you can use trigonometry to calculate the angle of elevation. The following equation can be used:
 
-=sin-1Long purple vertical arrow - short purple vertical arrowLength of arm arrow
+![](/uploads/2019/08/22/elevation.png)
 
-  
 If you are going after specific targets you may not need to have a constant minimum elevation all the way around the horizon. For example, if you are in the North, and want to look at more Southern targets, you could move your unit closer to obstructions in the North so that the southern elevation limit is reduced and you can look closer to the horizon. This is at the discretion of the installer but the default is to have a constant horizon limit at a given site.
 
 **Light pollution:** It’s actually okay to be located in a city or other location that has a lot of light pollution. While we would rather have darker skies, brighter skies can actually be used to look at brighter targets, which are often too bright for a dark sky location. The default stars that PANOPTES searches are in the V magnitude range of 8-12, but in a bright location we can look at magnitude 6-8 by having shorter exposure times. There will not be as many viable targets but they are still scientifically interesting and valid targets.
@@ -76,7 +75,7 @@ Once the location of the source of power and network have been identified, it’
 
 In areas where there is significant leaf litter or where there is snow, you may consider lifting the control box off the ground to prevent the leaf litter or snow blocking the cable and fan ports which could cause the fan to burn out. On Maunaloa we built a small frame from scrap that elevated the control box by about 1ft which helped.
 
-![](https://docs.google.com/drawings/d/saFW0r-6w9myCWawRtoYn1g/image?w=445&h=375&rev=7&ac=1&parent=1xyxNN4ve371p61c3DBlsfyeH6woJkyOvByuhj3Wj2eI =445x375)
+!\[\](https://docs.google.com/drawings/d/saFW0r-6w9myCWawRtoYn1g/image?w=445&h=375&rev=7&ac=1&parent=1xyxNN4ve371p61c3DBlsfyeH6woJkyOvByuhj3Wj2eI =445x375)
 
 _Figure 2: Show the Maunaloa unit with the control box elevated on a frame to prevent snow blocking the ports._
 
@@ -84,5 +83,4 @@ _Figure 2: Show the Maunaloa unit with the control box elevated on a frame to pr
 
 Hopefully security is not a major concern, but you should be aware that there is some valuable equipment both in the control box as well as in the camera box, not to mention the mount itself. The Pelican Case that is used for the control box does have holes for a padlock, which will at least prevent idle theft. The easiest and most likely item to steal would be the camera box itself as it could easily be removed (snipping the wires) and contains two cameras that people might find useful.
 
-  
 Realistically the bigger concern is problem simple vandalism. Units should have a webcam pointed at them for normal operations and this could help identify vandals after the fact.
