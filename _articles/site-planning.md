@@ -4,7 +4,6 @@ title: Site Planning
 sub_heading: How to plan for a PANOPTES install
 banner_image: ''
 slug: ''
-published: false
 
 ---
 ## Location / Environment
