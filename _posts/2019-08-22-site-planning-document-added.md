@@ -12,4 +12,4 @@ A document that can help with some initial site planning for a PANOPTES unit. Th
 
 Overall full of tips of how to pick the best site for your build!
 
-See the article at [Site Planning](/site-planning/).
+See the article at [Site Planning](/articles/site-planning/).
