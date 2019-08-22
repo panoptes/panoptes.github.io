@@ -2,7 +2,7 @@
 layout: post
 title: Site Planning Document Added
 sub_heading: ''
-date: 
+date: 2019-08-21 20:29:34 +0000
 tags: []
 banner_image: ''
 related_posts: []
