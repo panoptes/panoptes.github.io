@@ -39,7 +39,7 @@ fields:
   hidden: true
   default: post
 pages:
-- _posts/site-planning-document-added.md
+- _posts/2019-08-22-site-planning-document-added.md
 - _posts/2018-08-25-pan012-party.md
 - _posts/2018-12-16-panoptes-aa233.md
 - _posts/2018-10-02-panoptes-on-stardate.md
