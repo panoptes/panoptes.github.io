@@ -1,7 +1,12 @@
 ---
 tags: []
 title: Site Planning
-sub_heading: How to plan for a PANOPTES install
+sub_heading: ''
+tags:
+- article
+- planning
+date: 2019-08-22 20:29:34 +0000
+sub_heading: ''
 banner_image: "/uploads/2019/08/22/nem-pointing.png"
 slug: ''
 
