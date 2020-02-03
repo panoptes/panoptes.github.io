@@ -27,7 +27,7 @@ fields:
   hidden: false
   default: ''
 pages:
-- _articles/site-planning.md
-- _articles/what-is-panoptes.md
 - _articles/hardware-description.md
+- _articles/site-planning.md
 - _articles/software-description.md
+- _articles/what-is-panoptes.md
