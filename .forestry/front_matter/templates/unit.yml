@@ -56,7 +56,7 @@ fields:
   label: Layout
   type: text
   hidden: true
-  default: unit
+  default: team
 pages:
 - _teams/pan001.md
 - _teams/pan002.md
