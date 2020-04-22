@@ -1,8 +1,8 @@
 ---
 layout: post
-title: PANOPTES Observational Statistics
-sub_heading: ''
-date: 
+title: PANOPTES Observations Statistics
+sub_heading: Yearly Key Metrics
+date: 2020-04-22 10:00:00 +0000
 tags: []
 banner_image: ''
 related_posts: []
