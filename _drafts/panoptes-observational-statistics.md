@@ -13,8 +13,6 @@ related_posts: []
 * An _observation_ consists of a sequence of images of the same field.
 * PANOPTES units have taken \~4,300 observations.
 * These observations collectively contain over 150,000 images.
-* PANOPTES data consists of 15 billion photometric measurements of individual stars, in each of the RGB channels.
-* The pipeline produces \~30 million light curves per year.
 
 **2016**
 
