@@ -14,12 +14,6 @@ related_posts: []
 * PANOPTES units have taken \~4,300 observations.
 * These observations collectively contain over 150,000 images.
 
-**2016**
-
-* Number of Observations: 0
-* Number of Images:  7
-* Total exposure time (hrs):  0.27
-
 **2018**
 
 * Number of Observations: 1,854
