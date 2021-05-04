@@ -70,7 +70,7 @@ So far, we aren’t in a position to take that on. See the answers above.
 
 ### Which companies or organizations are sponsors of this project?
 
-NASA (via the Jet Propulsion Laboratory) supported Project PANOPTES during the years 2015-2021 via a Universe of Learning grant under award number NNX16AC65A to the Space Telescope Science Institute, working in partnership with Caltech/IPAC, the Jet Propulsion Laboratory, Smithsonian Astrophysical Observatory, and Sonoma State University. NASA and JPL are not responsible for the Project PANOPTES materials, nor any opinions, findings, conclusions or recommendations expressed on the Project PANOPTES site.
+NASA (via the Jet Propulsion Laboratory) supported Project PANOPTES during the years 2015-2020 via a Universe of Learning grant under award number NNX16AC65A to the Space Telescope Science Institute, working in partnership with Caltech/IPAC, the Jet Propulsion Laboratory, Smithsonian Astrophysical Observatory, and Sonoma State University. NASA and JPL are not responsible for the Project PANOPTES materials, nor any opinions, findings, conclusions or recommendations expressed on the Project PANOPTES site.
 
 Google Cloud is providing support for the project. We upload the collected images to Google Cloud Storage, and from there, they can be retrieved by anyone. We are working on an automated system for processing those images to produce light curves, which will run on Google Compute Engine.
 
