@@ -74,10 +74,6 @@ NASA (via the Jet Propulsion Laboratory) supported Project PANOPTES during the y
 
 Google Cloud is providing support for the project. We upload the collected images to Google Cloud Storage, and from there, they can be retrieved by anyone. We are working on an automated system for processing those images to produce light curves, which will run on Google Compute Engine.
 
-### How is PANOPTES related to other exoplanet projects?
-
-Project PANOPTES is part of the Universe of Learning, with connections to other ground-based observing programs like the Harvard-Smithsonian Center for Astrophysics’ MicroObservatory Network and Sonoma State University’s Gamma-Ray Large Area Space Telescope (GLAST) Optical Robotic Telescope (GORT).
-
 ### Will PANOPTES coordinate in any way with the NASA TESS mission?
 
 PANOPTES units will be able to help verify and validate the exoplanets discovered by TESS. In order for an exoplanet to be confirmed, a candidate exoplanet must be viewed three times in two different ways.
