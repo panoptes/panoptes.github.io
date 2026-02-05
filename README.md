@@ -1,3 +1,6 @@
+This repository has been archived and is no longer the source for our website.
+
+
 Project PANOPTES Website
 ========================
 
