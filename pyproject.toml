@@ -1,0 +1,14 @@
+[project]
+name = "panoptes-landing-site"
+version = "0.1.0"
+description = "Landing site for Project PANOPTES documentation"
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [
+    { name = "Project PANOPTES", email = "developers@projectpanoptes.org" },
+]
+
+[dependency-groups]
+docs = [
+    "mkdocs-material",
+]
