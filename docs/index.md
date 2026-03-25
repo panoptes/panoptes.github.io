@@ -27,7 +27,7 @@ Explore the core components of our observatory control and data analysis stack.
 
 ---
 
-## 3. Get Involved
+## Get Involved
 
 Whether you are an astronomer, a software developer, or a citizen scientist, there is a place for you in the network.
 
