@@ -3,11 +3,19 @@ site_url: https://panoptes.github.io/
 theme:
   name: material
   palette:
-    primary: deep orange
-    accent: light blue
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep blue
+      accent: deep blue
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep blue
+      accent: deep blue
   features:
-    - navigation.sections
-    - content.code.copy
+    - navigation.tabs          # Top horizontal navigation
+    - navigation.sections      # Grouping in the sidebar
+    - content.code.copy        # One-click copy for code blocks
+    - content.code.annotate    # Explanatory bubbles in code
 
 markdown_extensions:
   - attr_list
@@ -21,3 +29,13 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Getting Started: getting-started.md
+  - Software Ecosystem:
+    - POCS: https://projectpanoptes.org/POCS
+    - Utils: https://projectpanoptes.org/panoptes-utils
+  - Community: https://forum.projectpanoptes.org
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/panoptes
